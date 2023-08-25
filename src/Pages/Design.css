@@ -1,0 +1,68 @@
+.div-container-body-design {
+  background: linear-gradient(to bottom, #6b6e7e, #40575d, #6b6e7e);
+  height: 100vh;
+}
+
+/* Art*/
+.fixedtopleft-d {
+  position: absolute;
+  margin-top: -25vh;
+  left: 5vh;
+  font-size: 6vh;
+}
+/*design*/
+.fixedtopright-d {
+  position: absolute;
+  margin-top: -25vh;
+  right: 5vh;
+  font-size: 6vh;
+}
+/*info */
+.fixeddownleft-d {
+  position: absolute;
+  margin-top: 42vh;
+  left: 5vh;
+  font-size: 6vh;
+}
+/*contact*/
+.fixeddownright-d {
+  position: absolute;
+  margin-top: 36vh;
+  right: 5vh;
+  font-size: 6vh;
+}
+/*contact img*/
+.fixeddownright-d .social-right-down-d img {
+  width: 4vh;
+  margin-left: 3vh;
+}
+
+.container-d {
+  position: absolute;
+  max-height: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: space-between;
+  left: 25%;
+  width: 75vh;
+  height: 30vh;
+}
+.container-d .img-d {
+  width: 20vh;
+  height: 20vh;
+  position: relative;
+}
+
+.container-d .img-d .frame-d {
+  width: 20vh;
+  height: 20vh;
+  position: absolute;
+}
+.container-d .img-d .text-d {
+  width: 20vh;
+  height: 20vh;
+  position: absolute;
+  object-fit: scale-down;
+  left: 7%;
+  top: 0%;
+}

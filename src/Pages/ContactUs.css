@@ -1,0 +1,130 @@
+.div-container-body {
+  background: linear-gradient(to bottom, #5c7a89, #40575d, #61818e);
+  height: 100vh;
+}
+/* Art*/
+.fixedtopleft-cu {
+  position: absolute;
+  margin-top: -25vh;
+  left: 5vh;
+  font-size: 6vh;
+}
+/*design*/
+.fixedtopright-cu {
+  position: absolute;
+  margin-top: -25vh;
+  right: 5vh;
+  font-size: 6vh;
+}
+/*info */
+.fixeddownleft-cu {
+  position: absolute;
+  margin-top: 42vh;
+  left: 5vh;
+  font-size: 6vh;
+}
+/*contact*/
+.fixeddownright-cu {
+  position: absolute;
+  margin-top: 36vh;
+  right: 5vh;
+  font-size: 6vh;
+}
+/*contact img*/
+.fixeddownright-cu .social-right-down-cu img {
+  width: 4vh;
+  margin-left: 3vh;
+}
+.container {
+  margin-top: -5em;
+  position: absolute;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.section-contact-us {
+  margin-left: 25em;
+  margin-top: -3em;
+}
+
+
+.section-left {
+  margin-top: -1.5em;
+  margin-left: 5em;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.contact-frame-left {
+  height: 5em;
+  margin-left: 15em;
+  position: absolute;
+}
+.Contact-frame-text {
+  position: absolute;
+  object-fit: scale-down;
+  margin-left: 30%;
+  margin-bottom: 1em;
+  height: 1.5em;
+}
+.Contact-frame-text-right {
+  position: absolute;
+  object-fit: scale-down;
+  margin-bottom: 1em;
+  height: 1.5em;
+}
+.Contact-frame-true{
+  position: absolute;
+  object-fit: scale-down;
+  margin-bottom: 2em;
+  height: 3em;
+  margin-left: 38em;
+}
+.Contact-frame-false{
+  position: absolute;
+  object-fit: scale-down;
+  margin-bottom: 2em;
+  height: 3em;
+  margin-left: 25em;
+
+}
+.section-right {
+  margin-top: -1.5em;
+  margin-left: -20em;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.contact-frame-right {
+  height: 5em;
+}
+.section-message-left {
+  height: 10em;
+  margin-top: -1em;
+}
+.section-message-right {
+  margin-top: -1em;
+  height: 10em;
+}
+.yourmessage-frame-left {
+  height: 10em;
+  width: 31em;
+  margin-left: 15em;
+}
+.yourmessage-frame-right {
+  height: 10em;
+  width: 31em;
+}
+.submit-frame-left {
+  height: 5em;
+  margin-left: 15em;
+}
+.submit-frame-right {
+  height: 5em;
+}

@@ -1,0 +1,98 @@
+.div-container-body-without {
+  background: linear-gradient(to bottom, #6b6e7e, #40575d, #5c7a89);
+  height: 100vh;
+}
+/* Art*/
+.fixedtopleft-ww {
+  position: absolute;
+  margin-top: -25vh;
+  left: 5vh;
+  font-size: 6vh;
+}
+/*design*/
+.fixedtopright-ww {
+  position: absolute;
+  margin-top: -25vh;
+  right: 5vh;
+  font-size: 6vh;
+}
+/*info */
+.fixeddownleft-ww {
+  position: absolute;
+  margin-top: 42vh;
+  left: 5vh;
+  font-size: 6vh;
+}
+/*contact*/
+.fixeddownright-ww {
+  position: absolute;
+  margin-top: 36vh;
+  right: 5vh;
+  font-size: 6vh;
+}
+/*contact img*/
+.fixeddownright-ww .social-right-down-ww img {
+  width: 4vh;
+  margin-left: 3vh;
+}
+
+.container-with {
+  position: absolute;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.with-section-left {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.with-img {
+  height: 5em;
+  margin-top: -10em;
+  margin-left: 10em;
+}
+.with-circles {
+  width: 3em;
+  position: absolute;
+  margin-top: 15em;
+  margin-left: -5em;
+}
+.with-text {
+  position: absolute;
+  object-fit: scale-down;
+  margin-top: 15em;
+  margin-left: 20em;
+width: 25em;
+
+}
+
+.with-section-right {
+    margin-left: 5em;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.withouth-img {
+  height: 5em;
+  margin-left: 15em;
+  margin-top: -10em;
+}
+.without-circles {
+    width: 3em;
+    position: absolute;
+    margin-top: 15em;
+    align-self: flex-end;
+}
+.withouth-text {
+    position: absolute;
+    object-fit: scale-down;
+    margin-top: 15em;
+    align-self: flex-end;
+    margin-right: 2em;
+    width: 25em;
+}

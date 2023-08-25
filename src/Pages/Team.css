@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+
+.div-container-body-team{
+    background: linear-gradient(to bottom, #3f5150, #638669, #638669);
+    max-width: 1920px ;
+    max-height: 1080px;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.fixedtopleft-team{
+    position: absolute;
+    left: 70px;
+    font-size: 35px;
+    top: 31px ;
+   
+}
+.fixedtopright-team{
+    right: 70px;
+  font-size:35px;
+  top: 31px;
+  position: absolute
+ 
+}
+.fixeddownleft-team{
+    position: absolute;
+    bottom: 60px;
+    left: 70px;
+    font-size: 35px;
+  }
+
+.fixeddownright-team{
+    position: absolute;
+    bottom: 70px;
+    right: 70px;
+}
+.fixeddownright-team .social-right-down-team img{
+    width: 45px;
+  padding: 0px 10px 0px 0px ;
+}
+.sliderbar-teams{
+    position: absolute;
+    left: 46%;
+    top: 80%;
+ 
+
+}
+.Tabpanel-design{
+    position: absolute;
+    left: 18%;
+    top: 117px;
+}
+.teams-setimg img{
+    width: 450px;
+}
+.teams-info{
+    position: absolute;
+    left: 550px;
+    text-align: center;
+    top: 38%;
+}
+.teams-info h2{
+    color: white;
+    margin: 0px 0px 20px 0px;
+}
+
+.teams-info p{
+    color: white;
+    text-align: justify;
+}
+  .MuiTabs-indicator.css-1aquho2-MuiTabs-indicator{
+    display: none;
+
+  }
+
+.MuiTabs-root.css-1ujnqem-MuiTabs-root button{
+    min-width: 1px !important;
+    min-height: 1px !important;
+    padding: 5px 9px !important;
+}
+
+.teams-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10%;
+  }
