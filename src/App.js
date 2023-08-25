@@ -8,6 +8,7 @@ import IIIustration from './Pages/IIIustration';
 import News from './Pages/News';
 import Team from './Pages/Team';
 import WithWithout from './Pages/WithWithout';
+import { useState } from 'react';
 function App() {
   return (
     <div className="App">
@@ -15,7 +16,7 @@ function App() {
        { <News /> }
       { <AboutArtmoc />}
         {  <Art  /> }
-      {/* <IIIustration /> */}
+      { <IIIustration /> }
       {/* <Design />
       <WithWithout /> */}
       {/* <Team /> 
