@@ -24,15 +24,15 @@ const IIIustration = () => {
           <a href="#frame_about">Info</a>
         </div>
         <div className="fixeddownright-illu">
-          <div class="social-right-down-illu">
+          <div className="social-right-down-illu">
             <a href="#">
               <img src={twitterhidden} alt="Twitter" />
             </a>
-            <a href="#">
+            <a href="#"> 
               <img src={instagramhidden} alt="Instagram" />
             </a>
           </div>
-          <div class="c">
+          <div className="c">
             <a href="#frame_contact">Contact</a>
           </div>
         </div>

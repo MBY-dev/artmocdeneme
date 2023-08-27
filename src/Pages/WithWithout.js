@@ -18,7 +18,7 @@ const WithWithout = () => {
   return (
     <div className="div-container-body-without">
       
-        <div className="leftscroll">
+        <div className="leftscroll-ww">
           <img src={pageflow6} alt="pageflow" />
         </div>
         <div className="fixedtopleft-ww">
@@ -43,27 +43,26 @@ const WithWithout = () => {
             <a href="#frame_contact">Contact</a>
           </div>
         </div>
-      <div className="container-with">
-
-        <div class="with-section-left">
-          <img className="with-img" src={withimg} alt="Get Service"/>
-        </div>
-
-        <div class="with-section-right">
-          <img className="withouth-img" src={withOuthimg} alt="Get Service"/>
-        </div>
-
-        <div class="with-section-left">
-          <img className="with-circles" src={circles} alt="Contact Frame"/>
-          <img className="with-text" src={withText} alt="Get Service"/>
-        </div>
-
-        <div class="with-section-right">
-          <img className="without-circles" src={circles} alt="Contact Frame"/>
-          <img className="withouth-text" src={withOuthText} alt="Get Service"/>
-        </div>
-
+        <div class="container">
+    <div class="with-header">
+      <header>With </header>
+      <div class="content">
+        <p>Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yaz</p>
+        <p>Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yaz</p>
+        <p>Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yaz</p>
+        <p>Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yaz</p>
       </div>
+    </div>
+    <div class="without-header">
+    <header>Without </header>
+      <div class="content">
+        <p>Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yaz</p>
+        <p>Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yaz</p>
+        <p>Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yaz</p>
+        <p>Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yaz</p>
+      </div>
+    </div>
+  </div>
     </div>
   );
 };

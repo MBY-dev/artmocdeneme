@@ -1,4 +1,5 @@
 import './App.css';
+import { useEffect } from 'react';
 import AboutArtmoc from './Pages/AboutArtmoc';
 import Art from './Pages/Art';
 import Artmoc from './Pages/Artmoc';
@@ -13,17 +14,18 @@ function App() {
   return (
     <div className="App">
       <Artmoc />
-        <News /> 
+         <News />  
        <AboutArtmoc />
        <div className="FooterLine">GEÇİŞ EKLE</div>
         <Art  /> 
-        <div className="FooterLine">GEÇİŞ EKLE</div>
+  
       {/* <IIIustration /> */}
-       <Design /> 
-     {/* <WithWithout /> */}
-      {/* <Team /> 
-      <IIIustration /> }
-      {/* <ContactUs /> */}
+        <Design />  
+        <div className="FooterLine">GEÇİŞ EKLE</div> 
+       <WithWithout /> 
+      {/* { <Team /> 
+      <IIIustration /> } */}
+      {/* { <ContactUs />} */}
     </div>
   );
 }
