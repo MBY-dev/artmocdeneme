@@ -43,7 +43,7 @@ const WithWithout = () => {
             <a href="#frame_contact">Contact</a>
           </div>
         </div>
-        <div class="container">
+        <div class="container-ww">
     <div class="with-header">
       <header>With </header>
       <div class="content">
