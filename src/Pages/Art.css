@@ -1,3 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+
 .div-container-body-art {
   background: linear-gradient(to bottom, #638669, #7d7757, #6b6e7e);
   max-width: 1920px ;

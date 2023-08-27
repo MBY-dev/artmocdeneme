@@ -13,12 +13,14 @@ function App() {
   return (
     <div className="App">
       <Artmoc />
-       { <News /> }
-      { <AboutArtmoc />}
-        {  <Art  /> }
-      { <IIIustration /> }
-      {/* <Design />
-      <WithWithout /> */}
+        <News /> 
+       <AboutArtmoc />
+       <div className="FooterLine">GEÇİŞ EKLE</div>
+        <Art  /> 
+        <div className="FooterLine">GEÇİŞ EKLE</div>
+      {/* <IIIustration /> */}
+       <Design /> 
+     {/* <WithWithout /> */}
       {/* <Team /> 
       <IIIustration /> }
       {/* <ContactUs /> */}

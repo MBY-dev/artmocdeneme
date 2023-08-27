@@ -1,68 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
 .div-container-body-design {
   background: linear-gradient(to bottom, #6b6e7e, #40575d, #6b6e7e);
-  height: 100vh;
-}
+  max-width: 1920px ;
+    max-height: 1080px;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
 
 /* Art*/
 .fixedtopleft-d {
   position: absolute;
-  margin-top: -25vh;
-  left: 5vh;
-  font-size: 6vh;
+  left: 70px;
+  font-size: 35px;
+  top: 10px ;
 }
 /*design*/
 .fixedtopright-d {
-  position: absolute;
-  margin-top: -25vh;
-  right: 5vh;
-  font-size: 6vh;
+  right: 70px;
+  font-size:35px;
+  top: 10px;
+  position: absolute
 }
 /*info */
 .fixeddownleft-d {
   position: absolute;
-  margin-top: 42vh;
-  left: 5vh;
-  font-size: 6vh;
+  bottom: 60px;
+  left: 70px;
+  font-size: 35px;
 }
 /*contact*/
 .fixeddownright-d {
   position: absolute;
-  margin-top: 36vh;
-  right: 5vh;
-  font-size: 6vh;
+  bottom: 70px;
+  right: 70px;
 }
 /*contact img*/
 .fixeddownright-d .social-right-down-d img {
-  width: 4vh;
-  margin-left: 3vh;
+  width: 45px;
+  padding: 0px 10px 0px 0px ;
 }
 
-.container-d {
+.leftscroll-d{
+    position: absolute;
+    height: 100%;
+    left: 70px;
+    top: 135px;
+}
+.leftscroll-d img{
   position: absolute;
-  max-height: 100%;
+  height: 20%;
+  transform: translate(0, 100%);
+}
+
+
+
+.container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  justify-content: space-between;
-  left: 25%;
-  width: 75vh;
-  height: 30vh;
-}
-.container-d .img-d {
-  width: 20vh;
-  height: 20vh;
-  position: relative;
+  grid-template-rows: repeat(2, 1fr);
+  gap: 4em;
+  width: 80em;
+  top: 14em;
+  height: 25em;
+  left: 11em;
+  position: absolute;
+  cursor: pointer;
 }
 
-.container-d .img-d .frame-d {
-  width: 20vh;
-  height: 20vh;
-  position: absolute;
+.box {
+  background-color: rgba(200, 200, 200, 0.3); /* Hafif gri ve transparan arka plan */
+  padding-top: 100px; 
+  border-radius: 24px;
+  position: relative;
+  overflow: hidden;
 }
-.container-d .img-d .text-d {
-  width: 20vh;
-  height: 20vh;
+.box:hover{
+  background-color: black;
+}
+.box h3{
   position: absolute;
-  object-fit: scale-down;
-  left: 7%;
+  writing-mode: vertical-rl;
+  left: -8px;
+  height: 100%;
+  border-radius: 24px;
   top: 0%;
+  border-radius: 24px;
+  font-size: calc(171% + 8px);
+  color: white;
+  transform: rotate(-180deg);
+  pointer-events: none;
+
 }

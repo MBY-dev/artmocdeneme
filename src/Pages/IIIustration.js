@@ -7,6 +7,7 @@ import instagramuse from "./../Assets/Social/instagram (in use).png";
 import twitterhidden from "./../Assets/Social/twitter (hidden).png";
 const IIIustration = () => {
   
+  
   return (
     <div className="div-container-body-iustration">
       {/* <div className="leftscroll-illu">
@@ -37,11 +38,9 @@ const IIIustration = () => {
         </div>
       <div className='gallery'>
         <div className='gallery-container'>
-          <img className='gallery-item gallery-item-1' src={illustration} data-index="1" />
           <img className='gallery-item gallery-item-2' src={illustration} data-index="2" />
           <img className='gallery-item gallery-item-3' src={illustration} data-index="3" />
           <img className='gallery-item gallery-item-4' src={illustration} data-index="4" />
-          <img className='gallery-item gallery-item-5' src={illustration} data-index="5" />
         </div>
         <div className='gallery-contorls'>
           

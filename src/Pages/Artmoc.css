@@ -1,4 +1,10 @@
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
 
 .div-container-body-artmoc{
     background: linear-gradient(to top, #776b6a,#776b6a,#776b6a);
@@ -6,7 +12,7 @@
     max-height: 1080px;
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     
 
 }

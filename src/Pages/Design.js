@@ -18,8 +18,7 @@ import uıx from "./../Assets/Design/UIxUX.png"
 const Design = () => {
   return (
     <div className="div-container-body-design">
-      <section>
-        <div className="leftscroll">
+        <div className="leftscroll-d">
           <img src={pageflow5} alt="pageflow" />
         </div>
         <div className="fixedtopleft-d">
@@ -29,43 +28,11 @@ const Design = () => {
           <a href="#frame_design">Design</a>
         </div>
 
-        <div className="container-d">
-          <div className="img-d">
-          <img className="frame-d" src={frame} alt="Frame" />
-            <img className="text-d" src={graphic} alt="graphic" />
-          </div>
-          <div className="img-d"> 
-          <img className="frame-d" src={frame} alt="Frame" />
-            <img className="text-d" src={brand} alt="graphic" /></div>
-          <div className="img-d"> 
-          <img className="frame-d" src={frame} alt="Frame" />
-            <img className="text-d" src={uıx} alt="graphic" />
-            </div>
-          <div className="img-d"> 
-          <img className="frame-d" src={frame} alt="Frame" />
-            <img className="text-d" src={interior} alt="graphic" />
-            </div>
-          <div className="img-d"> 
-          <img className="frame-d" src={frame} alt="Frame" />
-            <img className="text-d" src={motion} alt="graphic" />
-            </div>
-          <div className="img-d">
-             <img className="frame-d" src={frame} alt="Frame" />
-            <img className="text-d" src={game} alt="graphic" />
-            </div>
-          <div className="img-d">
-             <img className="frame-d" src={frame} alt="Frame" />
-            <img className="text-d" src={consult} alt="graphic" />
-            </div>
-          <div className="img-d">
-             <img className="frame-d" src={frame} alt="Frame" />
-            <img className="text-d" src={printing} alt="graphic" />
-            </div>
-        </div>
         <div className="fixeddownleft-d">
           <a href="#frame_about">Info</a>
         </div>
         <div className="fixeddownright-d">
+
           <div class="social-right-down-d">
             <a href="#">
               <img src={twitterhidden} alt="Twitter" />
@@ -77,8 +44,35 @@ const Design = () => {
           <div class="c">
             <a href="#frame_contact">Contact</a>
           </div>
+       
+       
         </div>
-      </section>
+        <div class="container">
+             <div class="box">
+                <h3>GRAPHİC</h3>
+             </div>
+             <div class="box">
+                <h3>BRAND-X</h3>
+             </div>
+             <div class="box">
+                <h3>UI&UX</h3>
+             </div>
+             <div class="box">
+                <h3>INTERION</h3>
+             </div>
+             <div class="box">
+                <h3>MOTION</h3>
+             </div>
+             <div class="box">
+                <h3>GAME</h3>
+             </div>
+             <div class="box">
+                <h3>CONSULT-</h3>
+             </div>
+             <div class="box">
+                <h3>PRINTING</h3>
+             </div>
+  </div>
     </div>
   );
 };

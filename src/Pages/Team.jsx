@@ -49,7 +49,7 @@ const Team = () => {
         <a href="#frame_about">Info</a>
       </div>
       <div className="fixeddownright-team">
-        <div class="social-right-down-team">
+        <div className="social-right-down-team">
           <a href="#">
             <img src={twitterhidden} alt="Twitter" />
           </a>
