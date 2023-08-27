@@ -4,7 +4,7 @@
   max-height: 1080px;
   position: relative;
   width: 100%;
-  height: 100vh;
+  height: 104vh;
 }
 /* Art*/
 .fixedtopleft-ww {
@@ -58,7 +58,7 @@
   position: absolute;
   gap: 12em;
   height: auto !important;
-  top: 13em;
+  top: 8em;
   width: 71em;
   left: 11em;
   
@@ -80,7 +80,7 @@ header {
   margin-top: -30px;
 }
 
-p {
+.container-ww p {
   margin: 10px 0;
   padding: 0px 0px 30px;
   cursor: text;
@@ -94,7 +94,7 @@ p {
 .without-header p{
   text-align: end;
 }
-p:before {
+.container-ww p:before {
   content: '';
   position: absolute;
   top: -13px;

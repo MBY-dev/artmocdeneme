@@ -23,9 +23,10 @@ function App() {
         <Design />  
         <div className="FooterLine">GEÇİŞ EKLE</div> 
        <WithWithout /> 
+       <div className="FooterLine">GEÇİŞ EKLE</div> 
       {/* { <Team /> 
       <IIIustration /> } */}
-      {/* { <ContactUs />} */}
+        <ContactUs />
     </div>
   );
 }
