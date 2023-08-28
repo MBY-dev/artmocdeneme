@@ -24,13 +24,13 @@
   position: absolute;
   left: 70px;
   font-size: 35px;
-  top: 10px ;
+  top: 31px ;
 }
 /*design*/
 .fixedtopright-d {
   right: 70px;
   font-size:35px;
-  top: 10px;
+  top: 31px;
   position: absolute
 }
 /*info */
@@ -45,6 +45,7 @@
   position: absolute;
   bottom: 70px;
   right: 70px;
+
 }
 /*contact img*/
 .fixeddownright-d .social-right-down-d img {
@@ -72,7 +73,7 @@
   grid-template-rows: repeat(2, 1fr);
   gap: 4em;
   width: 80em;
-  top: 14em;
+  top: 11em;
   height: 25em;
   left: 11em;
   position: absolute;

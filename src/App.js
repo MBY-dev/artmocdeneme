@@ -10,13 +10,14 @@ import News from './Pages/News';
 import Team from './Pages/Team';
 import WithWithout from './Pages/WithWithout';
 import { useState } from 'react';
+import AboutLine from './Pages/AboutLine';
 function App() {
   return (
     <div className="App">
       <Artmoc />
          <News />  
        <AboutArtmoc />
-       <div className="FooterLine">GEÇİŞ EKLE</div>
+       <AboutLine />
         <Art  /> 
   
       {/* <IIIustration /> */}
@@ -24,8 +25,8 @@ function App() {
         <div className="FooterLine">GEÇİŞ EKLE</div> 
        <WithWithout /> 
        <div className="FooterLine">GEÇİŞ EKLE</div> 
-      {/* { <Team /> 
-      <IIIustration /> } */}
+       { <Team />  }
+       {/* <IIIustration />   */}
         <ContactUs />
     </div>
   );

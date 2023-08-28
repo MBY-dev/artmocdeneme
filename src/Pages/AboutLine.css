@@ -1,0 +1,29 @@
+.container-Aline{
+    padding: 49px 0px;
+    display: flex;
+    justify-content: end;
+    background: linear-gradient(to bottom, #3f5150, #638669, #638669);
+}
+
+.right-line{
+    background: gray;
+    padding: 40px 40px 59px 0px;
+    border-radius: 74px 0px 0px 74px;
+    display: none;
+    justify-content: end;
+}
+.indented-paragraph{
+    display: flex;
+    color: white;
+    width: 1126px;
+    margin: -6px 41px -22px 40px;
+    font-size: 21px;
+    text-align: right;
+}
+.right-line-none{
+    display: flex;
+    justify-content: end;
+    background: gray;
+    padding: 59px 71px;
+    border-radius: 74px 0px 0px 74px;
+}
