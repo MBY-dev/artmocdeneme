@@ -1,0 +1,19 @@
+.container-partner {
+    padding: 49px 0px;
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    background: linear-gradient(to bottom, #5c7a89, #40575d, #61818e);
+}
+
+.partner-icon {
+    padding: 10px 5px 5px 10px;
+    display: flex;
+    border-radius: 1000px 1000px 591px 590px;
+    align-items: center;
+    background-color: rgba(200, 200, 200, 0.3);
+    position: relative;
+}
+.partner-icon img{
+    width: 101px;
+}

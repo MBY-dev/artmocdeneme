@@ -1,0 +1,27 @@
+.container-Deline{
+    padding: 49px 0px;
+    display: flex;
+    justify-content: start;
+    background: linear-gradient(to bottom, #6b6e7e, #40575d, #6b6e7e);
+}
+
+.left-Deline{
+    background: gray;
+    padding: 40px 40px 59px 0px;
+    border-radius: 0px 74px 74px 0px;
+    display: none;
+}
+.indented-paragraph-left{
+    display: flex;
+    color: white;
+    width: 1126px;
+    margin: -6px 41px -22px 40px;
+    font-size: 21px;
+    text-align: right;
+}
+.left-line-none{
+    display: flex;
+    background: gray;
+    padding: 59px 71px;
+    border-radius: 0px 74px 74px 0px;
+}

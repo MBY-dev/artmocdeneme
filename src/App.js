@@ -11,6 +11,8 @@ import Team from './Pages/Team';
 import WithWithout from './Pages/WithWithout';
 import { useState } from 'react';
 import AboutLine from './Pages/AboutLine';
+import DesignLine from './Pages/DesignLine';
+import Partner from './Pages/Partner';
 function App() {
   return (
     <div className="App">
@@ -19,13 +21,12 @@ function App() {
        <AboutArtmoc />
        <AboutLine />
         <Art  /> 
-  
       {/* <IIIustration /> */}
         <Design />  
-        <div className="FooterLine">GEÇİŞ EKLE</div> 
+        <DesignLine />
        <WithWithout /> 
-       <div className="FooterLine">GEÇİŞ EKLE</div> 
-       { <Team />  }
+       < Partner/>
+       {/* <Team /> */ }
        {/* <IIIustration />   */}
         <ContactUs />
     </div>
