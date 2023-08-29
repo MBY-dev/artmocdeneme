@@ -26,7 +26,7 @@ function App() {
         <DesignLine />
        <WithWithout /> 
        < Partner/>
-       {/* <Team /> */ }
+        <Team /> 
        {/* <IIIustration />   */}
         <ContactUs />
     </div>

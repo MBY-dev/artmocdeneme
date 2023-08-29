@@ -7,6 +7,7 @@ import "./Team.css";
 import instagramhidden from "./../Assets/Social/instagram (hidden).png";
 import twitterhidden from "./../Assets/Social/twitter (hidden).png";    
 import teamsphoto from "../Assets/Teams/PHOTO FRAME.png"
+import imagedegisti from "../Assets/art/animation1.png"
 
 const Team = () => {
 
@@ -68,9 +69,9 @@ const Team = () => {
           <TabPanel value='1'>
             <div className='teams-container'>
               <div className='teams-img'>
-                <div className='teams-setimg'>
-              <img src={teamsphoto} alt="Teams" />
-                </div>
+              <div className='oturt'>
+                   <img src={imagedegisti} alt="Teams" /> 
+                  </div>
               </div>
               <div className='teams-info'>
                 <h2 className='teams-header'>Full name</h2>
@@ -80,11 +81,12 @@ const Team = () => {
               </div>
             </div>
           </TabPanel>
-          <TabPanel value='2'> <div className='teams-container'>
+          <TabPanel value='2'>
+            <div className='teams-container'>
               <div className='teams-img'>
-                <div className='teams-setimg'>
-              <img src={teamsphoto} alt="Teams" />
-                </div>
+              <div className='oturt'>
+                   <img src={imagedegisti} alt="Teams" /> 
+                  </div>
               </div>
               <div className='teams-info'>
                 <h2 className='teams-header'>Full name2</h2>
@@ -92,12 +94,14 @@ const Team = () => {
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi similique accusamus aut, molestias, quasi temporibus voluptate beatae ea possimus neque hic!
                 </p>
               </div>
-            </div></TabPanel>
-          <TabPanel value='3'> <div className='teams-container'>
+            </div>
+          </TabPanel>
+          <TabPanel value='3'>
+            <div className='teams-container'>
               <div className='teams-img'>
-                <div className='teams-setimg'>
-              <img src={teamsphoto} alt="Teams" />
-                </div>
+              <div className='oturt'>
+                   <img src={imagedegisti} alt="Teams" /> 
+                  </div>
               </div>
               <div className='teams-info'>
                 <h2 className='teams-header'>Full name3</h2>
@@ -105,13 +109,14 @@ const Team = () => {
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi similique accusamus aut, molestias, quasi temporibus voluptate beatae ea possimus neque hic!
                 </p>
               </div>
-            </div></TabPanel>
-            <TabPanel value='4'>
+            </div>
+          </TabPanel>
+          <TabPanel value='4'>
             <div className='teams-container'>
               <div className='teams-img'>
-                <div className='teams-setimg'>
-              <img src={teamsphoto} alt="Teams" />
-                </div>
+              <div className='oturt'>
+                   <img src={imagedegisti} alt="Teams" /> 
+                  </div>
               </div>
               <div className='teams-info'>
                 <h2 className='teams-header'>Full name4</h2>
@@ -124,9 +129,9 @@ const Team = () => {
           <TabPanel value='5'>
             <div className='teams-container'>
               <div className='teams-img'>
-                <div className='teams-setimg'>
-              <img src={teamsphoto} alt="Teams" />
-                </div>
+              <div className='oturt'>
+                   <img src={imagedegisti} alt="Teams" /> 
+                  </div>
               </div>
               <div className='teams-info'>
                 <h2 className='teams-header'>Full name5</h2>
@@ -139,9 +144,9 @@ const Team = () => {
           <TabPanel value='6'>
             <div className='teams-container'>
               <div className='teams-img'>
-                <div className='teams-setimg'>
-              <img src={teamsphoto} alt="Teams" />
-                </div>
+              <div className='oturt'>
+                   <img src={imagedegisti} alt="Teams" /> 
+                  </div>
               </div>
               <div className='teams-info'>
                 <h2 className='teams-header'>Full name6</h2>
