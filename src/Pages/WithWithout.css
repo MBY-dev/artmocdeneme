@@ -125,3 +125,21 @@ header {
   width: 30px;
   height: 30px;
 }
+
+
+@media screen and (min-width: 1700px)  {
+  .without-header p:before{
+    left: 97%;
+  }
+  .container-ww{
+    top: 20%;
+    width: 77%;
+    left: 11em;
+  }
+  header{
+    font-size: 63px;
+  }
+  .container-ww p {
+    margin: 32px 0;
+}
+}

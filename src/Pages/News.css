@@ -103,6 +103,25 @@ cursor: pointer;
   transform: translate(0, 100%);
 }
 
+@media screen and (min-width: 1800px) {
+  .container-news table {
 
+    width: 1300px;
+    height: 394px;
+  }
+    .container-news {
+      left: 16%;
+      top: 33%;
+      }
+      .news-frame-newstittle {
+        position: absolute;
+        left: 16%;
+        top: 18%;
+    }
+      .news-frame-newstittle img {
+        width: 251px;
+    }
+
+}
 
 

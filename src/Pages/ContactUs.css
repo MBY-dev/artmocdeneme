@@ -190,3 +190,68 @@ line-height: 4px;
     text-align: center;
     line-height: 90px;
   }
+
+
+ @media screen and (min-width: 1789px )  {
+  .container2-position {
+    left: 0;
+    top: 22%;
+}
+  
+  .container2 
+  {
+    width: 100%;
+   
+   }
+   .deneme2-us 
+   {
+    width: 25%;
+   
+   }
+   .section.left-section,
+    .section.left-section.active {
+    width: 100%;
+    height: 52px;
+    line-height: 105%;
+}
+.section.left-section h3,
+    .section.left-section.active h3 {
+    width: 100%;
+    height: 52px;
+    line-height: 105%;
+    padding: 3px;
+}
+.content2.active {
+  width: 100%;
+}
+.content2 .input-group {
+  width: 100%;
+}
+
+.content2 .input-group input[type="text" ]{
+  width: 100%;
+  height: 52px;
+}
+.content2 .input-group textarea {
+  width: 100%;
+}
+button.submit-button {
+width: 30%;
+}
+.deneme3-us {
+  width: 25%;
+  height: 88%;
+} 
+
+.section.right-section,
+.section.right-section.active {
+  height: 100%;
+  width: 100%;
+  line-height: 150%;
+}
+
+
+}
+
+
+ 

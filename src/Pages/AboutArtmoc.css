@@ -59,7 +59,7 @@
 .about-artmoc-container{
   position: absolute;
   left: 200px;
-  top: 150px;
+  top: 200px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
@@ -69,7 +69,6 @@
     width: 450px;
 }
 .about-header{
-    position: absolute;
     top: 50px;
 }
 
@@ -93,7 +92,6 @@
 .artmoc-monster{
     position: absolute;
     left: 850px;
-    top: 68px;
     width: 1500px;
 }
 
@@ -146,3 +144,31 @@
     width: 20%;
 }
 
+@media screen and (min-width: 1800px) {
+    .artmoc-monster {
+        left: 61%;
+        top: 0px;
+        width: 500px;
+    }
+    .img-aboutmonster {
+        width: 100%;
+    }
+    .about-tittle-text img{
+        width: 80%;
+    }
+
+    .about-write{
+        top: 127px;
+        left: 10px;
+        width: 50%;
+        font-size: 23px;
+        line-height: 30px;
+    }
+
+    .about-write p{
+        width: 78%;
+        height: 100%;
+    }
+
+  
+  }
