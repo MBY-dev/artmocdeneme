@@ -19,6 +19,7 @@ function App() {
       <Artmoc />
          <News />  
        <AboutArtmoc />
+       <Team /> 
        <AboutLine />
         <Art  /> 
       {/* <IIIustration /> */}
@@ -26,7 +27,7 @@ function App() {
         <DesignLine />
        <WithWithout /> 
        < Partner/>
-        <Team /> 
+       
        {/* <IIIustration />   */}
         <ContactUs />
     </div>
