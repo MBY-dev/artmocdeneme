@@ -144,7 +144,7 @@
     width: 20%;
 }
 
-@media screen and (min-width: 1800px) {
+@media screen and (min-width: 1700px) {
     .artmoc-monster {
         left: 61%;
         top: 0px;
