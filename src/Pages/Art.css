@@ -18,7 +18,7 @@
   position: absolute;
   height: 100%;
   left: 70px;
-  top: 135px;
+  top: 15%;
 }
 .leftscroll-art img{
   position: absolute;
@@ -92,7 +92,8 @@
 .content-wrapper p {
   position: absolute;
   writing-mode: vertical-rl; /* Dikey yazı yönlendirmesi */
-  left: -20px;
+  left: -9px;
+  text-align: justify;
   height: 100%;
   border-radius: 24px; 
   font-size: calc(91% + 41px);
@@ -117,7 +118,7 @@
   writing-mode: unset;
   top: 100%;
   left: -2px;
-  font-size: 45px;
+  font-size: 250%;
   transition: top 0.0001s ease-in-out, font-size 0.1s ease-in-out;
 }
 .grid-item:nth-child(1):hover .content-wrapper p,
@@ -128,7 +129,7 @@
   left: -10px;
 }
 
-@media screen and (min-width: 1700px) {
+@media screen and (min-width: 1800px) {
 
   .leftscroll-art{
     top: 185px;
@@ -136,8 +137,8 @@
 
   .grid-container {
     gap: 54px;
-    left: 178px;
-    top: 267px;
+    left: 8%;
+    top: 18%;
   }
   .grid-item {
     width: 353px;
@@ -165,17 +166,16 @@
 
 
 
-@media screen and (min-width: 800px ) and (max-width: 1789px) and (min-height: 1170px) {
+ @media screen and (min-width: 1700px ) and (max-width: 1789px) {
 
   .leftscroll-art{
-    top: 185px;
+    top: 15%;
   }
 
   .grid-container {
-    width: 82%;
+    width: 75%;
     height: 40%;
-    gap: 2%;
-    top: 27%;
+    top: 28%;
 }
   
   .grid-item {
@@ -184,7 +184,7 @@
   }
   
   .grid-item img{
-    width: 100%;
+    width: 99%;
     height: 100%;
   }
   .content-wrapper {
@@ -193,10 +193,11 @@
    
 }
   .content-wrapper p {
-    font-size: calc(102% + 72px);
+    font-size: calc(100% + 52px);
     text-align: justify;
+    left: -10.9px;
 }
 .grid-item:hover .content-wrapper p {
-  font-size: 427%;
+  font-size: 321%;
 }
-}
+} 
