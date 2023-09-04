@@ -19,10 +19,10 @@ function App() {
       <Artmoc />
          <News />  
        <AboutArtmoc />
-       <Team /> 
+        {/* <Team />   */}
        <AboutLine />
         <Art  /> 
-      {/* <IIIustration /> */}
+      {/* <IIIustration />  */}
         <Design />  
         <DesignLine />
        <WithWithout /> 

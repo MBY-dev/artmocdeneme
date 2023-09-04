@@ -32,6 +32,7 @@ const News = () => {
            <table>
             <img src= {newsArrow}></img>
            </table>
+           <p>LOREM İPSUM DOLAR PIT AHMET. CONSECTETUAR ADIPISHING ELİT, SED DIAM NONUMY NISH AUMID LEFKOŞA MBARDE</p>
           </div>
            <div className="fixeddownleft-news">
             <a href="#frame_about">Info</a>

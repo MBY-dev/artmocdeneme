@@ -6,6 +6,7 @@ import DEDEW from '../Assets/PartnerBar/DEDEW.png'
 
 const Partner = () => {
   return (
+    <div className='renk-kontrol'>
     <div className='container-partner'>
         <div className='partner-icon'>
             <img src={Marglo} /> 
@@ -15,7 +16,8 @@ const Partner = () => {
         </div>
         <div className='partner-icon'>
         <img src={DEDEW} /> 
-        </div>
+        </div>   
+      </div>
     </div>
   )
 }

@@ -1,226 +1,139 @@
-* {
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box;
-   font-family: "Poppins", sans-serif;
- }
-
-
 .div-container-body-iustration{
-    background: linear-gradient(to top, #4f4848, #776b6a);
-    max-width: 1920px ;
-    max-height: 1080px;
-    position: relative;
-    width: 100%;
-    height: 100vh;
-}
-
-.fixedtopleft-illu{
-   position: absolute;
-   left: 70px;
-   font-size: 35px;
-   top: 31px ;
-}
-
-.fixeddownleft-illu{
-   position: absolute;
-   bottom: 60px;
-   left: 70px;
-   font-size: 35px;
- }
-
- .fixedtopright-illu{
-   right: 70px;
-   font-size:35px;
-   top: 31px;
-   position: absolute
-}
- .fixeddownright-illu{
-   position: absolute;
-   bottom: 70px;
-   right: 70px;
- }
-
- .fixeddownright-illu .social-right-down-illu img{
-   width: 45px;
-   padding: 0px 10px 0px 0px ;
- }
-
-/* .leftscroll-illu{
-   position: absolute;
-   height: 100%;
-   left: 70px;
-   top: 135px;
-}
-.leftscroll-illu img{
-   position: absolute;
-   height: 20%;
-   transform: translate(0, 100%);
-} */
-
- .slider-container{
-   position: relative;
-   width: 300px;
-   height: 200px;
-
- }
-
-.gallery{
-   width: 100%;
-
-}
-
-.gallery-container{
+   display: flex;
+   justify-content: center;
    align-items: center;
-   display: flex;
-   height: 600px;
-   margin: 0 auto;
-   max-width: 1000px;
-   position: relative;
-}
-
-.gallery-item{
-   height: 200px;
-   opacity: 0;
-   position: absolute;
-   transition: all 0.3s ease-in-out;
-   width: 330px;
-   z-index: 0;
-   border-radius: 15px;
-   background-size: contain;
-}
-
-
-.gallery-item-1{
-   left: 15%;
-   opacity: .4;
-   transform: translateX(-50%);
-}
-
-.gallery-item-2, .gallery-item-4{
-   height: 250px;
-   opacity: 0.8;
-   width: 380px;
-   z-index: 1;
-}
-
-
-.gallery-item-2{
-   left: 30%;
-   transform: translateX(-50%);
-}
-
-.gallery-item-3{
-   box-shadow: -2px 5px 33px 6px rgba(0,0,0,0.35);
-   height: 300px;
-   opacity: 1;
-   left: 50%;
-   transform: translateX(-50%);
-   width: 430px;
-   z-index: 2;
-}
-
-.gallery-item-4{
-   left: 70%;
-   transform: translateX(-50%);
-}
-
-.gallery-item-5{
-   left: 85%;
-   opacity: .4;
-   transform: translateX(-50%);
-}
-
-.gallery-controls{
-   display: flex;
-   justify-content: center;
-   margin: 25px 0;
-   height: 100px;
-}
-
-.gallery-controls button{
-   background-color: transparent;
-   border: 0;
-   cursor: pointer;
-   font-size: 30px;
-   margin: 0 50px;
-   padding: 0 12px;
-   text-transform: capitalize;
+   background-color: #232323;
+   overflow-x: hidden;
+   height: 100vh;
+   font-family: "Urbanist", sans-serif;
 
 }
 
-.gallery-controls-button:focus{
-   outline: none;
+a{
+   text-decoration: none;
 }
 
-.gallery-controls-previous{
-   position: relative;
-
+.input-illu{
+   display: none;
 }
 
-.gallery-controls-previous::before{
-   border: solid black;
-   border-width: 0 5px 5px 0;
-   content: "";
-   display: inline-block;
-   height: 5px;
-   left: -30px;
-   padding: 10px;
-   position: absolute;
-   top: 25%;
-   transform: rotate(135deg) translateY(-50%);
-   transition : left 0.15s ease-in-out;
-   width: 5px;
-}
-
-.gallery-controls-previous:hover::before{
-      left: -40px;
-
-}
-
-.gallery-controls-next{
-   position: relative;
-}
-
-.gallery-controls-next::before{
-   border: solid #000;
-   border-width: 0 5px 5px 0;
-   content:"" ;
-   display: inline-block;
-   height: 5px;
-   padding: 10px;
-   position: absolute;
-   right: -30px;
-   top: 45;
-   transform: rotate(-45deg) translateY(-50%);
-   transition: right 0.15s ease-in-out;
-   width: 5px;
-}
-
-.gallery-controls-next:hover:before{
-   right: -40px;
-}
-
-.gallery-nav{
-   bottom: -15px;
-   display: flex;
-   justify-content: center;
-   list-style: none;
-   padding: 0;
-   position: absolute;
+.container-illus{
    width: 100%;
+   height: 100%;
+   max-width: 600px;
+   max-height: 600px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   transform-style: preserve-3d;
+   flex-direction: column;
+   margin-bottom: 100px;
+}
+
+.cards-illus{
+     position: relative;
+     height: 500px;
+     width: 430px;
+     margin-bottom: 20px; 
+     perspective: 1000px;
+     transform-style: preserve-3d;
+}
+
+.cards-illus label{
+  position: absolute;
+  width: 430px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  cursor:pointer;
+  transition: transform 0.55s ease;
+
+}
+.cards-illus .card{
+   position: relative;
+   height: 100%;
+   background-color: #323444;
+   border-radius: 10px;
+   padding: 30px 35px;
+}
+
+.cards-illus .image{
+   display: flex;
+   justify-content: space-between;
+
+}
+
+.cards-illus .image img{
+   border-radius: 5px;
+   box-shadow: 15px 15px 40px rgba(0, 0, 50%);
+   margin-top: 23px;
+   width: 86%;
+   height: 220px;
+   object-fit: cover;
+   transition: all .7s;
+}
+
+.cards-illus .image img{
+   transform: scale(1.05);
 }
 
 
-.gallery nav li {
-   background-color: #ccc;
-   border-radius: 50%;
-   height: 10px;
-   margin: 0 16px;
-   width: 10px;
+#s1:checked~.cards  #slide4,
+#s2:checked~.cards #slide5,
+#s3:checked~.cards #slide1,
+#s4:checked~.cards #slide2,
+#s5:checked~.cards #slide3{
 
+   box-shadow: 0 15px 30px rgba(0, 0, 45%);
+   transform: translate3d(-70%, 0, -220px);
+   --current-color1: #eceaed;
+   --currente2-color2: #404457;
 }
 
-.gallery-nav li.gallery-item-selected{
-   background: #555;
+#s1:checked~.cards  #slide5,
+#s2:checked~.cards #slide1,
+#s3:checked~.cards #slide2,
+#s4:checked~.cards #slide3,
+#s5:checked~.cards #slide4{
+
+   box-shadow: 0 20px 40px rgba(0, 0, 45%);
+   transform: translate3d(-35%, 0, -120px);
+   --current-color1: #eceaed;
+   --currente2-color2: #404457;
+}
+
+#s1:checked~.cards  #slide1,
+#s2:checked~.cards #slide2,
+#s3:checked~.cards #slide3,
+#s4:checked~.cards #slide4,
+#s5:checked~.cards #slide5{
+
+   box-shadow: 0 25px 50px rgba(0, 0, 50%);
+   transform: translate3d(0,0,0);
+   --current-color1: #fad00c;
+   --currente2-color2: #eceaed;
+}
+
+#s1:checked~.cards  #slide2,
+#s2:checked~.cards #slide3,
+#s3:checked~.cards #slide4,
+#s4:checked~.cards #slide5,
+#s5:checked~.cards #slide1{
+
+   box-shadow: 0 20px 40px rgba(0, 0, 50%);
+   transform: translate3d(-35%,0, -120px);
+   --current-color1: #fad00c;
+   --currente2-color2: #eceaed;
+}
+
+#s1:checked~.cards  #slide3,
+#s2:checked~.cards #slide4,
+#s3:checked~.cards #slide5,
+#s4:checked~.cards #slide1,
+#s5:checked~.cards #slide2{
+
+   box-shadow: 0 15px 30px rgba(0, 0, 45%);
+   transform: translate3d(-70%,0,-220px);
+   --current-color1: #eceaed;
+   --currente2-color2: #404457;
 }

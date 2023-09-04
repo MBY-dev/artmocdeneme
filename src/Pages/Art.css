@@ -62,15 +62,17 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   position: absolute;
-  gap: 100px;
-  left: 171px;
-  top: 200px;
+  gap: 3%;
+  height: 48%;
+  width: 80%;
+  left: 10%;
+  top: 25%;
 }
 
 .grid-item {
   background-color: gray;
-  width: 200px;
-  height: 287px;
+  width: 100%;
+  height: 100%;
   border-radius: 24px;
   cursor: pointer;
   position: relative;
@@ -88,24 +90,28 @@
   align-items: center;
   justify-content: center;
   text-align: center;
+  width: 100%;
+  height: 100%;
 }
 .content-wrapper p {
   position: absolute;
   writing-mode: vertical-rl; /* Dikey yazı yönlendirmesi */
   left: -9px;
-  text-align: justify;
-  height: 100%;
   border-radius: 24px; 
-  font-size: calc(91% + 41px);
   color: white;
   transform: rotate(-180deg);
+  font-size: calc(29% + 109px);
+    line-height: 0.8;
+    text-align: start;
+    font-family: system-ui;
+    height: 100%;
 }
 
 
 .grid-item img{
   border-radius: 24px;
-  width: 200px;
-  height: 287px;
+  width: 100%;
+  height: 100%;
 }
 
 .grid-item:hover {
@@ -113,12 +119,12 @@
 }
 .grid-item:hover .content-wrapper p {
   /* Diğer stil ayarları */
-  top: 0;
+  left: 8px;
+  font-size: 500%;
   transform: none;
   writing-mode: unset;
   top: 100%;
-  left: -2px;
-  font-size: 250%;
+  width: 100%;
   transition: top 0.0001s ease-in-out, font-size 0.1s ease-in-out;
 }
 .grid-item:nth-child(1):hover .content-wrapper p,
@@ -128,76 +134,44 @@
   top: 100%;
   left: -10px;
 }
-
-@media screen and (min-width: 1800px) {
-
-  .leftscroll-art{
-    top: 185px;
-  }
-
-  .grid-container {
-    gap: 54px;
-    left: 8%;
-    top: 18%;
-  }
-  .grid-item {
-    width: 353px;
-    height: 504px;
-  }
-  
-  .grid-item img{
-    width: 352px;
-    height: 504px;
-  }
-
-
-  .content-wrapper p {
-    left: -16px;
+@media (min-width:1400px) and (max-width:1699px){
+  .leftscroll-art {
+    position: absolute;
     height: 100%;
-    text-align: justify;
-    font-size: calc(17% + 97px);
-  }
-  
-  .grid-item:hover .content-wrapper p {
-    left: 8px;
-    font-size: 68px;
+    left: 70px;
+    top: 19%;
 }
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  position: absolute;
+  gap: 3%;
+  height: 44%;
+  width: 66%;
+  left: 16%;
+  top: 27%;
 }
-
-
-
- @media screen and (min-width: 1700px ) and (max-width: 1789px) {
-
-  .leftscroll-art{
-    top: 15%;
-  }
-
-  .grid-container {
-    width: 75%;
-    height: 40%;
-    top: 28%;
-}
-  
-  .grid-item {
-    width: 100%;
-    height: 100%;
-  }
-  
-  .grid-item img{
-    width: 99%;
-    height: 100%;
-  }
-  .content-wrapper {
-    height: 100%;
-    width: 100%;
-   
-}
-  .content-wrapper p {
-    font-size: calc(100% + 52px);
-    text-align: justify;
-    left: -10.9px;
+.content-wrapper p {
+  position: absolute;
+  writing-mode: vertical-rl;
+  left: -5px;
+  border-radius: 24px;
+  color: white;
+  transform: rotate(-180deg);
+  font-size: calc(20% + 68px);
+  line-height: 0.8;
+  text-align: start;
+  font-family: system-ui;
+  height: 100%;
 }
 .grid-item:hover .content-wrapper p {
-  font-size: 321%;
+  left: 8px;
+  font-size: 320%;
+  transform: none;
+  writing-mode: unset;
+  top: 100%;
+  width: 100%;
+  transition: top 0.0001s ease-in-out, font-size 0.1s ease-in-out;
 }
-} 
+
+}
