@@ -28,7 +28,7 @@ function App() {
        <WithWithout /> 
        < Partner/>
        
-       {/* <IIIustration />   */}
+       { <IIIustration />   }
         <ContactUs />
     </div>
   );

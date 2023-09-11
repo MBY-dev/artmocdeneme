@@ -1,19 +1,18 @@
 .container-partner {
-    padding: 49px 0px;
+    padding: 90px 0px;
     display: flex;
     justify-content: center;
     gap: 150px;
-    background: linear-gradient(to bottom, #5c7a89, #40575d, #61818e);
+    background: linear-gradient(180deg, #5C7A89 3.17%, rgba(92, 122, 137, 0.80) 23.58%, rgba(92, 122, 137, 0.69) 51.85%, rgba(92, 122, 137, 0.80) 79.33%, #5C7A89 93.47%) !important;
 }
-
 .partner-icon {
-    padding: 10px 5px 5px 10px;
+    padding: 18px 28px 18px 28px;
     display: flex;
     border-radius: 1000px 1000px 591px 590px;
     align-items: center;
-    background-color: rgba(200, 200, 200, 0.3);
+    background-color: rgb(179 179 179);
     position: relative;
 }
 .partner-icon img{
-    width: 101px;
+    width: 124px;
 }

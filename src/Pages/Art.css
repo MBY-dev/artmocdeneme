@@ -63,9 +63,9 @@
   grid-template-columns: repeat(4, 1fr);
   position: absolute;
   gap: 3%;
-  height: 48%;
-  width: 80%;
-  left: 10%;
+  height: 44%;
+  width: 69%;
+  left: 15%;
   top: 25%;
 }
 
@@ -100,7 +100,7 @@
   border-radius: 24px; 
   color: white;
   transform: rotate(-180deg);
-  font-size: calc(29% + 109px);
+  font-size: calc(29% + 86px);
     line-height: 0.8;
     text-align: start;
     font-family: system-ui;
@@ -120,7 +120,7 @@
 .grid-item:hover .content-wrapper p {
   /* Diğer stil ayarları */
   left: 8px;
-  font-size: 500%;
+  font-size: 425%;
   transform: none;
   writing-mode: unset;
   top: 100%;
@@ -132,7 +132,7 @@
 {
   position: absolute;
   top: 100%;
-  left: -10px;
+  left:0px;
 }
 @media (min-width:1400px) and (max-width:1699px){
   .leftscroll-art {
@@ -146,19 +146,18 @@
   grid-template-columns: repeat(4, 1fr);
   position: absolute;
   gap: 3%;
-  height: 44%;
-  width: 66%;
-  left: 16%;
-  top: 27%;
+  left: 13%;
+  top: 26%;
 }
+
 .content-wrapper p {
   position: absolute;
   writing-mode: vertical-rl;
-  left: -5px;
+  left: -7px;
   border-radius: 24px;
   color: white;
   transform: rotate(-180deg);
-  font-size: calc(20% + 68px);
+  font-size: calc(20% + 71px);
   line-height: 0.8;
   text-align: start;
   font-family: system-ui;
@@ -166,7 +165,7 @@
 }
 .grid-item:hover .content-wrapper p {
   left: 8px;
-  font-size: 320%;
+  font-size: 342%;
   transform: none;
   writing-mode: unset;
   top: 100%;

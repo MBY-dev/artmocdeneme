@@ -59,7 +59,7 @@
 .about-artmoc-container{
   position: absolute;
   left: 200px;
-  top: 200px;
+  top: 125px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;

@@ -3,10 +3,12 @@ import './Partner.css'
 import Marglo from '../Assets/PartnerBar/MARGLO.png'
 import CAG from '../Assets/PartnerBar/CAG.png'
 import DEDEW from '../Assets/PartnerBar/DEDEW.png'
+import partner from "../Assets/PartnerBar/Partnersback.png"
 
 const Partner = () => {
   return (
-    <div className='renk-kontrol'>
+
+      
     <div className='container-partner'>
         <div className='partner-icon'>
             <img src={Marglo} /> 
@@ -18,7 +20,7 @@ const Partner = () => {
         <img src={DEDEW} /> 
         </div>   
       </div>
-    </div>
+ 
   )
 }
 
