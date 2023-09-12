@@ -11,10 +11,15 @@ import withText from "./../Assets/withWithout/WITH TEXT.png"
 import withimg from "./../Assets/withWithout/WITH.png"
 import withOuthText from "./../Assets/withWithout/WITHOUT TEXT.png"
 import withOuthimg from "./../Assets/withWithout/WITHOUT.png"
+import Artmoc2 from "./../Assets/Artmoc Logo.png"
 
 
 
 const WithWithout = () => {
+  const imageStyle = {
+    left: '44%',
+    // Diğer stil özellikleri buraya eklenebilir
+  };
   return (
     <div className="div-container-body-without">
       
@@ -63,6 +68,9 @@ const WithWithout = () => {
       </div>
     </div>
   </div>
+  <div>
+      <img className="artmoc-global" src={Artmoc2} alt="" />
+    </div>
     </div>
   );
 };

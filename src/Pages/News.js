@@ -7,6 +7,7 @@ import twitteruse from "./../Assets/Social/twitter (in use).png";
 import newsframe from "./../Assets/newsPage/NEWS FRAME.png";
 import newstittle from "./../Assets/newsPage/NEWS TITLE.png";
 import newsArrow from "./../Assets/newsPage/arrow forward (hidden).png";
+import Artmoc2 from "./../Assets/Artmoc Logo.png"
 
 import "./News.css";
 const News = () => {
@@ -51,6 +52,9 @@ const News = () => {
             </div> 
           </div>
       </section>
+      <div>
+      <img className="artmoc-global" src={Artmoc2} alt=""  />
+    </div>
     </div>
   );
 };

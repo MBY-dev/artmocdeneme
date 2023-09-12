@@ -5,6 +5,7 @@ import instagramhidden from "./../Assets/Social/instagram (hidden).png";
 import instagramuse from "./../Assets/Social/instagram (in use).png";
 import twitterhidden from "./../Assets/Social/twitter (hidden).png";
 import twitteruse from "./../Assets/Social/twitter (in use).png";
+import Artmoc2 from "./../Assets/Artmoc Logo.png"
 
 const Artmoc = () => {
   return (
@@ -35,6 +36,9 @@ const Artmoc = () => {
       <div className="leftscroll-moc">
         <img src={pageflow1} alt="pageflow1" />
       </div>
+      <div>
+      <img className="artmoc-global" src={Artmoc2} alt=""  />
+    </div>
     </div>
   );
 };

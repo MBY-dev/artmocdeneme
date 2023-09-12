@@ -90,7 +90,7 @@
 .box:hover{
   background-color: black;
 }
-.box h3{
+.box h3 {
   position: absolute;
   writing-mode: vertical-rl;
   left: -6px;
@@ -98,11 +98,10 @@
   border-radius: 24px;
   top: 0%;
   border-radius: 24px;
-  font-size: calc(171% + 8px);
+  font-size: calc(100% + 18px);
   color: white;
   transform: rotate(-180deg);
   pointer-events: none;
-
 }
 
 @media screen and (min-width:1700px){
@@ -121,4 +120,19 @@
     font-size: calc(100% + 32px);
   }
 
+}
+
+@media (min-width:1400px) and (max-width:1699px){
+  .container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 4em;
+    width: 71em;
+    top: 11em;
+    height: 25em;
+    left: 15em;
+    position: absolute;
+    cursor: pointer;
+}
 }

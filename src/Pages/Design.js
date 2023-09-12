@@ -14,6 +14,7 @@ import interior from "./../Assets/Design/Interior.png"
 import motion from "./../Assets/Design/Motion.png"
 import printing from "./../Assets/Design/Printing.png"
 import uıx from "./../Assets/Design/UIxUX.png"
+import Artmoc2 from "./../Assets/Artmoc Logo.png"
 
 const Design = () => {
   return (
@@ -73,6 +74,9 @@ const Design = () => {
                 <h3>PRINTING</h3>
              </div>
   </div>
+  <div>
+      <img className="artmoc-global" src={Artmoc2} alt=""  />
+    </div>
     </div>
   );
 };

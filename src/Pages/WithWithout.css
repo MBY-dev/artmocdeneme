@@ -143,3 +143,15 @@ header {
     margin: 32px 0;
 }
 }
+@media (min-width:1400px) and (max-width:1699px) {
+  .container-ww {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    gap: 12em;
+    height: auto !important;
+    top: 8em;
+    width: 71em;
+    left: 15em;
+}
+}

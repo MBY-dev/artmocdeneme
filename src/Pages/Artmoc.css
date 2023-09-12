@@ -69,4 +69,11 @@ a:hover {
     color: rgb(173, 159, 132);
 }
 
+.artmoc-global{
+    width: 10%;
+    position: absolute;
+    left: 47%;
+    top: 7%;
+
+}
 

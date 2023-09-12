@@ -1,9 +1,4 @@
-*,
-*::before,
-*::after {
-   list-style-type: none;
-   box-sizing: border-box;
-}
+
 
 :root{
    --primary: #6a59ff;

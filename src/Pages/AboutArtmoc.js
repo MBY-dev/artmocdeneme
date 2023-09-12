@@ -9,6 +9,7 @@ import aboutText from "./../Assets/aboutArtmoc/About ARTMOC Text.png"
 import aboutTittle from "./../Assets/aboutArtmoc/About ARTMOC Title.png"
 import aboutMonster from "./../Assets/aboutArtmoc/MONSTER.png"
 import nextPage from "./../Assets/newsPage/arrow forward (hidden).png"
+import Artmoc2 from "./../Assets/Artmoc Logo.png"
 
 
 const AboutArtmoc = () => {
@@ -61,7 +62,9 @@ const AboutArtmoc = () => {
             />
         </div>
       </div>
-    
+      <div>
+      <img className="artmoc-global" src={Artmoc2} alt=""  />
+    </div>
     </div>
   );
 };

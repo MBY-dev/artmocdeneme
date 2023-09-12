@@ -11,6 +11,7 @@ import illustration from "./../Assets/art/Illustration.png";
 import otherarts from "./../Assets/art/OtherArts.png";
 import IIIustration from "./IIIustration";
 import animation1 from "../Assets/art/animation1.png"
+import Artmoc2 from "./../Assets/Artmoc Logo.png"
 
 import "./Art.css";
 import { Router } from "react-router-dom";
@@ -69,6 +70,9 @@ const Art = () => {
     </div>
   </div>
 </div>
+<div>
+      <img className="artmoc-global" src={Artmoc2} alt=""  />
+    </div>
     </div>
 
 

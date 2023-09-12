@@ -100,7 +100,7 @@
   border-radius: 24px; 
   color: white;
   transform: rotate(-180deg);
-  font-size: calc(29% + 97px);
+  font-size: calc(100% + 76px);
     line-height: 0.8;
     text-align: start;
     font-family: system-ui;
@@ -146,7 +146,7 @@
   grid-template-columns: repeat(4, 1fr);
   position: absolute;
   gap: 3%;
-  left: 13%;
+  left: 17%;
   top: 26%;
 }
 
@@ -173,4 +173,9 @@
   transition: top 0.0001s ease-in-out, font-size 0.1s ease-in-out;
 }
 
+}
+@media (min-width:1700px) {
+  .content-wrapper p {
+    font-size: calc(100% + 87px);
+}
 }
