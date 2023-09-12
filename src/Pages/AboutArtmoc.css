@@ -1,3 +1,5 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Raleway:wght@600&family=Roboto&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -86,10 +88,12 @@
     line-height: 30px;
 }
 .about-write p{
-    font-size: 24px;
+    font-size: 22px;
     padding: 70px 0px 0px 0px;
-    line-height: 34px;
-    font-family: math;
+    line-height: 28px;
+    font-family: 'Raleway', sans-serif; /* Raleway yazı karakterini kullan */
+    text-transform: uppercase; /* Büyük harf + Small Caps */
+    
     width: 100%;
     height: 100%;
     text-align: justify;
@@ -168,3 +172,8 @@
 
   }
   
+  @media (min-width:1700px) {
+    .about-write p {
+     line-height: 34px;
+    }
+  }

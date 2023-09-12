@@ -27,9 +27,9 @@ function App() {
         <DesignLine />
        <WithWithout /> 
        < Partner/>
-       
        { <IIIustration />   }
         <ContactUs />
+        <div className='cont-footer'>boşluk</div>
     </div>
   );
 }

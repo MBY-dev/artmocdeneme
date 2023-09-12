@@ -17,7 +17,40 @@
     max-height: 1080px !important;
     width: 100% !important;
     height: 100vh !important;
+    position: relative;
 } 
+.fixedtopleft-ww {
+   position: absolute;
+   left: 70px;
+   font-size: 35px;
+   top: 31px ;
+  
+ }
+ /*design*/
+ .fixedtopright-ww {
+   right: 70px;
+   font-size:35px;
+   top: 31px;
+   position: absolute
+ }
+ /*info */
+ .fixeddownleft-ww {
+   position: absolute;
+   bottom: 60px;
+   left: 70px;
+   font-size: 35px;
+ }
+ /*contact*/
+ .fixeddownright-ww {
+   position: absolute;
+   bottom: 70px;
+   right: 70px;
+ }
+ /*contact img*/
+ .fixeddownright-ww .social-right-down-ww img {
+   width: 45px;
+   padding: 0px 10px 0px 0px ;
+ }
 
 .heading{
    padding: 1rem 0 !important;
@@ -30,7 +63,7 @@
    position: relative !important;
 }
 .swiper-slide {
-   width: 37rem !important;
+   width: 36% !important;
    height: 42rem !important;
    position: relative !important;
 }
@@ -49,8 +82,8 @@
 }
 
 .swiper-slide img {
-   width: 34rem !important; 
-   height: 34rem !important;
+   width: 36rem !important; 
+   height: 30rem !important;
    border-radius: 2rem !important;
    object-fit: cover !important;
 }
@@ -107,6 +140,12 @@
 }
 }
 
+@media (min-height:500px) and (max-height:930px){
+   .swiper-wrapper{
+      max-width: 80% !important;
+   }
+}
+
 .slider-controler .slider-arrow {
    background-color: var(--white);
    width: 3.5rem;
@@ -151,14 +190,13 @@
 .swiper.swiper_container.swiper-coverflow.swiper-3d.swiper-initialized.swiper-horizontal.swiper-watch-progress{
    width: 84% !important;
    top: 10%;
+   left: -2%;
 }
-.swiper-3d{
-   perspective: 681px !important;
-}
+
 .swiper-pagination-fraction, .swiper-pagination-custom, .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal {
    bottom: var(--swiper-pagination-bottom, 8px);
-   top: -7rem !important;
-   left: 40%  !important;
+   top: -10rem !important;
+   left: 694px  !important;
    width: 100%;
 }
 .swiper-pagination .swiper-pagination-bullet-active {
@@ -170,4 +208,26 @@
    background: transparent !important;
    border: 1px solid white !important;
    opacity: var(--swiper-pagination-bullet-inactive-opacity, 0.9) !important;
+}
+@media (min-width:1400px) and (max-width:1690px){
+   .swiper-wrapper{
+      width: 72%;
+   }
+   .swiper.swiper_container.swiper-coverflow.swiper-3d.swiper-initialized.swiper-horizontal.swiper-watch-progress {
+      width: 84% !important;
+      top: 10%;
+      left: -7%;
+  }
+  .swiper-pagination-fraction, .swiper-pagination-custom, .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal {
+   bottom: var(--swiper-pagination-bottom, 8px);
+   top: -12rem !important;
+   left: 643px !important;
+   width: 100%;
+}
+}
+@media (min-width:1700px) {
+   .swiper.swiper_container.swiper-coverflow.swiper-3d.swiper-initialized.swiper-horizontal.swiper-watch-progress {
+      top: 19%;
+  }
+
 }

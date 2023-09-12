@@ -1,6 +1,6 @@
 
 
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Raleway:ital,wght@1,700&family=Roboto&display=swap');
 
 .div-container-body-news {
   background: linear-gradient(to bottom, #776b6a, #3f5150, #3f5150);
@@ -100,7 +100,10 @@ cursor: pointer;
   color: white;
   font-size: 24px;
   width: 55%;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway', sans-serif; /* Raleway yazı karakterini kullan */
+  font-weight: 700; 
+  font-style: italic; 
+  text-transform: uppercase; 
   text-align: end;
   line-height: 32px;
 

@@ -6,6 +6,8 @@ import  'swiper/css/effect-coverflow';
 import  'swiper/css/pagination';
 import  'swiper/css/navigation';
 import { EffectCoverflow, Pagination, Navigation } from 'swiper/modules';
+import instagramhidden from "./../Assets/Social/instagram (hidden).png";
+import twitterhidden from "./../Assets/Social/twitter (hidden).png";   
 import illustration from "../Assets/Illustration/Rectangle 2.3.png"
 import pageflow5 from "./../Assets/pageflow5.png";
 import animation from "../Assets/art/animation1.png"
@@ -15,6 +17,28 @@ const IIIustration = () => {
   
   return (
 <div className="div-container-body-iustration">
+<div className="fixedtopleft-ww">
+          <a href="#frame_art">Art</a>
+        </div>
+        <div className="fixedtopright-ww">
+          <a href="#frame_design">Design</a>
+        </div>
+        <div className="fixeddownleft-ww">
+          <a href="#frame_about">Info</a>
+        </div>
+        <div className="fixeddownright-ww">
+          <div class="social-right-down-ww">
+            <a href="#">
+              <img src={twitterhidden} alt="Twitter" />
+            </a>
+            <a href="#">
+              <img src={instagramhidden} alt="Instagram" />
+            </a>
+          </div>
+          <div class="c">
+            <a href="#frame_contact">Contact</a>
+          </div>
+        </div>
     <Swiper
     effect={'coverflow'}
     grabCursor= {true}
@@ -38,23 +62,18 @@ const IIIustration = () => {
     }}
     modules={[EffectCoverflow, Pagination, Navigation]}
     className='swiper_container'
-    initialSlide={2}
+    initialSlide={1}
     >
       <SwiperSlide>
       <img src={animation} alt="slide_image" />
       </SwiperSlide>
       <SwiperSlide>
-      <img src={animation2} alt="slide_image" />
-      </SwiperSlide>
-      <SwiperSlide>
-      <img src={animation3} alt="slide_image" />
+      <img src={animation} alt="slide_image" />
       </SwiperSlide>
       <SwiperSlide>
       <img src={animation} alt="slide_image" />
       </SwiperSlide>
-      <SwiperSlide>
-      <img src={animation2} alt="slide_image" />
-      </SwiperSlide>
+    
 
       <div className="slider-controler">
         <div className="swiper-pagination"></div>

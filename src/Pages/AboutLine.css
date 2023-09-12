@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:600');
+
 .container-Aline{
     padding: 49px 0px;
     display: flex;
@@ -15,16 +17,20 @@
 .indented-paragraph{
     display: flex;
     color: white;
-    width: 1126px;
-    margin: -6px 41px -22px 40px;
-    font-size: 21px;
+    width: 968px;
+    margin: -44px -31px -39px 40px;
+    font-size: 18px;
+    line-height: 30px;
     text-align: right;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    text-transform: uppercase;
 }
-.right-line-none{
+.right-line-none {
     display: flex;
     justify-content: end;
     background: gray;
-    padding: 59px 71px;
+    padding: 77px 71px;
     border-radius: 74px 0px 0px 74px;
 }
 @media (min-width:1400px) and (max-width:1699px){
@@ -33,6 +39,22 @@
         display: flex;
         justify-content: end;
         background: linear-gradient(to bottom, #3f5150, #638669, #638669);
+    }
+    .indented-paragraph {
+        display: flex;
+        color: white;
+        width: 939px;
+        margin: -32px 41px -36px 40px;
+        font-size: 17px;
+        line-height: 27px;
+        text-align: right;
+    }
+    .right-line-none {
+        display: flex;
+        justify-content: end;
+        background: gray;
+        padding: 60px 0px;
+        border-radius: 74px 0px 0px 74px;
     }
 
 }
