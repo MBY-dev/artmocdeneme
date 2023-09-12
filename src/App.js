@@ -13,6 +13,7 @@ import { useState } from 'react';
 import AboutLine from './Pages/AboutLine';
 import DesignLine from './Pages/DesignLine';
 import Partner from './Pages/Partner';
+import Artmoc2 from "./Assets/Artmoc Logo.png"
 function App() {
   return (
     <div className="App">
@@ -29,7 +30,9 @@ function App() {
        < Partner/>
        { <IIIustration />   }
         <ContactUs />
-        <div className='cont-footer'>boşluk</div>
+        <div className='cont-footer'>
+        <img className='global-img' src={Artmoc2} alt="" />
+        </div>
     </div>
   );
 }

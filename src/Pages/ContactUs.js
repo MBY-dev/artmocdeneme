@@ -5,6 +5,7 @@ import instagramhidden from "./../Assets/Social/instagram (hidden).png";
 import instagramuse from "./../Assets/Social/instagram (in use).png";
 import twitterhidden from "./../Assets/Social/twitter (hidden).png";
 import twitteruse from "./../Assets/Social/twitter (in use).png";
+import Artmoc2 from "./../Assets/Artmoc Logo.png"
 import { useState } from "react";
 
 const ContactUs = () => {
@@ -108,6 +109,9 @@ const ContactUs = () => {
           </div>
         </div>
       </div>
+      <div>
+      <img className="artmoc-global" src={Artmoc2} alt=""  />
+    </div>
     </div>
   );
 };

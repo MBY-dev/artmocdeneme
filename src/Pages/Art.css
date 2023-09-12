@@ -178,4 +178,14 @@
   .content-wrapper p {
     font-size: calc(100% + 87px);
 }
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  position: absolute;
+  gap: 3%;
+  height: 44%;
+  width: 69%;
+  left: 17%;
+  top: 25%;
+}
 }
