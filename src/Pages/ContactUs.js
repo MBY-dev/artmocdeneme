@@ -5,6 +5,7 @@ import instagramhidden from "./../Assets/Social/instagram (hidden).png";
 import instagramuse from "./../Assets/Social/instagram (in use).png";
 import twitterhidden from "./../Assets/Social/twitter (hidden).png";
 import twitteruse from "./../Assets/Social/twitter (in use).png";
+import contact from "./../Assets/contactUs/Social Media/call (hidden).png"
 import Artmoc2 from "./../Assets/Artmoc Logo.png"
 import { useState } from "react";
 
@@ -36,11 +37,9 @@ const ContactUs = () => {
       <div className="fixeddownright-cu">
         <div class="social-right-down-cu">
           <a href="#">
-            <img src={twitterhidden} alt="Twitter" />
+            <img src={contact} alt="contanct" />
           </a>
-          <a href="#">
-            <img src={instagramhidden} alt="Instagram" />
-          </a>
+         
         </div>
         <div class="c">
           <a href="#frame_contact">Contact</a>

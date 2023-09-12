@@ -172,8 +172,13 @@
   width: 100%;
   transition: top 0.0001s ease-in-out, font-size 0.1s ease-in-out;
 }
-
 }
+@media (max-height:1000px) {
+  .content-wrapper p {
+    font-size: calc(100% + 76px) !important;
+}
+}
+
 @media (min-width:1700px) {
   .content-wrapper p {
     font-size: calc(100% + 87px);
