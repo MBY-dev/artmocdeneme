@@ -5,23 +5,37 @@
     background: linear-gradient(to bottom, #6b6e7e, #40575d, #6b6e7e);
 }
 
-.left-Deline{
+.left-Deline {
     background: gray;
-    padding: 40px 40px 59px 0px;
+    padding: 61px 40px 62px 0px;
     border-radius: 0px 74px 74px 0px;
-    display: none;
 }
-.indented-paragraph-left{
+.indented-paragraph-left {
     display: flex;
     color: white;
-    width: 1126px;
-    margin: -6px 41px -22px 40px;
-    font-size: 21px;
-    text-align: right;
+    width: 901px;
+    margin: -30px 41px -22px 40px;
+    font-size: 18px;
+    text-align: left;
+    line-height: 1.8rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    text-transform: uppercase;
 }
 .left-line-none{
     display: flex;
     background: gray;
     padding: 59px 71px;
     border-radius: 0px 74px 74px 0px;
+}
+
+@media (min-width: 1400px) and (max-width: 1699px){}
+.indented-paragraph-left{
+    display: flex;
+    color: white;
+    width: 939px;
+    margin: -32px 41px -36px 40px;
+    font-size: 17px;
+    line-height: 27px;
+    text-align: right;
 }

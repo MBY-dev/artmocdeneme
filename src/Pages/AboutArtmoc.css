@@ -177,3 +177,100 @@
     }
   }
   
+  @media (min-width : 320px) and (max-width : 568px) {
+    .fixedtopleft-about {
+        position: absolute;
+        left: 39px;
+        font-size: 35px;
+        top: 31px;
+    }
+    .fixedtopright-about {
+        right: 30px;
+        font-size: 35px;
+        top: 31px;
+        position: absolute;
+    }
+    .fixeddownleft-about {
+        position: absolute;
+        bottom: 60px;
+        left: 39px;
+        font-size: 35px;
+    }
+    .fixeddownright-about {
+        position: absolute;
+        bottom: 60px;
+        right: 16px;
+    }
+    .leftscroll-about {
+        position: absolute;
+        height: 65%;
+        left: 41px;
+        top: 190px;
+    }
+    .artmoc-global {
+        width: 27%;
+        position: absolute;
+        left: 36%;
+        top: 7%;
+    }
+    a {
+        text-decoration: none;
+        font-family: Rubik;
+        color: #e2e1de;
+        line-height: 12px;
+        font-size: 15px;
+    }
+    .fixeddownright-about .social-right-down-about img {
+        width: 29px;
+        padding: 0px 10px 0px 0px;
+    }
+    .about-artmoc-container {
+        position: absolute;
+        left: 18%;
+        top: 8%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    .about-tittle-text img {
+        width: 181%;
+    }
+    .about-write {
+        position: absolute;
+        top: 30%;
+        left: 3px;
+        width: 82%;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 546;
+        font-size: 0px;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        color: white;
+    }
+    .about-write p {
+        font-size: 8px;
+        padding: 70px 0px 0px 0px;
+        line-height: 13px;
+        text-transform: uppercase;
+        text-align: justify;
+    }
+    .about-write img {
+        position: absolute;
+        width: 7%;
+        right: 4%;
+        bottom: -26%;
+        cursor: pointer;
+    }
+    .artmoc-monster {
+        position: absolute;
+        left: 23%;
+        top: 149%;
+        width: 500px;
+    }
+    .img-aboutmonster {
+        width: 27%;
+    }
+
+
+
+}

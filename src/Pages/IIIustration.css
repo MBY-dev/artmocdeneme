@@ -14,7 +14,7 @@
     height: 100vh !important;
     position: relative;
 } 
-.fixedtopleft-ww {
+.fixedtopleft-ws{
    position: absolute;
    left: 70px;
    font-size: 35px;
@@ -22,29 +22,73 @@
   
  }
  /*design*/
- .fixedtopright-ww {
+ .fixedtopright-ws {
    right: 70px;
    font-size:35px;
    top: 31px;
    position: absolute
  }
  /*info */
- .fixeddownleft-ww {
+ .fixeddownleft-ws {
    position: absolute;
    bottom: 60px;
    left: 70px;
    font-size: 35px;
  }
  /*contact*/
- .fixeddownright-ww {
+ .fixeddownright-ws{
    position: absolute;
    bottom: 70px;
    right: 70px;
  }
  /*contact img*/
- .fixeddownright-ww .social-right-down-ww img {
+ .fixeddownright-ws .social-right-down-ws img {
    width: 45px;
    padding: 0px 10px 0px 0px ;
+ }
+ .image-illu{ 
+      position: absolute;
+      top: -2%;
+      left: 4%;
+ }
+ .image-illu img{
+   width: 29rem;
+ }
+ .img-bottm{
+  
+      position: absolute;
+      top: 64%;
+      left: 5.5%;
+      text-align: justify;
+      width: 27%;
+      color: #D5D5D4;
+      line-height: 2rem;
+      font-size: 26px;
+      font-family: 'Raleway';
+ }
+ .img-user{
+   position: absolute;
+    top: 66%;
+    left: 58%;
+    color: #d5d5d5;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-style: italic;
+ }
+ .artmoc-global2{
+   width: 14%;
+    position: absolute;
+    left: 45%;
+ }
+ .arrow-turn{
+   position: absolute;
+   bottom: 7rem;
+   left: 5.5%;
+   z-index: 1;
+   cursor: pointer;
+ }
+ .arrow-turn img{
+   width: 3.5rem;
  }
 
 .heading{
@@ -77,10 +121,10 @@
 }
 
 .swiper-slide img {
-   width: 36rem !important; 
-   height: 30rem !important;
-   border-radius: 2rem !important;
-   object-fit: cover !important;
+   width: 36rem ; 
+   height: 30rem ;
+   border-radius: 2rem ;
+   object-fit: cover ;
 }
 
 .swiper-slide-shadow-left,
@@ -185,7 +229,7 @@
 .swiper.swiper_container.swiper-coverflow.swiper-3d.swiper-initialized.swiper-horizontal.swiper-watch-progress{
    width: 84% !important;
    top: 10%;
-   left: -2%;
+   left: 1%;
 }
 
 .swiper-pagination-fraction, .swiper-pagination-custom, .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal {
@@ -211,18 +255,138 @@
    .swiper.swiper_container.swiper-coverflow.swiper-3d.swiper-initialized.swiper-horizontal.swiper-watch-progress {
       width: 84% !important;
       top: 10%;
-      left: -7%;
+      left: -3%;
   }
   .swiper-pagination-fraction, .swiper-pagination-custom, .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal {
    bottom: var(--swiper-pagination-bottom, 8px);
    top: -12rem !important;
    left: 643px !important;
    width: 100%;
+   
 }
+.swiper-slide img {
+   width: 30rem !important;
+   height: 27rem !important;
+   border-radius: 2rem !important;
+   object-fit: cover !important;
+}
+.slider-controler {
+     bottom: 3rem !important; 
+     left: -2.5rem;
+}
+.img-user {
+   position: absolute;
+   top: 59%;
+   left: 60%;
+   color: #d5d5d5;
+   font-family: 'Raleway', sans-serif;
+   font-weight: 700;
+   font-style: italic;
+}
+.img-bottm {
+   position: absolute;
+   top: 57%;
+   left: 14.5%;
+   text-align: justify;
+   width: 23%;
+   color: #D5D5D4;
+   line-height: 2rem;
+   font-size: 18px;
+   font-family: 'Raleway';
+}
+.image-illu {
+   position: absolute;
+   top: -1%;
+   left: 13%;
+}
+.image-illu img {
+   width: 20rem;
+}
+.arrow-turn img {
+   width: 3rem !important;
+}
+.arrow-turn {
+   position: absolute;
+   bottom: 12rem;
+   left: 14.5%;
+   z-index: 1;
+   cursor: pointer;
+}
+
 }
 @media (min-width:1700px) {
    .swiper.swiper_container.swiper-coverflow.swiper-3d.swiper-initialized.swiper-horizontal.swiper-watch-progress {
-      top: 19%;
+      top: 13%;
   }
+
+}
+
+@media (min-width : 320px) and (max-width : 568px) {
+   .fixedtopleft-ws {
+       position: absolute;
+       left: 39px;
+       font-size: 35px;
+       top: 31px;
+   }
+   .fixedtopright-ws{
+       font-size: 35px;
+       right: 30px;
+       top: 31px;
+       position: absolute;
+   }
+   .fixeddownleft-ws {
+       position: absolute;
+       bottom: 60px;
+       left: 39px;
+       font-size: 35px;
+   }
+   .fixeddownright-ws {
+       position: absolute;
+       bottom: 60px;
+       right: 16px;
+   }
+   .leftscroll-ws {
+       position: absolute;
+       height: 65%;
+       left: 41px;
+       top: 190px;
+   }
+   .artmoc-global {
+       width: 27%;
+       position: absolute;
+       left: 36%;
+       top: 7%;
+   }
+   
+   a {
+       text-decoration: none;
+       font-family: Rubik;
+       color: #e2e1de;
+       line-height: 12px;
+       font-size: 15px;
+   }
+   .fixeddownright-ws .social-right-down-ws img {
+       width: 29px;
+       padding: 0px 10px 0px 0px;
+   }
+   .swiper.swiper_container.swiper-coverflow.swiper-3d.swiper-initialized.swiper-horizontal.swiper-watch-progress {
+      width: 154% !important;
+      top: 23%;
+      left: -1%;
+  }
+  .swiper-slide img {
+   width: 15rem !important;
+   height: 15rem !important;
+   border-radius: 2rem !important;
+   object-fit: cover !important;
+}
+
+.slider-controler {
+   right: 39rem;
+   position: relative !important;
+   bottom: 13rem !important;
+   display: flex !important;
+}
+
 
 }

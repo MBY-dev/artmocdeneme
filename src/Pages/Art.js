@@ -44,12 +44,15 @@ const Art = () => {
             <a href="#frame_contact">Contact</a>
           </div>
         </div>
+        
         <div className="grid-container">
+        <p className="art-header">Art</p>
         <div className="grid-item">
     <div className="content-wrapper">
       <img src={animation1} alt="pageflow" />
         <p>Illustration</p>
     </div>
+    
   </div>
   <div class="grid-item">
     <div className="content-wrapper">

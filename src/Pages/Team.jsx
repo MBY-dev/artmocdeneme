@@ -8,6 +8,7 @@ import instagramhidden from "./../Assets/Social/instagram (hidden).png";
 import twitterhidden from "./../Assets/Social/twitter (hidden).png";    
 import teamsphoto from "../Assets/Teams/PHOTO FRAME.png"
 import imagedegisti from "../Assets/art/animation1.png"
+import arrowReturn from "../Assets/PAGE ARROWS/arrow return (in use).png"
 
 const Team = () => {
 
@@ -62,6 +63,12 @@ const Team = () => {
           <a href="#frame_contact">Contact</a>
         </div>
       </div>
+      <p className='team-header'>Team</p>
+      <div className='team-turn'>
+        <a href="#">
+        <img src={arrowReturn} alt="" />
+        </a>
+      </div>
       
      <Box>
       <TabContext value={value}>
@@ -76,7 +83,7 @@ const Team = () => {
               <div className='teams-info'>
                 <h2 className='teams-header'>Full name</h2>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi similique accusamus aut, molestias, quasi temporibus voluptate beatae ea possimus neque hic!
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. !
                 </p>
               </div>
             </div>
@@ -91,7 +98,7 @@ const Team = () => {
               <div className='teams-info'>
                 <h2 className='teams-header'>Full name2</h2>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi similique accusamus aut, molestias, quasi temporibus voluptate beatae ea possimus neque hic!
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. !
                 </p>
               </div>
             </div>
@@ -106,7 +113,7 @@ const Team = () => {
               <div className='teams-info'>
                 <h2 className='teams-header'>Full name3</h2>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi similique accusamus aut, molestias, quasi temporibus voluptate beatae ea possimus neque hic!
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. !
                 </p>
               </div>
             </div>
@@ -121,7 +128,7 @@ const Team = () => {
               <div className='teams-info'>
                 <h2 className='teams-header'>Full name4</h2>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi similique accusamus aut, molestias, quasi temporibus voluptate beatae ea possimus neque hic!
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. !
                 </p>
               </div>
             </div>
@@ -136,7 +143,7 @@ const Team = () => {
               <div className='teams-info'>
                 <h2 className='teams-header'>Full name5</h2>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi similique accusamus aut, molestias, quasi temporibus voluptate beatae ea possimus neque hic!
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.!
                 </p>
               </div>
             </div>
@@ -151,7 +158,7 @@ const Team = () => {
               <div className='teams-info'>
                 <h2 className='teams-header'>Full name6</h2>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi similique accusamus aut, molestias, quasi temporibus voluptate beatae ea possimus neque hic!
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. !
                 </p>
               </div>
             </div>

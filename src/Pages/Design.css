@@ -65,7 +65,11 @@
   transform: translate(0, 100%);
 }
 
-
+.design-img{
+  position: absolute;
+  left: 12.6%;
+  top: 18%;
+}
 
 .container {
   display: grid;
@@ -106,10 +110,10 @@
 
 @media screen and (min-width:1700px){
   .container {
-    width: 83%;
-    top: 21%;
+    width: 78%;
+    top: 28%;
     height: 33em;
-    left: 12em;
+    left: 15em;
 }
   .box {
    width: 100%;
@@ -129,10 +133,18 @@
     grid-template-rows: repeat(2, 1fr);
     gap: 4em;
     width: 71em;
-    top: 11em;
+    top: 13em;
     height: 25em;
-    left: 15em;
+    left: 16em;
     position: absolute;
     cursor: pointer;
+}
+.design-img {
+  position: absolute;
+  left: 15.6%;
+  top: 15%;
+}
+.design-img img{
+  width: 15rem;
 }
 }

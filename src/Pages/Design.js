@@ -15,6 +15,7 @@ import motion from "./../Assets/Design/Motion.png"
 import printing from "./../Assets/Design/Printing.png"
 import uıx from "./../Assets/Design/UIxUX.png"
 import Artmoc2 from "./../Assets/Artmoc Logo.png"
+import headerDesign from "../Assets/Design/DESIGN TITLE.png"
 
 const Design = () => {
   return (
@@ -45,9 +46,11 @@ const Design = () => {
           <div class="c">
             <a href="#frame_contact">Contact</a>
           </div>
+        </div>  
+        <div className="design-img">
+          <img src={headerDesign} alt="" />
+          </div>
        
-       
-        </div>
         <div class="container">
              <div class="box">
                 <h3>GRAPHİC</h3>

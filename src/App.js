@@ -28,7 +28,7 @@ function App() {
          <News />  
        <AboutArtmoc />
        { <IIIustration />   }
-        {/* <Team />   */}
+        { <Team />   }
        <AboutLine />
         <Art  /> 
       {/* <IIIustration />  */}

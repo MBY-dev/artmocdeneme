@@ -18,7 +18,7 @@
   position: absolute;
   height: 100%;
   left: 70px;
-  top: 15%;
+  top: 20%;
 }
 .leftscroll-art img{
   position: absolute;
@@ -113,14 +113,21 @@
   width: 100%;
   height: 100%;
 }
+.art-header{
+  position: absolute;
+  font-size: 75px;
+  top: -32%;
+  font-style: revert;
+  color: white;
+}
 
 .grid-item:hover {
   overflow: visible; /* İmleç resmin üstüne gelindiğinde overflow'u visible yap */
 }
 .grid-item:hover .content-wrapper p {
   /* Diğer stil ayarları */
-  left: 8px;
-  font-size: 425%;
+  left: -5px;
+  font-size: 425% !important;
   transform: none;
   writing-mode: unset;
   top: 100%;
@@ -165,7 +172,7 @@
 }
 .grid-item:hover .content-wrapper p {
   left: 8px;
-  font-size: 342%;
+  font-size: 342% !important;
   transform: none;
   writing-mode: unset;
   top: 100%;
@@ -173,24 +180,20 @@
   transition: top 0.0001s ease-in-out, font-size 0.1s ease-in-out;
 }
 }
-@media (max-height:1000px) {
-  .content-wrapper p {
-    font-size: calc(100% + 76px) !important;
-}
-}
+
 
 @media (min-width:1700px) {
   .content-wrapper p {
-    font-size: calc(100% + 87px);
+    font-size: calc(100% + 75px);
 }
 .grid-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   position: absolute;
   gap: 3%;
-  height: 44%;
-  width: 69%;
-  left: 17%;
-  top: 25%;
+  height: 45%;
+  width: 72%;
+  left: 13.5%;
+  top: 33%;
 }
 }
