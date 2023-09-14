@@ -125,7 +125,110 @@ header {
   width: 30px;
   height: 30px;
 }
+@media (min-width:320px) and (max-width:568px) {
+  .fixedtopleft-ww {
+    position: absolute;
+    left: 39px;
+    font-size: 35px;
+    top: 31px;
+}
+.fixedtopright-ww {
+    right: 30px;
+    font-size: 35px;
+    top: 31px;
+    position: absolute;
+}
+.fixeddownleft-ww {
+    position: absolute;
+    bottom: 60px;
+    left: 39px;
+    font-size: 35px;
+}
+.fixeddownright-ww {
+    position: absolute;
+    bottom: 60px;
+    right: 16px;
+}
+.leftscroll-ww {
+    position: absolute;
+    height: 65%;
+    left: 41px;
+    top: 190px;
+}
 
+a {
+    text-decoration: none;
+    font-family: Rubik;
+    color: #e2e1de;
+    line-height: 12px;
+    font-size: 15px;
+}
+.fixeddownright-ww .social-right-down-ww img {
+    width: 29px;
+    padding: 0px 10px 0px 0px;
+}
+.container-ww {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  gap: 0em;
+  height: auto !important;
+  top: 15%;
+  width: 70%;
+  left: 20%;
+}
+.with-header header {
+  padding: 0px 0px 89px;
+  font-size: 28px;
+  color: white;
+}
+.content {
+  margin-top: -86px;
+}
+.container-ww p {
+  margin: 10px 0;
+  padding: 0px 0px 1px;
+  cursor: text;
+  color: white;
+  font-size: 9px;
+  position: relative;
+  z-index: 1;
+}
+.container-ww p:before {
+  content: '';
+  position: absolute;
+  top: -3px;
+  left: -6px;
+  bottom: -10px;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.8);
+  pointer-events: none;
+  width: 10px;
+  height: 10px;
+  z-index: 0;
+}
+.without-header header, .without-header p {
+  text-align: end;
+}
+.without-header p:before {
+  text-align: end;
+  content: '';
+  position: absolute;
+  top: -3px;
+  left: 97%;
+  right: -10px;
+  bottom: -10px;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.8);
+  pointer-events: none;
+  width: 10px;
+  height: 10px;
+}
+
+
+}
 
 @media screen and (min-width: 1700px)  {
   .without-header p:before{

@@ -58,3 +58,31 @@
     }
 
 }
+@media (min-width:320px) and (max-width:568px) {
+    .container-Aline {
+        padding: 0px 0px; 
+        display: flex;
+        justify-content: end;
+        background: linear-gradient(to bottom, #3f5150, #638669, #638669);
+    }
+    .right-line-none {
+        display: flex;
+        justify-content: end;
+        background: gray;
+        padding: 49px 0px;
+        border-radius: 0px 0px 0px 0px; 
+    }
+    .indented-paragraph {
+        display: flex;
+        color: white;
+        width: 88%;
+        margin: -40px 25px -31px 1px;
+        font-size: 10px;
+        line-height: 20px;
+        text-align: start;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 100;
+        text-transform: uppercase;
+    }
+
+}

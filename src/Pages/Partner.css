@@ -16,3 +16,23 @@
 .partner-icon img{
     width: 124px;
 }
+@media (min-width:320px) and (max-width:568px) {
+    .container-partner {
+        padding: 53px 0px;
+        display: flex;
+        justify-content: center;
+        gap: 43px;
+        background: linear-gradient(180deg, #5C7A89 3.17%, rgba(92, 122, 137, 0.80) 23.58%, rgba(92, 122, 137, 0.69) 51.85%, rgba(92, 122, 137, 0.80) 79.33%, #5C7A89 93.47%) !important;
+    }
+    .partner-icon {
+        padding: 6px 8px 6px 8px;
+        display: flex;
+        border-radius: 1000px 1000px 591px 590px;
+        align-items: center;
+        background-color: rgb(179 179 179);
+        position: relative;
+    }
+    .partner-icon img {
+        width: 63px;
+    }
+}

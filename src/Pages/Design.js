@@ -77,8 +77,8 @@ const Design = () => {
                 <h3>PRINTING</h3>
              </div>
   </div>
-  <div>
-      <img className="artmoc-global" src={Artmoc2} alt=""  />
+  <div className="artmoc-global-d1">
+      <img className="artmoc-global-d" src={Artmoc2} alt=""  />
     </div>
     </div>
   );

@@ -107,7 +107,15 @@
   transform: rotate(-180deg);
   pointer-events: none;
 }
-
+.artmoc-global-d1{
+    position: absolute;
+    top: 3%;
+    left: 47%;
+}
+.artmoc-global-d {
+  width: 56%;
+  top: 1%;
+}
 @media screen and (min-width:1700px){
   .container {
     width: 78%;
@@ -146,5 +154,102 @@
 }
 .design-img img{
   width: 15rem;
+}
+}
+
+@media (min-width:320px) and (max-width:1200px) {
+  
+  .fixedtopleft-d{
+    position: absolute;
+    left: 39px;
+    font-size: 35px;
+    top: 31px;
+}
+.fixedtopright-d {
+    right: 30px;
+    font-size: 35px;
+    top: 31px;
+    position: absolute;
+}
+.fixeddownleft-d {
+    position: absolute;
+    bottom: 60px;
+    left: 39px;
+    font-size: 35px;
+}
+.fixeddownright-d {
+    position: absolute;
+    bottom: 60px;
+    right: 16px;
+}
+.leftscroll-d {
+    position: absolute;
+    height: 65%;
+    left: 41px;
+    top: 190px;
+}
+.artmoc-global-d1{
+  width: 47%;
+  position: absolute;
+  left: 38%;
+  top: 0%;
+}
+
+.design-img {
+  position: absolute;
+  left: 40.6%;
+  top: 11%;
+}
+.design-img img{
+  width: 37%;
+}
+  
+  .container {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1em;
+    width: 65%;
+    left: 20%;
+    top: 17%;
+    position: absolute;
+    cursor: pointer;
+}
+.fixeddownright-d .social-right-down-d img {
+  width: 29px;
+  padding: 0px 10px 0px 0px;
+}
+.box h3 {
+  position: absolute;
+  writing-mode: vertical-rl;
+  left: 4px;
+  height: 100%;
+  border-radius: 24px;
+  top: -2%;
+  border-radius: 24px;
+  font-size: calc(100% + 4px);
+  color: white;
+  transform: rotate(-180deg);
+  pointer-events: none;
+}
+}
+
+@media (min-width:355px) and (max-width:1200px) {
+
+  .artmoc-global-d1 {
+    width: 51%;
+    top: 4%;
+}
+.design-img {
+  left: 37.6%;
+  top: 13%;
+}
+.design-img img {
+  width: 48%;
+}
+.container {
+
+  top: 23%;
+  
 }
 }

@@ -166,7 +166,7 @@ cursor: pointer;
 
 }
 
-@media (min-width : 320px) and (max-width : 568px) {
+@media (min-width : 320px) and (max-width : 385px) {
   .fixedtopleft-news {
       position: absolute;
       left: 39px;
@@ -254,6 +254,100 @@ cursor: pointer;
   text-transform: uppercase;
   text-align: end;
   line-height: 14px;
+  top: 60px;
+}
+
+
+
+}
+@media (min-width : 387px) and (max-width : 550px) {
+  .fixedtopleft-news {
+      position: absolute;
+      left: 39px;
+      font-size: 35px;
+      top: 31px;
+  }
+  .fixedtopright-news {
+      right: 30px;
+      font-size: 35px;
+      top: 31px;
+      position: absolute;
+  }
+  .fixeddownleft-news {
+      position: absolute;
+      bottom: 60px;
+      left: 39px;
+      font-size: 35px;
+  }
+  .fixeddownright-news {
+      position: absolute;
+      bottom: 60px;
+      right: 16px;
+  }
+  .leftscroll-news {
+      position: absolute;
+      height: 65%;
+      left: 41px;
+      top: 35%;
+  }
+  .artmoc-global {
+      width: 27%;
+      position: absolute;
+      left: 36%;
+      top: 7%;
+  }
+  a {
+      text-decoration: none;
+      font-family: Rubik;
+      color: #e2e1de;
+      line-height: 12px;
+      font-size: 15px;
+  }
+  .fixeddownright-news .social-right-down-news img {
+      width: 29px;
+      padding: 0px 10px 0px 0px;
+  }
+  .news-frame-newstittle {
+    position: absolute;
+    left: 34%;
+    top: 24%;
+}
+.news-frame-newstittle img {
+  width: 120px;
+}
+.container-news {
+  position: absolute;
+  left: 18%;
+  width: 82%;
+  top: 35%;
+  height: 64%;
+}
+.container-news table {
+  width: 82%;
+  height: 71%;
+  background: #979696;
+  border-radius: 50px;
+}
+.container-news table img {
+  width: 27px !important;
+  right: 55%;
+  top: 42%;
+  position: absolute;
+  cursor: pointer;
+}
+.container-news p {
+  position: absolute;
+  right: 15%;
+  color: white;
+  font-size: 13px;
+  width: 78%;
+  height: 26%;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  text-transform: uppercase;
+  text-align: start;
+  line-height: 24px;
   top: 60px;
 }
 

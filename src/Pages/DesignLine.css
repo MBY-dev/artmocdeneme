@@ -39,3 +39,21 @@
     line-height: 27px;
     text-align: right;
 }
+@media (min-width:320px) and (max-width:568px) {
+    .left-Deline {
+        display: flex;
+        justify-content: end;
+        background: gray;
+        padding: 49px 0px;
+        border-radius: 0px 0px 0px 0px;
+    }
+    .indented-paragraph-left {
+        display: flex;
+        color: white;
+        width: 88%;
+        margin: -40px 25px -31px 1px;
+        font-size: 10px;
+        line-height: 20px;
+        text-align: start;
+    }
+}

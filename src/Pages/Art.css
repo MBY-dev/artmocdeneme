@@ -197,3 +197,135 @@
   top: 33%;
 }
 }
+@media (min-width : 320px) and (max-width:1200px)   {
+  .fixedtopleft-art {
+      position: absolute;
+      left: 39px;
+      font-size: 35px;
+      top: 31px;
+  }
+  .fixedtopright-art {
+      right: 30px;
+      font-size: 35px;
+      top: 31px;
+      position: absolute;
+  }
+  .fixeddownleft-art {
+      position: absolute;
+      bottom: 60px;
+      left: 39px;
+      font-size: 35px;
+  }
+  .fixeddownright-art {
+      position: absolute;
+      bottom: 60px;
+      right: 16px;
+  }
+  .leftscroll-art {
+      position: absolute;
+      height: 65%;
+      left: 41px;
+      top: 190px;
+  }
+  a {
+      text-decoration: none;
+      font-family: Rubik;
+      color: #e2e1de;
+      line-height: 12px;
+      font-size: 15px;
+  }
+  .fixeddownright-art .social-right-down-art img {
+      width: 29px;
+      padding: 0px 10px 0px 0px;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    position: absolute;
+    gap: 7%;
+    height: 58%;
+    width: 69%;
+    left: 17%;
+    top: 22%;
+}
+.art-header {
+  position: absolute;
+  font-size: 37px;
+  left: 39%;
+  top: -17%;
+  font-style: revert;
+  color: white;
+}
+.grid-item {
+  height: 94%;
+}
+.grid-item img {
+  border-radius: 24px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.content-wrapper p {
+  position: absolute;
+  writing-mode: vertical-rl;
+  left: -2px;
+  border-radius: 24px;
+  color: white;
+  transform: rotate(-180deg);
+  font-size: calc(100% + 20px);
+  line-height: 0.8;
+  text-align: start;
+  font-family: system-ui;
+  height: 100%;
+}
+.artmoc-global {
+  width: 27%;
+  position: absolute;
+  left: 39%;
+  top: 5%;
+}
+.grid-item:hover .content-wrapper p {
+  font-size: 130% !important;
+  left: 3%;
+
+}
+}
+@media (min-width:355px)  and (max-width:1200px) {
+  .leftscroll-art {
+    top: 223px;
+}
+.art-header {
+  font-size: 51px;
+  left: 35%;
+  top: -15%;
+}
+.content-wrapper p {
+  font-size: calc(100% + 24px);
+}
+.grid-item:hover .content-wrapper p {
+
+  font-size: 145% !important;
+
+}
+}
+
+@media (min-width:385px)  and (max-width:1200px) {
+  .content-wrapper p {
+    font-size: calc(100% + 30px);
+}
+.grid-item:hover .content-wrapper p {
+  left: 4%;
+}
+}
+
+@media (min-width:410px) and (max-width:1200px) {
+.content-wrapper p {
+    font-size: calc(100% + 32px);
+}
+.grid-item:hover .content-wrapper p {
+
+  font-size: 165% !important;
+
+}
+
+}
