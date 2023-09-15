@@ -268,7 +268,7 @@ width: 30%;
 
 }
 
-@media (min-width:320px) and (max-width:568px) {
+@media (min-width:320px) and (max-width:1200px) {
   .fixedtopleft-cu {
     position: absolute;
     left: 39px;
@@ -296,19 +296,23 @@ width: 30%;
     position: absolute;
     height: 65%;
     left: 41px;
-    top: 27%;
+    top: 21%;
 }
 
 .fixeddownright-cu .social-right-down-cu img {
   width: 37px;
   padding: 0px 0px 0px 11px;
 }
+.artmoc-global {
+  width: 33%;
+  left: 33%;
+}
   .container2-position {
     position: absolute;
-    left: 26%;
+    left: 24%;
     width: 100%;
     height: auto;
-    top: 38%;
+    top: 33%;
 }
 .container2 {
   display: flex;
@@ -325,7 +329,7 @@ width: 30%;
     position: relative;
 }
 .section.left-section {
-  width: 49%;
+  width: 60%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -342,10 +346,10 @@ width: 30%;
 }
 .content2 .input-group input {
   position: absolute;
-  /* height: 5%; */
-  width: 47%;
+
+  width: 59%;
   font-size: 16px;
-   padding: 4px 0px 0px 0px; 
+  padding: 4px 0px 0px 0px; 
   border-radius: 24px;
   background-color: rgba(200, 200, 200, 0.3);
   left: 1%;
@@ -354,7 +358,7 @@ width: 30%;
   background-color: rgba(200, 200, 200, 0.3);
   border-radius: 24px;
   height: 63px;
-  width: 100%;
+  width: 103%;
   padding: 10px;
   color: white;
 }
@@ -369,7 +373,7 @@ button.submit-button {
   transition: background-color 0.3s;
   margin-top: 10px;
   width: 105px;
-  left: 10%;
+  left: 14%;
   top: 80%;
 }
 .content2 .input-group textarea::placeholder {
@@ -390,21 +394,21 @@ button.submit-button {
   position: relative;
 }
 .section.right-section {
-  width: 49%;
+  width: 61%;
   line-height: 6px;
 }
 .global-img {
-  width: 200px;
-  position: absolute;
-  top: -52%;
-  left: 26%;
+    width: 180px;
+    position: absolute;
+    top: -74%;
+   left: 25%;
 }
 .flex-social {
   display: flex;
   justify-content: center;
   position: absolute;
-  left: 33%;
-  top: 9%;
+  left: 30%;
+  top: -7%;
 }
 .flex-icon {
   width: 18px;
@@ -419,22 +423,86 @@ button.submit-button {
 .cont-footer p {
   position: absolute;
   font-size: 11px;
-  left: 29.5%;
+  left: 25.5%;
   color: white;
-  top: 39%;
+  top: 25%;
 }
 .up-arrow {
   position: absolute;
   top: 51%;
-  right: -58%;
+  right: -68%;
   cursor: pointer;
 }
 .up-arrow img {
-  width: 10%;
+  width: 8%;
+}
 }
 
-
+@media (min-width:355px) and (max-width:1200px) {
+  .content2 .input-group textarea {
+    width: 117%;
+}
+.container2-position {
+  left: 19%;
+}
+button.submit-button {
+  width: 105px;
+  left: 16%;
+}
+.up-arrow {
+  right: -61%;
+}
+}
+ @media (min-width:375px) and (max-width:1200px) {
+  .artmoc-global {
+    left: 39%;  
+}
+.content2 .input-group textarea {
+  width: 120%;
+}
+button.submit-button {
+  width: 105px;
+  
+ }
+ .global-img {
+  top: -75%;
+  left: 26%;
+}
+.flex-social {
+  left: 32%;
+  top: -8%;
+}
+.cont-footer p {
+  left: 29.5%;
+  top: 25%;
+}
 }
 
+@media (min-width:385px) and (max-width:1200px) {
+  .content2 .input-group textarea {
+    width: 127%;
+}
+button.submit-button {
+  left: 17.5%;
+}
+.container2-position {
+  top: 34.5%;
+}
+.content2 .input-group {
 
- 
+  padding: 19px 0px 20px 0px;
+
+}
+.content2 .input-group input {
+  position: absolute;
+  width: 59%;
+  font-size: 16px;
+  padding: 6px 0px 6px 0px;
+  border-radius: 24px;
+  background-color: rgba(200, 200, 200, 0.3);
+  left: 1%;
+}
+.up-arrow {
+  right: -13.6rem;
+}
+}

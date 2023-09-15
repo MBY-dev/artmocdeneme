@@ -125,7 +125,7 @@ header {
   width: 30px;
   height: 30px;
 }
-@media (min-width:320px) and (max-width:568px) {
+@media (min-width:320px) and (max-width:1200px) {
   .fixedtopleft-ww {
     position: absolute;
     left: 39px;
@@ -173,13 +173,13 @@ a {
   position: absolute;
   gap: 0em;
   height: auto !important;
-  top: 15%;
+  top: 13%;
   width: 70%;
   left: 20%;
 }
 .with-header header {
-  padding: 0px 0px 89px;
-  font-size: 28px;
+  padding: 0px 0px 76px;
+  font-size: 24px;
   color: white;
 }
 .content {
@@ -190,10 +190,17 @@ a {
   padding: 0px 0px 1px;
   cursor: text;
   color: white;
-  font-size: 9px;
+  font-family: unset;
+  font-size: 8.5px;
   position: relative;
   z-index: 1;
 }
+header {
+  padding: 0px 0px 74px;
+  font-size: 27px;
+  color: white;
+}
+
 .container-ww p:before {
   content: '';
   position: absolute;
@@ -208,6 +215,11 @@ a {
   height: 10px;
   z-index: 0;
 }
+.artmoc-global {
+  top: 6%;
+}
+
+
 .without-header header, .without-header p {
   text-align: end;
 }
@@ -226,8 +238,39 @@ a {
   width: 10px;
   height: 10px;
 }
+}
+@media (min-width:355px) and (max-width:1200px) {
+  .with-header header {
+    font-size: 31px;
+}
+.container-ww p {
+  font-size: 10px;
+  z-index: 1;
+}
+header {
+  font-size: 31px;
+}
+}
 
+@media (min-width:370px) and (max-width:1200px) {
+  .container-ww p {
+    font-size: 9.6px;
+    line-height: 13px;
+    font-family: "Raleway";
+}
+}
 
+@media (min-width:385px) and (max-width:1200px) {
+  .container-ww p {
+    font-size: 11.6px;
+    line-height: 14px;
+}
+}
+@media (min-width:413px) and (max-width:414px) {
+  .container-ww p {
+    font-size: 10.6px;
+    line-height: 16px;
+}
 }
 
 @media screen and (min-width: 1700px)  {

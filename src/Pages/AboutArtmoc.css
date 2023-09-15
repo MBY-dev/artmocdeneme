@@ -267,6 +267,7 @@
         width: 7%;
         right: 4%;
         bottom: -26%;
+        z-index: 1;
         cursor: pointer;
     }
     .artmoc-monster {
@@ -374,6 +375,7 @@
         right: 0%;
         bottom: -26%;
         cursor: pointer;
+        z-index: 1;
     }
     .artmoc-monster {
         position: absolute;
