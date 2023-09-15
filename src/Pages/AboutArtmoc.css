@@ -326,13 +326,7 @@
         left: 36%;
         top: 7%;
     }
-    a {
-        text-decoration: none;
-        font-family: Rubik;
-        color: #e2e1de;
-        line-height: 12px;
-        font-size: 15px;
-    }
+    
     .fixeddownright-about .social-right-down-about img {
         width: 29px;
         padding: 0px 10px 0px 0px;
@@ -390,4 +384,47 @@
 
 
 }
+@media (min-width:700px) and (max-width:1200px) {
+    .fixeddownright-about .social-right-down-about img {
+        width: 45px;
+        padding: 0px 10px 0px 0px;
+    }
+    .about-artmoc-container {
+        left: 14%;
+        top: 16vh;
+    }
+    .about-tittle-text .about-header img {
+        width: 178%;
+    }
+    .about-write {
+        top: 30%;
+        left: 10px;
+        width: 82%;
+        font-size: 0px;
+    }
+    .about-write p {
+        font-size: 16px;
+        line-height: 27px;
+    }
+    .artmoc-monster {
+        left: 25%;
+        top: 204%;
+        width: 500px;
+    }
+    .img-aboutmonster {
+        width: 49%;
+    }
+    .about-write img {
+        width: 8% !important;
+        right: 0%;
+    }
+    .leftscroll-about {
+        position: absolute;
+        height: 85%;
+        left: 51px;
+        top: 175px;
+    }
+
+}
+
 

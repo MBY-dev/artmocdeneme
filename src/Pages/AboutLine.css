@@ -86,3 +86,12 @@
     }
 
 }
+
+@media (min-width:700px) and (max-width:1200px) {
+    .indented-paragraph {
+        width: 714px;
+        margin: -44px -31px -39px 40px;
+        font-size: 18px;
+        line-height: 30px;
+}
+}

@@ -112,17 +112,50 @@ a:hover {
         left: 36%;
         top: 7%;
     }
-    a {
-        text-decoration: none;
-        font-family: Rubik;
-        color: #e2e1de;
-        line-height: 12px;
-        font-size: 15px;
-    }
+    
     .fixeddownright-artmoc .social-right-down-artmoc img {
         width: 29px;
         padding: 0px 10px 0px 0px;
     }
 
+}
+
+@media (min-width:700px) and (max-width:1200px) {
+    .fixeddownright-artmoc {
+        bottom: 100px;
+        right: 44px;
+    }
+    a {
+        font-size: 27px !important;
+    }
+    .fixedtopleft-artmoc {
+        position: absolute;
+        left: 39px;
+        font-size: 35px;
+        top: 31px;
+    }
+    .fixedtopright-artmoc {
+        right: 30px;
+        font-size: 35px;
+        top: 31px;
+        position: absolute;
+    }
+    .fixeddownleft-artmoc {
+        position: absolute;
+        bottom: 60px;
+        left: 39px;
+        font-size: 35px;
+    }
+    .fixeddownright-artmoc {
+        position: absolute;
+        bottom: 60px;
+        right: 16px;
+    }
+    .leftscroll-moc {
+        position: absolute;
+        height: 85%;
+        left: 51px;
+        top: 210px;
+    }
 }
 

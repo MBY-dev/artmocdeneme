@@ -506,3 +506,23 @@ button.submit-button {
   right: -13.6rem;
 }
 }
+@media (min-width:500px) and (max-width:1200px) {
+  .content2 .input-group textarea {
+    width: 173%;
+    height: 69px;
+
+}
+button.submit-button {
+  left: 21.5%;
+}
+.global-img {
+  top: -81%;
+  left: 34%;
+}
+.flex-social {
+  left: 38%;
+}
+.cont-footer p {
+  left: 36.5%;
+}
+}

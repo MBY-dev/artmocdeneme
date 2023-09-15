@@ -57,3 +57,10 @@
         text-align: start;
     }
 }
+@media (min-width:700px) and (max-width:1200px) {
+    .indented-paragraph-left {
+        width: 738px;
+        margin: -32px 0px -36px 17px;
+        font-size: 16px;
+}
+}
