@@ -52,10 +52,10 @@ const Team = () => {
       </div>
       <div className="fixeddownright-team">
         <div className="social-right-down-team">
-          <a href="#">
+          <a href="/">
             <img src={twitterhidden} alt="Twitter" />
           </a>
-          <a href="#">
+          <a href="/">
             <img src={instagramhidden} alt="Instagram" />
           </a>
         </div>
@@ -65,7 +65,7 @@ const Team = () => {
       </div>
       <p className='team-header'>Team</p>
       <div className='team-turn'>
-        <a href="#">
+        <a href="/">
         <img src={arrowReturn} alt="" />
         </a>
       </div>

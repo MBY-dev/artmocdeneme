@@ -21,11 +21,11 @@ const Artmoc = () => {
         <a href="#frame_about">Info</a>
       </div>
       <div className="fixeddownright-artmoc">
-        <div class="social-right-down-artmoc">
-          <a href="#">
+        <div className="social-right-down-artmoc">
+          <a href="/">
             <img src={twitterhidden} alt="Twitter" />
           </a>
-          <a href="#">
+          <a href="/">
             <img src={instagramhidden} alt="Instagram" />
           </a>
         </div>

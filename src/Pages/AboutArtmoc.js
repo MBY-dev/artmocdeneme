@@ -2,10 +2,10 @@ import React from "react";
 import "./AboutArtmoc.css";
 import pageflow3 from "./../Assets/pageflow3.png";
 import instagramhidden from "./../Assets/Social/instagram (hidden).png";
-import instagramuse from "./../Assets/Social/instagram (in use).png";
+// import instagramuse from "./../Assets/Social/instagram (in use).png";
 import twitterhidden from "./../Assets/Social/twitter (hidden).png";
-import twitteruse from "./../Assets/Social/twitter (in use).png";
-import aboutText from "./../Assets/aboutArtmoc/About ARTMOC Text.png"
+// import twitteruse from "./../Assets/Social/twitter (in use).png";
+// import aboutText from "./../Assets/aboutArtmoc/About ARTMOC Text.png"
 import aboutTittle from "./../Assets/aboutArtmoc/About ARTMOC Title.png"
 import aboutMonster from "./../Assets/aboutArtmoc/MONSTER.png"
 import nextPage from "./../Assets/newsPage/arrow forward (hidden).png"
@@ -25,11 +25,11 @@ const AboutArtmoc = () => {
             <a href="#frame_about">Info</a>
           </div>
           <div className="fixeddownright-about">
-             <div class="social-right-down-about">
-            <a href="#">
+             <div className="social-right-down-about">
+            <a href="/">
               <img src={twitterhidden} alt="Twitter" />
             </a>
-            <a href="#">
+            <a href="/">
               <img src={instagramhidden} alt="Instagram" />
             </a>
           </div> 
@@ -47,7 +47,7 @@ const AboutArtmoc = () => {
          <div className="about-header">
          <img src={aboutTittle} alt="Instagram" />
          <div  className="about-write">
-          <p >Artmoc ıs a production company focused on art and desıgn. the company aims to provıde ıts clıents wıth creatıve and ınnovatıve solutıons based on extensıve research of the sector. by workıng wıth partners to develop goal-orıented and effectıve strategıes taılored to theır clıent's needs. artmoc elevates the brand value ıt works on the next level wıth a team of talented artısts and desıgners from all around the world. artmoc acts as a creatıve brıdge to brıng envısıoned projects to lıfe ın the future</p>
+          <p >Artmoc is a production company focused on art and desıgn. the company aims to provıde ıts clıents wıth creatıve and ınnovatıve solutıons based on extensıve research of the sector. by workıng wıth partners to develop goal-orıented and effectıve strategıes taılored to theır clıent's needs. artmoc elevates the brand value ıt works on the next level wıth a team of talented artısts and desıgners from all around the world. artmoc acts as a creatıve brıdge to brıng envısıoned projects to lıfe ın the future</p>
           <img src={nextPage} alt="nextPage" />
           </div> 
           </div> 

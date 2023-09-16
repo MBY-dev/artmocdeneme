@@ -2,24 +2,14 @@ import React from "react";
 import "./WithWithout.css";
 import pageflow6 from "./../Assets/pageflow6.png";
 import instagramhidden from "./../Assets/Social/instagram (hidden).png";
-import instagramuse from "./../Assets/Social/instagram (in use).png";
 import twitterhidden from "./../Assets/Social/twitter (hidden).png";
-import twitteruse from "./../Assets/Social/twitter (in use).png";
-
-import circles from "./../Assets/withWithout/CIRCLES.png"
-import withText from "./../Assets/withWithout/WITH TEXT.png"
-import withimg from "./../Assets/withWithout/WITH.png"
-import withOuthText from "./../Assets/withWithout/WITHOUT TEXT.png"
-import withOuthimg from "./../Assets/withWithout/WITHOUT.png"
 import Artmoc2 from "./../Assets/Artmoc Logo.png"
 
-
-
 const WithWithout = () => {
-  const imageStyle = {
-    left: '44%',
-    // Diğer stil özellikleri buraya eklenebilir
-  };
+  // const imageStyle = {
+  //   left: '44%',
+  //   // Diğer stil özellikleri buraya eklenebilir
+  // };
   return (
     <div className="div-container-body-without">
       
@@ -36,31 +26,31 @@ const WithWithout = () => {
           <a href="#frame_about">Info</a>
         </div>
         <div className="fixeddownright-ww">
-          <div class="social-right-down-ww">
-            <a href="#">
+          <div className="social-right-down-ww">
+            <a href="/">
               <img src={twitterhidden} alt="Twitter" />
             </a>
-            <a href="#">
+            <a href="/">
               <img src={instagramhidden} alt="Instagram" />
             </a>
           </div>
-          <div class="c">
+          <div className="c">
             <a href="#frame_contact">Contact</a>
           </div>
         </div>
-        <div class="container-ww">
-    <div class="with-header">
+        <div className="container-ww">
+    <div className="with-header">
       <header>With </header>
-      <div class="content">
+      <div className="content">
         <p>Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yaz</p>
         <p>Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yaz</p>
         <p>Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yaz</p>
         <p>Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yaz</p>
       </div>
     </div>
-    <div class="without-header">
+    <div className="without-header">
     <header>Without </header>
-      <div class="content">
+      <div className="content">
         <p>Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yaz</p>
         <p>Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yaz</p>
         <p>Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yaz</p>
