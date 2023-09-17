@@ -13,7 +13,7 @@ const Art = () => {
   //   navigate(route);
   // }
   return (
-    <div className="div-container-body-art">
+    <div id="frame_art"  className="div-container-body-art">
       <div className="leftscroll-art">
         <img src={pageflow4} alt="pageflow" />
       </div>

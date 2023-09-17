@@ -159,3 +159,11 @@ a:hover {
     }
 }
 
+@media (min-width:1000px) and (max-width:1400px) {
+    .artmoc-global {
+        left: 40%;
+        top: 2%;
+        width: 19%;
+    }
+    
+}

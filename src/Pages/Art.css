@@ -197,7 +197,7 @@
   top: 33%;
 }
 }
-@media (min-width : 320px) and (max-width:1200px)   {
+@media (min-width : 320px) and (max-width:1000px)   {
   .fixedtopleft-art {
       position: absolute;
       left: 39px;
@@ -290,7 +290,7 @@
 
 }
 }
-@media (min-width:355px)  and (max-width:1200px) {
+@media (min-width:355px)  and (max-width:1000px) {
   .leftscroll-art {
     top: 223px;
 }
@@ -309,7 +309,7 @@
 }
 }
 
-@media (min-width:385px)  and (max-width:1200px) {
+@media (min-width:385px)  and (max-width:1000px) {
   .content-wrapper p {
     font-size: calc(100% + 30px);
 }
@@ -318,7 +318,7 @@
 }
 }
 
-@media (min-width:410px) and (max-width:1200px) {
+@media (min-width:410px) and (max-width:1000px) {
 .content-wrapper p {
     font-size: calc(100% + 32px);
 }
@@ -330,7 +330,7 @@
 
 }
 
-@media (min-width:500px) and (max-width:1200px) {
+@media (min-width:500px) and (max-width:1000px) {
   .grid-container {
     height: 62%;
     width: 58%;
@@ -350,7 +350,7 @@
   font-size: 191% !important;
 }
 }
-@media (min-width:700px) and (max-width:1200px) {
+@media (min-width:700px) and (max-width:1000px) {
   .fixeddownright-art .social-right-down-art img {
     width: 45px;
     padding: 0px 10px 0px 0px;
@@ -378,5 +378,76 @@
   font-size: 269% !important;
 }
 
+
+}
+
+@media (min-width:900px) and (max-width:1000px) {
+  .content-wrapper p {
+    font-size: calc(167% + 37px);
+    height: 73%;
+}
+}
+@media (min-width:1000px) and (max-width:1000px) {
+  .news-frame-newstittle {
+    position: absolute;
+    left: 12%;
+    top: 25%;
+}
+.news-frame-newstittle img {
+  width: 221px;
+}
+.container-news {
+  left: 11%;
+  width: 82%;
+  top: 39%;
+  height: 38%;
+}
+.container-news table img {
+  right: 12%;
+  top: 9%;
+  width: 33px !important;
+}
+.container-news p {
+  right: 5%;
+  bottom: 13%;
+  line-height: 17px;
+  font-size: 13px;
+  width: 86%;
+  text-align: start;
+}
+}
+  
+@media (min-width:1000px) and (max-width:1200px) {
+  .grid-container {
+    gap: 3%;
+    height: 44%;
+    width: 83%;
+    left: 11%;
+    top: 34%;
+}
+.content-wrapper p {
+left: -2%;
+  font-size: calc(100% + 41px);
+}
+.art-header {
+  font-size: 53px;
+  top: -25%;
+}
+}
+@media (min-width:1200px) and (max-width:1400px) {
+  .grid-container {
+    height: 44%;
+    width: 84%;
+    left: 10%;
+    top: 32%;
+}
+  .art-header {
+    font-size: 63px;
+    top: -21%;
+}
+  .content-wrapper p {
+    left: -9px;
+    font-size: calc(100% + 60px);
+}
 
 }

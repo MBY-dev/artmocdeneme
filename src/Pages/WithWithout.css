@@ -125,7 +125,7 @@ header {
   width: 30px;
   height: 30px;
 }
-@media (min-width:320px) and (max-width:1200px) {
+@media (min-width:320px) and (max-width:1000px) {
   .fixedtopleft-ww {
     position: absolute;
     left: 39px;
@@ -239,7 +239,7 @@ header {
   height: 10px;
 }
 }
-@media (min-width:355px) and (max-width:1200px) {
+@media (min-width:355px) and (max-width:1000px) {
   .with-header header {
     font-size: 31px;
 }
@@ -252,7 +252,7 @@ header {
 }
 }
 
-@media (min-width:370px) and (max-width:1200px) {
+@media (min-width:370px) and (max-width:1000px) {
   .container-ww p {
     font-size: 9.6px;
     line-height: 13px;
@@ -260,7 +260,7 @@ header {
 }
 }
 
-@media (min-width:385px) and (max-width:1200px) {
+@media (min-width:385px) and (max-width:1000px) {
   .container-ww p {
     font-size: 11.6px;
     line-height: 14px;
@@ -271,6 +271,97 @@ header {
     font-size: 10.6px;
     line-height: 16px;
 }
+}
+@media (min-width:700px) and (max-width:1000px) {
+  .container-ww {   
+    top: 15%;
+}
+.container-ww p {
+  font-size: 18.6px;
+  line-height: 22px;
+}
+.with-header header {
+  font-size: 57px;
+}
+.without-header header {
+  font-size: 57px;
+}
+.artmoc-global {
+  top: 2%;
+}
+.fixeddownright-ww .social-right-down-ww img {
+  width: 45px;
+  padding: 0px 10px 0px 0px;
+}
+.without-header p:before {
+  top: -3px;
+  left: 98%;
+  width: 20px;
+  height: 20px;
+}
+.container-ww .with-header p:before {
+  top: -8px;
+  left: -9px;
+  width: 20px;
+  height: 20px;
+}
+}
+@media (min-width:1000px) and (max-width:1400px) {
+  .container-ww {
+    gap: 0em;
+    top: 5em;
+    width: 41em;
+    left: 11em;
+}
+.container-ww   p {
+  margin: 10px 0;
+  padding: 0px 0px 30px;
+  cursor: text;
+  color: white;
+  font-size: 12px;
+  position: relative;
+  z-index: 1;
+  font-size: 12px;
+
+}
+.container-ww .with-header p:before {
+  top: -9px;
+  left: -15px;
+  right: -10px;
+  bottom: -10px;
+  width: 20px;
+  height: 20px;
+}
+.without-header p:before {
+  top: -12px;
+  left: 313px;
+  right: -10px;
+  bottom: -10px;
+  width: 20px;
+  height: 20px;
+}
+
+}
+@media (min-width:1200px) and (max-width:1400px) {
+  .container-ww {
+    top: 10em;
+    width: 63em;
+    left: 9em;
+}
+.container-ww p {
+  font-size: 17px;
+}
+.container-ww header {
+    font-size: 55px;  
+}
+.without-header p:before {
+  top: -12px;
+  left: 487px;
+  bottom: -10px;
+  width: 20px;
+  height: 20px;
+}
+
 }
 
 @media screen and (min-width: 1700px)  {
@@ -300,4 +391,38 @@ header {
     width: 71em;
     left: 15em;
 }
+}
+@media (min-width:1000px) and (max-width:1200px) {
+  .global-img {
+    width: 272px;
+    position: absolute;
+    top: -105%;
+    left: 39%;
+}
+.flex-social {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  left: 41%;
+  top: -1rem;
+}
+
+.flex-icon {
+    width: 30px;
+    margin: 2px 5px;
+    cursor: pointer;
+}
+.cont-footer p {
+  position: absolute;
+  left: 40.5%;
+  top: 26%;
+  color: white;
+}
+.up-arrow {
+  position: absolute;
+  right: 5rem;
+  top: 0rem;
+  cursor: pointer;
+}
+
 }

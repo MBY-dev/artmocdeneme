@@ -157,7 +157,7 @@
 }
 }
 
-@media (min-width:320px) and (max-width:1200px) {
+@media (min-width:320px) and (max-width:1000px) {
   
   .fixedtopleft-d{
     position: absolute;
@@ -234,7 +234,7 @@
 }
 }
 
-@media (min-width:355px) and (max-width:1200px) {
+@media (min-width:355px) and (max-width:1000px) {
 
   .artmoc-global-d1 {
     width: 51%;
@@ -254,7 +254,7 @@
 }
 }
 
-@media (min-width:500px) and (max-width:1200px) {
+@media (min-width:500px) and (max-width:1000px) {
   .design-img {
     left: 40.6%;
     top: 16%;
@@ -262,7 +262,7 @@
 
 }
 
-@media (min-width:700px) and (max-width:1200px) {
+@media (min-width:700px) and (max-width:1000px) {
   .leftscroll-d {
     position: absolute;
     height: 86%;
@@ -290,5 +290,63 @@
 .fixeddownright-d .social-right-down-d img {
   width: 45px;
   padding: 0px 10px 0px 0px;
+}
+}
+
+@media (min-width:1000px) and (max-width:1200px) {
+  .artmoc-global-d1 {
+    position: absolute;
+    top: 3%;
+    left: 42%;
+}
+ 
+  .design-img {
+    position: absolute;
+    left: 7.6%;
+    top: 24%;
+}
+.design-img img {
+  width: 141px;
+}
+.container {
+  gap: 2em;
+  width: 56em;
+  top: 12em;
+  height: 20em;
+  left: 5em;
+}
+.box h3 {
+  font-size: calc(100% + 13px);
+  left: 1px;
+}
+}
+
+@media (min-width:1200px) and (max-width:1400px) {
+  .artmoc-global-d1 {
+    position: absolute;
+    top: 3%;
+    left: 44%;
+}
+.design-img {
+  position: absolute;
+  left: 6.6%;
+  top: 18%;
+}
+.container {
+  gap: 4em;
+  width: 71em;
+  top: 13em;
+  height: 25em;
+  left: 5em;
+}
+.box h3 {
+
+  left: -6px;
+  height: 100%;
+  top: 0%;
+  font-size: calc(100% + 18px);
+}
+.design-img img {
+  width: 178px;
 }
 }

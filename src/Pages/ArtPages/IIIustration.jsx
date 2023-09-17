@@ -84,11 +84,13 @@ const IIIustration = () => {
         <div className="image-illu">
           <img src={imgillu} alt="" />
         </div>
+        <Link to="/#frame_art">
+          <a href="#frame_art">
         <div className="arrow-turn">
-          <Link to="/">
             <img src={arrowreturn} alt="" />
-          </Link>
         </div>
+        </a>
+        </Link>
       </Swiper>
     </div>
   );

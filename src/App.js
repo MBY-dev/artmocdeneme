@@ -17,6 +17,7 @@ import lin from "./Assets/contactUs/Social Media/linkedin (hidden).png";
 import discord from "./Assets/contactUs/Social Media/discord (hidden).png";
 import youtube from "./Assets/contactUs/Social Media/youtube (hidden).png";
 import uparrow from "./Assets/PAGE ARROWS/arrow up (hidden).png";
+import İllu from "./Pages/ArtPages/IIIustration"
 
 function App() {
   return (

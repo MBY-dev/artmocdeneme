@@ -179,7 +179,7 @@
  
   
   
-  @media (min-width : 320px) and (max-width:1200px)  {
+  @media (min-width : 320px) and (max-width:1000px)  {
     .div-container-body-art {
        
         position: relative;
@@ -384,7 +384,7 @@
 
 
 }
-@media (min-width:700px) and (max-width:1200px) {
+@media (min-width:700px) and (max-width:1000px) {
     .fixeddownright-about .social-right-down-about img {
         width: 45px;
         padding: 0px 10px 0px 0px;
@@ -427,4 +427,61 @@
 
 }
 
-
+@media (min-width:1001px) and (max-width:1399px) {
+    .about-artmoc-container {
+        left: 110px;
+        top: 56px;
+    }
+    .about-tittle-text img {
+        width: 81%;
+    }
+    .about-header {
+        line-height: 17;
+    }
+    .about-write {
+        top: 165px;
+        left: 10px;
+        width: 37%;
+        line-height: 30px;
+    }
+    .about-write p {
+        font-size: 13px;
+        line-height: 17px;
+        text-align: justify;
+        padding: 0px 0px 0px 0px
+    }
+    .about-write img {
+        width: 9%;
+        right: 0%;
+        bottom: -26%;
+    }
+    .artmoc-monster {
+        left: 56%;
+        top: 101px;
+        width: 500px;
+    }
+    .img-aboutmonster {
+        width: 53%;
+    }
+}
+@media (min-width:1200px) and (max-width:1400px) {
+    .about-header {
+        line-height: 23;
+    }
+    .about-write {
+        top: 227px;
+    }
+    .artmoc-monster {
+        left: 56%;
+        top: 186px;
+        width: 500px;
+    }
+    .img-aboutmonster {
+        width: 73%;
+    }
+    .about-write p {
+        font-size: 16px;
+        line-height: 23px;
+        font-family: "Raleway";
+    }
+}

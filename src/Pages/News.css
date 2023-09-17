@@ -420,3 +420,46 @@ a {
 
 
 }
+
+@media (min-width:1000px) and (max-width:1200px) {
+  .artmoc-global {
+    top: 2%;
+    width: 12rem;
+    left: 42%;
+}
+.news-frame-newstittle {
+  position: absolute;
+  left: 11%;
+  top: 24%;
+}
+.news-frame-newstittle img {
+  width: 199px;
+}
+
+  .container-news {
+    position: absolute;
+    left: 11%;
+    width: 82%;
+    top: 39%;
+    height: 38%;
+}
+.container-news table img {
+  right: 9%;
+  width: 30px !important;
+  top: 13%;
+}
+.container-news p {
+  right: 2%;
+  bottom: 18%;
+  line-height: 17px;
+  font-size: 13px;
+  width: 86%;
+  
+}
+}
+
+@media (min-width:1200px) and (max-width:1399px) {
+  .container-news p {
+    font-size: 16px;
+}
+}
