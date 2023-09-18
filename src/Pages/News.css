@@ -337,10 +337,10 @@ cursor: pointer;
 }
 .container-news p {
   position: absolute;
-  right: 15%;
+  right: 18%;
   color: white;
-  font-size: 13px;
-  width: 78%;
+  font-size: 11px;
+  width: 75%;
   height: 26%;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;

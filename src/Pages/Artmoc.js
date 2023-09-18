@@ -10,7 +10,7 @@ import Artmoc2 from "./../Assets/Artmoc Logo.png"
 const Artmoc = () => {
   return (
     
-    <div className="div-container-body-artmoc">
+    <div id="frame_artmoc" className="div-container-body-artmoc">
       <div className="fixedtopleft-artmoc">
         <a href="#frame_art">Art</a>
       </div>
@@ -33,9 +33,9 @@ const Artmoc = () => {
           <a href="#frame_contact">Contact</a>
         </div>
       </div>
-      <div className="leftscroll-moc">
+      {/* <div className="leftscroll-moc">
         <img src={pageflow1} alt="pageflow1" />
-      </div>
+      </div> */}
       <div>
       <img className="artmoc-global" src={Artmoc2} alt=""  />
     </div>

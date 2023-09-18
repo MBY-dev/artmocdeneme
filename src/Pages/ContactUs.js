@@ -17,11 +17,11 @@ const ContactUs = () => {
   };
 
   return (
-    <div className="div-container-body">
-      <div className="leftscroll-cu">
+    <div id="frame_contact" className="div-container-body">
+      {/* <div className="leftscroll-cu">
         <img src={pageflow7} alt="pageflow" />
-      </div>
-      <div className="fixedtopleft-cu">
+      </div> */}
+      {/* <div className="fixedtopleft-cu">
         <a href="#frame_art">Art</a>
       </div>
       <div className="fixedtopright-cu">
@@ -39,8 +39,8 @@ const ContactUs = () => {
         <div className="c">
           <a href="#frame_contact">Contact</a>
         </div>
-      </div>
-      <div className="container2-position">
+      </div> */}
+      <div  className="container2-position">
         <div className="container2">
         <div className="deneme2-us">
           <div

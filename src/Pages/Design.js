@@ -8,11 +8,11 @@ import headerDesign from "../Assets/Design/DESIGN TITLE.png";
 
 const Design = () => {
   return (
-    <div className="div-container-body-design">
-      <div className="leftscroll-d">
+    <div  id= "frame_design" className="div-container-body-design">
+      {/* <div className="leftscroll-d">
         <img src={pageflow5} alt="pageflow" />
-      </div>
-      <div className="fixedtopleft-d">
+      </div> */}
+      {/* <div className="fixedtopleft-d">
         <a href="#frame_art">Art</a>
       </div>
       <div className="fixedtopright-d">
@@ -34,7 +34,7 @@ const Design = () => {
         <div className="c">
           <a href="#frame_contact">Contact</a>
         </div>
-      </div>
+      </div> */}
       <div className="design-img">
         <img src={headerDesign} alt="" />
       </div>

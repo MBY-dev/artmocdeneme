@@ -14,10 +14,10 @@ const Art = () => {
   // }
   return (
     <div id="frame_art"  className="div-container-body-art">
-      <div className="leftscroll-art">
+      {/* <div className="leftscroll-art">
         <img src={pageflow4} alt="pageflow" />
-      </div>
-      <div className="fixedtopleft-art">
+      </div> */}
+      {/* <div className="fixedtopleft-art">
         <a href="#frame_art">Art</a>
       </div>
       <div className="fixedtopright-art">
@@ -38,7 +38,7 @@ const Art = () => {
         <div className="c">
           <a href="#frame_contact">Contact</a>
         </div>
-      </div>
+      </div> */}
 
       <div className="grid-container">
         <p className="art-header">Art</p>

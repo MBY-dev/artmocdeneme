@@ -13,10 +13,10 @@ const WithWithout = () => {
   return (
     <div className="div-container-body-without">
       
-        <div className="leftscroll-ww">
+        {/* <div className="leftscroll-ww">
           <img src={pageflow6} alt="pageflow" />
-        </div>
-        <div className="fixedtopleft-ww">
+        </div> */}
+        {/* <div className="fixedtopleft-ww">
           <a href="#frame_art">Art</a>
         </div>
         <div className="fixedtopright-ww">
@@ -37,7 +37,7 @@ const WithWithout = () => {
           <div className="c">
             <a href="#frame_contact">Contact</a>
           </div>
-        </div>
+        </div> */}
         <div className="container-ww">
     <div className="with-header">
       <header>With </header>

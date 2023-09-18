@@ -14,27 +14,17 @@ const News = () => {
   return (
     <div className="div-container-body-news">
       <section>
-        <div className="leftscroll-news">
+        {/* <div className="leftscroll-news">
           <img src={pageflow2} alt="pageflow" />
-        </div>
-        <div className="fixedtopleft-news">
+        </div> */}
+        {/* <div className="fixedtopleft-news">
           <a href="#frame_art">Art</a>
         </div>
         <div className="fixedtopright-news">
           <a href="#frame_design">Design</a>
         </div>
-        <div className="news-frame-newstittle">
-          <img src={newstittle} alt="NEWS" />
-        </div>
-        <div className="container-news">
-          <table>
-            <img src={newsArrow} alt=""></img>
-          </table>
-          <p>
-            LOREM İPSUM DOLAR PIT AHMET. CONSECTETUAR ADIPISHING ELİT, SED DIAM
-            NONUMY NISH AUMID LEFKOŞA MBARDE
-          </p>
-        </div>
+       
+       
         <div className="fixeddownleft-news">
           <a href="#frame_about">Info</a>
         </div>
@@ -50,6 +40,18 @@ const News = () => {
           <div>
             <a href="#frame_contact">Contact</a>
           </div>
+        </div> */}
+        <div className="news-frame-newstittle">
+          <img src={newstittle} alt="NEWS" />
+        </div>
+        <div className="container-news">
+          <table>
+            <img src={newsArrow} alt=""></img>
+          </table>
+          <p>
+            LOREM İPSUM DOLAR PIT AHMET. CONSECTETUAR ADIPISHING ELİT, SED DIAM
+            NONUMY NISH AUMID LEFKOŞA MBARDE
+          </p>
         </div>
       </section>
       <div>

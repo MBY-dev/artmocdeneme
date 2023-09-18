@@ -11,12 +11,15 @@ import aboutMonster from "./../Assets/aboutArtmoc/MONSTER.png"
 import nextPage from "./../Assets/newsPage/arrow forward (hidden).png"
 import Artmoc2 from "./../Assets/Artmoc Logo.png"
 import "../router/Router"
+import { useNavigate } from "react-router-dom";
 
 
 const AboutArtmoc = () => {
+  const navigate = useNavigate();
   return (
-    <div className="div-container-body-aboutartmoc">
-     <div className="fixedtopleft-about">
+    
+    <div id = "frame_about"className="div-container-body-aboutartmoc">
+     {/* <div className="fixedtopleft-about">
             <a href="#frame_art">Art</a>
           </div>
           <div className="fixedtopright-about">
@@ -37,19 +40,19 @@ const AboutArtmoc = () => {
             <div>
               <a href="#frame_contact">Contact</a>
             </div> 
-          </div>  
-          <div className="leftscroll-about">
+          </div>   */}
+          {/* <div className="leftscroll-about">
           <img src={pageflow3} alt="pageflow3" />
-        </div>
+        </div> */}
 
-      <div className="about-artmoc-container">
+      <div  className="about-artmoc-container">
         
         <div className="about-tittle-text">
          <div className="about-header">
          <img src={aboutTittle} alt="Instagram" />
          <div  className="about-write">
           <p >Artmoc is a production company focused on art and desıgn. the company aims to provıde ıts clıents wıth creatıve and ınnovatıve solutıons based on extensıve research of the sector. by workıng wıth partners to develop goal-orıented and effectıve strategıes taılored to theır clıent's needs. artmoc elevates the brand value ıt works on the next level wıth a team of talented artısts and desıgners from all around the world. artmoc acts as a creatıve brıdge to brıng envısıoned projects to lıfe ın the future</p>
-          <img src={nextPage} alt="nextPage" />
+          <img   onClick={() => navigate("/Teams")} src={nextPage} alt="nextPage"  />
           </div> 
           </div> 
           

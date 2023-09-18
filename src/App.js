@@ -25,14 +25,12 @@ function App() {
       <Artmoc />
       <News />
       <AboutArtmoc />
-      <Team />
       <AboutLine />
       <Art />
       <Design />
       <DesignLine />
       <WithWithout />
       <Partner />
-
       <ContactUs />
       <div className="cont-footer">
         <img className="global-img" src={Artmoc2} alt="" />
@@ -44,9 +42,11 @@ function App() {
           <img className="flex-icon" src={twitter} alt="" />
         </div>
         <p>COPYRIGHT &copy; ARTMOC LTD. ŞTİ.</p>
+        <a href="#frame_artmoc">
         <div className="up-arrow">
           <img src={uparrow} alt="" />
         </div>
+        </a>
       </div>
     </div>
   );
