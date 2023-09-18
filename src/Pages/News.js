@@ -41,8 +41,12 @@ const News = () => {
             <a href="#frame_contact">Contact</a>
           </div>
         </div> */}
+       
         <div className="news-frame-newstittle">
           <img src={newstittle} alt="NEWS" />
+        </div>
+        <div className="news-user">
+        <p>News</p>
         </div>
         <div className="container-news">
           <table>
