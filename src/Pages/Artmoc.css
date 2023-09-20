@@ -8,10 +8,8 @@
 
 .div-container-body-artmoc{
     background: linear-gradient(to top, #776b6a,#776b6a,#776b6a);
-    max-width: 1920px ;
-    max-height: 1080px;
     position: relative;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     
 

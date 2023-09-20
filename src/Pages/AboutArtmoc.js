@@ -46,7 +46,9 @@ const AboutArtmoc = () => {
         </div> */}
 
       <div  className="about-artmoc-container">
-        
+      <div className="about-artmoc-header">
+        <p>About  Artmoc</p>
+        </div>
         <div className="about-tittle-text">
          <div className="about-header">
          <img src={aboutTittle} alt="Instagram" />

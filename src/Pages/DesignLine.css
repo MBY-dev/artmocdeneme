@@ -1,6 +1,7 @@
 .container-Deline{
     padding: 49px 0px;
     display: flex;
+    width: 100vw;
     justify-content: start;
     background: linear-gradient(to bottom, #6b6e7e, #40575d, #6b6e7e);
 }

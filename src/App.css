@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 }
+
 .App{
     max-height: 8770px;
     max-width: 1920px;
@@ -20,6 +21,7 @@
     height: 138px;
     background-color: #61818e;
     position: relative;
+    width: 100vw;
   }
   .cont-footer p{
     position: absolute;
@@ -94,10 +96,13 @@
 
 @media (min-width: 1921px) {
     .App {
-        max-width: 1920px; /* Maksimum genişlik ayarı */
+      
     margin-left: auto;
     margin-right: auto;
     overflow: visible;
+    }
+    body{
+      width: 1920px;
     }
   }
 

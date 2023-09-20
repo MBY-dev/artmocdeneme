@@ -1,9 +1,7 @@
 .div-container-body {
   background: linear-gradient(to bottom, #5c7a89, #40575d, #61818e);
-  max-width: 1920px ;
-  max-height: 1080px;
   position: relative;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
 }
 /* Art*/

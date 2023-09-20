@@ -8,9 +8,7 @@
 
 .div-container-body-iustration{
    background: linear-gradient(to bottom, #638669, #7d7757, #6b6e7e);
-   max-width: 1920px  !important;
-    max-height: 1080px !important;
-    width: 100% !important;
+    width: 100vw !important;
     height: 100vh !important;
     position: relative;
 } 
@@ -53,6 +51,14 @@
  }
  .image-illu img{
    width: 29rem;
+ }
+ .image-Animation{
+   position: absolute;
+   top: 5vh;
+   left: 4vw;
+ }
+ .Animation-header{
+   width: 25vw;
  }
  .img-bottm {
    position: absolute;
@@ -124,7 +130,7 @@
    width: 36rem ; 
    height: 30rem ;
    border-radius: 2rem ;
-   object-fit: cover ;
+
 }
 
 .swiper-slide-shadow-left,

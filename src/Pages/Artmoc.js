@@ -9,8 +9,9 @@ import Artmoc2 from "./../Assets/Artmoc Logo.png"
 
 const Artmoc = () => {
   return (
-    
+   
     <div id="frame_artmoc" className="div-container-body-artmoc">
+       <div className="bacground-deneme" >
       <div className="fixedtopleft-artmoc">
         <a href="#frame_art">Art</a>
       </div>
@@ -38,6 +39,7 @@ const Artmoc = () => {
       </div> */}
       <div>
       <img className="artmoc-global" src={Artmoc2} alt=""  />
+    </div>
     </div>
     </div>
   );

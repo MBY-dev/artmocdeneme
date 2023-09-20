@@ -7,10 +7,9 @@
 
 .div-container-body-design {
   background: linear-gradient(to bottom, #6b6e7e, #40575d, #6b6e7e);
-  max-width: 1920px ;
-    max-height: 1080px;
+
     position: relative;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     background-color: #f0f0f0;
     display: flex;

@@ -1,6 +1,7 @@
 .container-partner {
     padding: 90px 0px;
     display: flex;
+    width: 100vw;
     justify-content: center;
     gap: 150px;
     background: linear-gradient(180deg, #5C7A89 3.17%, rgba(92, 122, 137, 0.80) 23.58%, rgba(92, 122, 137, 0.69) 51.85%, rgba(92, 122, 137, 0.80) 79.33%, #5C7A89 93.47%) !important;

@@ -2,10 +2,13 @@ import React from "react";
 import pageflow4 from "./../Assets/pageflow4.png";
 import instagramhidden from "./../Assets/Social/instagram (hidden).png";
 import twitterhidden from "./../Assets/Social/twitter (hidden).png";
+import ArtHeader from "./../Assets/art/Art.png"
 import animation1 from "../Assets/art/animation1.png";
+import ArtAnimation from "../Assets/Illustration/All Seeing The Eye (Cover).png"
 import Artmoc2 from "./../Assets/Artmoc Logo.png";
 import "./Art.css";
 import { useNavigate } from "react-router-dom";
+import AnimationArt from "../Assets/art/Brain(cover)-1.png"
 
 const Art = () => {
   const navigate = useNavigate();
@@ -41,13 +44,14 @@ const Art = () => {
       </div> */}
 
       <div className="grid-container">
+        {/* <img  className="art-header-img" src={ArtHeader} alt="" /> */}
         <p className="art-header">Art</p>
         <div className="grid-item">
           <div
             className="content-wrapper"
             onClick={() => navigate("/illustration")}
           >
-            <img src={animation1} alt="pageflow" />
+            <img src={ArtAnimation} alt="pageflow" />
             <p>Illustration</p>
           </div>
         </div>
@@ -56,7 +60,7 @@ const Art = () => {
             className="content-wrapper"
             onClick={() => navigate("/animation")}
           >
-            <img src={animation1} alt="pageflow" />
+            <img src={AnimationArt} alt="pageflow" />
             <p>Animation</p>
           </div>
         </div>
