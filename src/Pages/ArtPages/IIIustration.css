@@ -11,6 +11,7 @@
     width: 100vw !important;
     height: 100vh !important;
     position: relative;
+    overflow-y: hidden;
 } 
 .fixedtopleft-ws{
    position: absolute;
@@ -52,14 +53,43 @@
  .image-illu img{
    width: 29rem;
  }
- .image-Animation{
+ .swiper-animation{
+   top: 9%;
    position: absolute;
-   top: 5vh;
-   left: 4vw;
- }
- .Animation-header{
-   width: 25vw;
- }
+   left: -8%;
+}
+.swiper-animation video {
+   width: 159% !important;
+   border-radius: 500px;
+}
+.slider-controler-animation{
+   position: absolute;
+   bottom: -3rem;
+   left: 65px;
+}
+.img-bottm-animation{
+   position: absolute;
+   bottom: 200px;
+   left: 207px;
+   color: white;
+   font-family: 'Raleway';
+}
+.image-Animation {
+   position: absolute;
+   top: 9vh;
+   left: 12.5vw;
+}
+.Animation-header {
+   width: 20vw;
+}
+.image-Animation {
+   position: absolute;
+   top: 7vh;
+   left: 12.5vw;
+}
+.Animation-header {
+   width: 21vw;
+}
  .img-bottm {
    position: absolute;
    top: 72%;
@@ -93,7 +123,17 @@
    z-index: 1;
    cursor: pointer;
 }
+.arrow-turn-animation{
+      position: absolute;
+      bottom: 0rem;
+      left: 5.5%;
+      z-index: 1;
+      cursor: pointer;
+}
  .arrow-turn img{
+   width: 3.5rem;
+ }
+ .arrow-turn-animation img{
    width: 3.5rem;
  }
 
@@ -216,7 +256,7 @@
 
 .swiper-pagination{
    position: relative;
-   width: 15rem !important;
+   width: 18rem !important;
    bottom: 1rem;
 }
 
@@ -270,6 +310,8 @@
    width: 100%;
    
 }
+
+
 .swiper-slide img {
    width: 30rem !important;
    height: 27rem !important;
@@ -302,6 +344,8 @@
    font-size: 18px;
    font-family: 'Raleway';
 }
+
+
 .image-illu {
    position: absolute;
    top: -1%;
@@ -320,16 +364,79 @@
    z-index: 1;
    cursor: pointer;
 }
-
+.arrow-turn-animation{
+   position: absolute;
+   bottom: 5rem;
+   left: 14.5%;
+   z-index: 1;
+   cursor: pointer;
+}
+.arrow-turn-animation img {
+   width: 3rem !important;
+}
 }
 @media (min-width:1700px) {
    .swiper.swiper_container.swiper-coverflow.swiper-3d.swiper-initialized.swiper-horizontal.swiper-watch-progress {
       top: 13%;
   }
+  .swiper-animation .swiper.swiper_container.swiper-coverflow.swiper-3d.swiper-initialized.swiper-horizontal.swiper-watch-progress {
+   width: 84% !important;
+   top: 10%;
+   left: 3%;
+}
+  .swiper-animation {
+   top: 17%;
+   position: absolute;
+   left: -17%;
+}
+.slider-controler-animation {
+   position: absolute;
+   bottom: -6rem;
+   left: 16.5%;
+}
+.img-bottm-animation {
+   position: absolute;
+   top: 76%;
+   left: 184px;
+   width: 27%;
+   font-size: 20px;
+   color: white;
+   font-family: 'Raleway';
+}
+.image-Animation {
+   position: absolute;
+   top: -2vh;
+   left: 9vw;
+}
+.Animation-header {
+   width: 26vw;
+}
+.arrow-turn-animation {
+   position: absolute;
+   bottom: 2rem;
+   left: 10%;
+   z-index: 1;
+   cursor: pointer;
+}
+.arrow-turn-animation img {
+   width: 2.5rem;
+}
+
 
 }
 
 @media (min-width : 320px)  and (max-width:1000px)  {
+  .swiper-animation{
+   width: 60vw;
+   height: 41vh;
+   position: absolute;
+   left: 0vw;
+  }
+  .swiper-animation video {
+   width: 100% !important;
+}
+
+  
    .fixedtopleft-ws {
        position: absolute;
        left: 39px;
@@ -391,10 +498,37 @@
 }
 
 .slider-controler {
-   right: 42rem;
+   right: 43rem;
    position: relative !important;
    bottom: 15.5rem !important;
    display: flex !important;
+}
+.slider-controler-animation {
+   left: -43.1rem;
+   position: relative !important;
+   bottom: 13vh !important;
+   display: flex !important;
+   align-items: center !important;
+   justify-content: center !important;
+}
+.img-bottm-animation{
+   position: absolute;
+   top: 59vh;
+   left: 1vw;
+   text-align: justify;
+   width: 84vw;
+   color: #D5D5D4;
+   line-height: 1rem;
+   font-size: 13px;
+   font-family: 'Raleway';
+}
+.image-Animation {
+   position: absolute;
+   top: 9vh;
+   left: 12vw;
+}
+.Animation-header {
+   width: 71vw;
 }
 .img-user {
    position: absolute;
@@ -430,16 +564,37 @@
    position: absolute;
    bottom: 24.6rem;
    left: 6.5%;
-   z-index: 1;
+   z-index: 10;
    cursor: pointer;
 }
 .arrow-turn img {
+   width: 1.5rem;
+}
+.arrow-turn-animation {
+   position: absolute;
+   bottom: 24.6rem;
+   left: 6.5%;
+   z-index: 10;
+   cursor: pointer;
+}
+.arrow-turn-animation img {
    width: 1.5rem;
 }
 
 }
 
 @media (min-width:355px)  and (max-width:1000px){
+   .swiper-animation {
+      left: 2vw;
+  }
+  .slider-controler-animation {
+   right: 182vw;
+   bottom: 7vh !important;
+}
+.img-bottm-animation {
+   width: 89vw;
+}
+
    .swiper.swiper_container.swiper-coverflow.swiper-3d.swiper-initialized.swiper-horizontal.swiper-watch-progress {
       left: 3%;
   }
@@ -450,9 +605,12 @@
    left: 21%;
 }
 .slider-controler {
-   right: 40rem;
+   right: 41rem;
 }
 .arrow-turn {
+   left: 11.5%;
+}
+.arrow-turn-animation{
    left: 11.5%;
 }
 .img-bottm {
@@ -460,12 +618,41 @@
    width: 40%;
 }
 }
+@media (min-width:375px) and (max-width:380px) {
+   .slider-controler-animation {
+      left: -41.4rem;
+      bottom: 20vh !important;
+  }
+}
 
 @media (min-width:385px)  and (max-width:1000px) {
    .swiper.swiper_container.swiper-coverflow.swiper-3d.swiper-initialized.swiper-horizontal.swiper-watch-progress {
       top: 23%;
       left: 1.1%;
   }
+  .slider-controler-animation {
+   right: 172vw;
+   bottom: 12vh !important;
+}
+.swiper-animation {
+   height: 68vh;
+   left: 2.5%;
+   width: 61vw;
+}
+  .slider-controler-animation {
+   left: -40rem;
+   bottom: 17vh !important;
+}
+  .img-bottm-animation {
+   width: 88vw;
+   font-size: 17px;
+   left: 2vw;
+   top: 29rem;
+}
+.image-Animation {
+   top: 6vh;
+   left: 15vw;
+}
   .slider-controler {
    right: 39rem;
 }
@@ -495,12 +682,23 @@
 .arrow-turn img {
    width: 1.8rem;
 }
+.arrow-turn-animation{
+   left: 12%;
+}
+.arrow-turn img{
+   width: 1.8rem;
+}
 }
 
 @media (min-width:410px)  and (max-width:1000px) {
    .swiper.swiper_container.swiper-coverflow.swiper-3d.swiper-initialized.swiper-horizontal.swiper-watch-progress {
       left: -5.9%;
   }
+  .swiper-animation {
+   height: 68vh;
+   left: 6.5%;
+   width: 61vw;
+}
   .swiper-slide img {
    width: 18rem !important;
 }
@@ -536,6 +734,42 @@
       left: -15.7%;
       width: 115% !important;
   }
+  .swiper-animation .swiper.swiper_container.swiper-coverflow.swiper-3d.swiper-initialized.swiper-horizontal.swiper-watch-progress {
+   left: -20.7%;
+   width: 233% !important;
+}
+.swiper-animation video {
+   width: 227% !important;
+   height: 100%;
+}
+.img-bottm-animation {
+   width: 88vw;
+   font-size: 17px;
+   left: 56vw;
+   top: 29rem;
+}
+.image-Animation {
+   top: 6vh;
+   left: 58vw;
+}
+.arrow-turn-animation {
+   left: 41%;
+   top: 55%;
+}
+.arrow-turn-animation img {
+   width: 2rem;
+}
+.slider-controler-animation {
+   left: -21rem;
+   bottom: 0vh !important;
+}
+
+  .swiper-animation {
+   height: 9vh;
+   left: -28.5%;
+   width: 61vw;
+}
+
   .image-illu {
    top: -1%;
    left: 45%;
@@ -544,20 +778,30 @@
    width: 12rem;
 }
 .img-user {
-   left:80%;
-   top: 37%;
+   left: 69%;
+   top: 53%;
+}
+.swiper-slide {
+   width: 33% !important;
+   height: 42rem !important;
+   position: relative !important;
+}
+.swiper-slide img {
+   width: 24rem !important;
+   height: 20rem !important;
 }
 .slider-controler {
-   right: 28.5rem;
+   right: 29.5rem;
+   top: -9%;
 }
 .img-bottm {
-   left: 15.5%;
+   left: 19.5%;
    width: 35%;
-   top: 37%;
+   top: 53%;
 }
 .arrow-turn {
-   left: 17.5%;
-   top: 49%;
+   left: 19.5%;
+   top: 63%;
 }
 
 
@@ -568,27 +812,74 @@
       width: 45px;
       padding: 0px 10px 0px 0px;
   }
-   .swiper.swiper_container.swiper-coverflow.swiper-3d.swiper-initialized.swiper-horizontal.swiper-watch-progress {
-      left: -5.3%;
-      width: 109% !important;
-      top: 30%;
-  }
-  .swiper-slide img {
-   width: 20rem !important;
+  .swiper.swiper_container.swiper-coverflow.swiper-3d.swiper-initialized.swiper-horizontal.swiper-watch-progress {
+   left: -19.3%;
+   width: 121% !important;
+   top: 30%;
+}
+.swiper-animation .swiper.swiper_container.swiper-coverflow.swiper-3d.swiper-initialized.swiper-horizontal.swiper-watch-progress {
+   left: -39.7%;
+   width: 233% !important;
+}
+.swiper-animation video {
+    width: 193% !important;
+    height: 100%;
+}
+.swiper-animation .swiper-wrapper {
+   width: 82%;
+}
+.swiper-animation {
+   height: 9vh;
+   left: -14.5%;
+   width: 61vw;
+   top: 19%;
+}
+
+  .swiper-slide {
+   width: 34% !important;
+   height: 42rem !important;
+   position: relative !important;
+}
+.swiper-slide img {
+   width: 31rem !important;
    padding: 10px 0px 0px 0px;
    height: 21rem !important;
+   position: absolute;
+   top: 3%;
 }
 .image-illu {
    top: -12px;
-   left: 37%;
+   left: 38.5%;
    z-index: 1;
 }
 .image-illu img {
-   width: 17rem;
+   width: 24rem;
+}
+.image-Animation {
+   top: -2vh;
+   left: 56vw;
+}
+.img-bottm-animation {
+   width: 88vw;
+   font-size: 28px;
+   left: 49vw;
+   top: 33rem;
+}
+
+.arrow-turn-animation {
+   left: 32%;
+   top: 55%;
+}
+.arrow-turn-animation img {
+   width: 3.2rem;
+}
+.slider-controler-animation {
+   left: -9.3rem;
+   bottom: -12vh !important;
 }
 .slider-controler {
-   right: 23.5rem;
-   top: -21%;
+   right: 17.5rem;
+   top: 15%;
 }
 .swiper-pagination .swiper-pagination-bullet {
    filter: drop-shadow(0px 8px 24px rgba(18,28,53, 0.1));
@@ -596,29 +887,101 @@
    height: var(--swiper-pagination-bullet-height, var(--swiper-pagination-bullet-size, 25px)) !important;
 }
 .img-user {
-   left: 76%;
-   top: 47%;
+   left: 61%;
+   top: 58%;
    font-size: 18px;
 }
 .arrow-turn {
-   left: 9.5%;
-   top: 65%;
+   left: 22.5%;
+   top: 85%;
 }
 .arrow-turn img {
    width: 3.3rem;
 }
 .img-bottm {
-   left: 6.5%;
-   width: 29%;
-   top: 47%;
-   font-size: 19px;
+   left: 22.5%;
+   width: 90%;
+   top: 69%;
+   font-size: 22px;
    line-height: 27px;
 }
 }
+@media (min-width:800px) and (max-width:1000px) {
+   .slider-controler-animation {
+      left: -6.3rem;
+      bottom: -12vh !important;
+  }
+}
+@media (min-width:900px) and (max-width:1000px) {
+   .slider-controler {
+      right: 13.5rem;
+      top: 15%;
+  }
+  .img-bottm-animation {
+   width: 88vw;
+   font-size: 28px;
+   left: 56vw;
+   top: 33rem;
+}
+.slider-controler-animation {
+   left: -1.3rem;
+   bottom: -12vh !important;
+}
+}
 @media (min-width:1000px) and (max-width:1400px) {
+
    .div-container-body-iustration {
       overflow-y: hidden;
   }
+  .swiper.swiper_container.swiper-coverflow.swiper-3d.swiper-initialized.swiper-horizontal.swiper-watch-progress {
+   width: 113% !important;
+   left: -11%;
+}
+.image-Animation {
+   position: absolute;
+   top: 8vh;
+   left: 53.5vw;
+}
+.swiper-animation video {
+width: 159% !important;
+border-radius: 500px;
+}
+.slider-controler-animation {
+position: absolute;
+bottom: 1rem;
+left: 47%;
+}
+.img-bottm-animation {
+position: absolute;
+bottom: 200px;
+left: 42%;
+font-size: 18px;
+width: 49%;
+color: white;
+font-family: 'Raleway';
+}
+.image-Animation {
+position: absolute;
+top: 8vh;
+left: 53.5vw;
+}
+.Animation-header {
+width: 35vw;
+}
+.arrow-turn-animation {
+bottom: 16rem;
+left: 18.5%;
+}
+.arrow-turn-animation img {
+width: 3rem;
+}
+
+.swiper-animation {
+top: 0%;
+position: absolute;
+left: -8%;
+}
+
    .image-illu {
       position: absolute;
       top: 7%;
@@ -629,7 +992,7 @@
 }
 .img-user {
    top: 57%;
-   left: 62%;
+   left: 57%;
 }
 .img-bottm {
    top: 56%;
@@ -646,17 +1009,14 @@
    object-fit: cover;
 }
 .arrow-turn {
-   position: absolute;
-   bottom: 12rem;
-   left: 14.5%;
-   z-index: 1;
-   cursor: pointer;
+    position: absolute;
+    bottom: 12rem;
+    left: 36.5%;
+    z-index: 1;
+    cursor: pointer;
 }
 .arrow-turn img {
    width: 2.2rem;
-}
-.swiper.swiper_container.swiper-coverflow.swiper-3d.swiper-initialized.swiper-horizontal.swiper-watch-progress {
-   left: -6%;
 }
 .slider-controler {
    bottom: 2rem !important;
@@ -676,6 +1036,7 @@
     left: 14.3%;
     z-index: 1;
 }
+
 .image-illu img {
    width: 15.5rem;
 }
@@ -710,6 +1071,29 @@
 .arrow-turn img {
    width: 2.2rem;
 }
-   
+.slider-controler-animation {
+   position: absolute;
+   bottom: -4rem;
+   left: 49%;
+}
+.img-bottm-animation {
+   top: 74%;
+   left: 42%;
+   font-size: 25px;
+   width: 49%;
+}
+.swiper-animation {
+   top: 9%;
+   position: absolute;
+   left: -8%;
+}
+.image-Animation {
+   position: absolute;
+   top: 6vh;
+   left: 22.5vw;
+}
+.Animation-header {
+   width: 29vw;
+}
 }
 

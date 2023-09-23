@@ -13,6 +13,18 @@ import imgillu from "../../Assets/Illustration/Illustration.png";
 import Artmoc2 from "../../Assets/Artmoc Logo.png";
 import arrowreturn from "../../Assets/PAGE ARROWS/arrow return (in use).png";
 import { Link, useNavigate } from "react-router-dom";
+import OtherArtsOne from "../../Assets/OtherArts/1.1.png"
+import OtherArtsTwo from "../../Assets/OtherArts/3.png"
+import OtherArtsThree from "../../Assets/OtherArts/1692736542295.jpg"
+import OtherArtsFour from "../../Assets/OtherArts/1692736502423.jpg"
+import OtherArtsFive from "../../Assets/OtherArts/1692736685292.JPG"
+import OtherArtsSeven from "../../Assets/OtherArts/IMG_0114.JPG"
+import OtherArtsEight from "../../Assets/OtherArts/sketches.jpg"
+import OtherArtsNine from "../../Assets/OtherArts/sketches2.jpg"
+import OtherArtsTen from "../../Assets/OtherArts/sketches3.jpg"
+import OtherArtsEleven from "../../Assets/OtherArts/sketches4.jpg"
+import OtherArtsTwelve from "../../Assets/OtherArts/sun(cover).png"
+import OtherArtsThird from "../../Assets/OtherArts/UNADJUSTEDNONRAW_thumb_10f0.jpg"
 
 const ArtsOther = () => {
   const navigate = useNavigate();
@@ -63,17 +75,44 @@ const ArtsOther = () => {
         }}
         modules={[EffectCoverflow, Pagination, Navigation]}
         className="swiper_container"
-        initialSlide={1}
+        initialSlide={5}
       >
         {/* <p className='img-bottm'>Lorem picsum solar sit ahmet. lorem picsum</p>  */}
         <SwiperSlide>
-          <img src={animation} alt="slide_image" />
+          <img src={OtherArtsOne} alt="slide_image" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={animation} alt="slide_image" />
+          <img src={OtherArtsTwo} alt="slide_image" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={animation} alt="slide_image" />
+          <img src={OtherArtsThree} alt="slide_image" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={OtherArtsFour} alt="slide_image" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={OtherArtsFive} alt="slide_image" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={OtherArtsSeven} alt="slide_image" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={OtherArtsEight} alt="slide_image" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={OtherArtsNine} alt="slide_image" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={OtherArtsTen} alt="slide_image" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={OtherArtsEleven} alt="slide_image" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={OtherArtsTwelve} alt="slide_image" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={OtherArtsThird} alt="slide_image" />
         </SwiperSlide>
 
         <div className="slider-controler">

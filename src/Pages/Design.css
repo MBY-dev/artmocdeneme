@@ -69,7 +69,13 @@
   left: 12.6%;
   top: 18%;
 }
-
+.design-headerİmg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0%;
+  object-fit: cover;
+}
 .container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -92,6 +98,16 @@
 }
 .box:hover{
   background-color: black;
+}
+.box:hover h3{
+  color: darkblue;
+}
+.box video{
+  width: 126% !important;
+  position: absolute;
+ 
+  top: 0px;
+  left: 0px;
 }
 .box h3 {
   position: absolute;

@@ -7,6 +7,14 @@ import CryptoArt from "../Pages/ArtPages/CryptoArts";
 import ArtsOther from "../Pages/ArtPages/ArtsOther";
 import Teams from "../Pages/Team"
 import Art from "../Pages/Art"
+import Graphic from "../Pages/ArtPages/Graphic"
+import Brand from "../Pages/ArtPages/Brand-x"
+import UiUx from "../Pages/ArtPages/Uı&Ux"
+import Interion from "../Pages/ArtPages/Interion"
+import Motion from "../Pages/ArtPages/Motion"
+import Game from "../Pages/ArtPages/Game"
+import Consult from "../Pages/ArtPages/Consult"
+import Priting from "../Pages/ArtPages/Printing"
 
 
 export default function Router() {
@@ -18,7 +26,15 @@ export default function Router() {
       <Route path="/illustration" element={<IIIustration />} />
       <Route path="/animation" element={<Animation />} />
       <Route path="/cryptoart" element={<CryptoArt />} />
-      <Route path="/artsother" element={<ArtsOther />} />
+      <Route path="/otherarts" element={<ArtsOther />} />
+      <Route path="/graphic" element={<Graphic />} />
+      <Route path="/brand" element={<Brand/>} />
+      <Route path="/uiux" element={<UiUx/>} />
+      <Route path="/motion" element={<Motion/>} />
+      <Route path="/interion" element={<Interion/>} />
+      <Route path="/game" element={<Game/>} />
+      <Route path="/consult" element={<Consult/>} />
+      <Route path="/priting" element={<Priting/>} />
     </Routes>
   );
 }

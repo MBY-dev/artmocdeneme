@@ -13,19 +13,15 @@ import imgillu from "../../Assets/Illustration/Illustration.png";
 import Artmoc2 from "../../Assets/Artmoc Logo.png";
 import arrowreturn from "../../Assets/PAGE ARROWS/arrow return (in use).png";
 import { Link, useNavigate } from "react-router-dom";
-import CryptoArtOne from "../../Assets/CryptoArts/IMG_7107_Original (1).png"
-import CryptoArtTwo from "../../Assets/CryptoArts/IMG_7106_Original.PNG"
-import CryptoArtThree from "../../Assets/CryptoArts/IMG_7108_Original (1).png"
-import CryptoArtFour from "../../Assets/CryptoArts/b858b067-2af1-4b0a-b5f4-381e5933.jpg"
-import DedewOne from "../../Assets/CryptoArts/1.jpg"
-import DedewTwo from "../../Assets/CryptoArts/2.jpg"
-import DedewThree from "../../Assets/CryptoArts/3.jpg"
-import DedewFour from "../../Assets/CryptoArts/4.jpg"
-import DedewFive from "../../Assets/CryptoArts/5.jpg"
-import DedewSix from "../../Assets/CryptoArts/6.jpg"
-import imgCrypto from "../../Assets/CryptoArts/Cyrpto Art1.png"
+import Paleomat from "../../Assets/Illustration/Paleomat1.jpg"
+import Plesanta from "../../Assets/Illustration/Plasenta (1).jpg"
+import VanGogh from "../../Assets/Illustration/van gogh small (1).png"
+import Venus from "../../Assets/Illustration/venus (1).png"
+import NetOne from "../../Assets/Illustration/Networld I (1).jpg"
+import NetTwo from "../../Assets/Illustration/Networld IV (1).jpg"
+import NetThree from "../../Assets/Illustration/Networld V (1).jpg"
 
-const CryptoArts = () => {
+const Printing = () => {
   const navigate = useNavigate();
   return (
     <div className="div-container-body-iustration">
@@ -55,8 +51,6 @@ const CryptoArts = () => {
       <div>
         <img className="artmoc-global2" src={Artmoc2} alt="" />
       </div>
-
-      
       <Swiper
         effect={"coverflow"}
         grabCursor={true}
@@ -76,40 +70,30 @@ const CryptoArts = () => {
         }}
         modules={[EffectCoverflow, Pagination, Navigation]}
         className="swiper_container"
-        initialSlide={4}
+        initialSlide={3}
       >
         {/* <p className='img-bottm'>Lorem picsum solar sit ahmet. lorem picsum</p>  */}
         <SwiperSlide>
-          <img src={CryptoArtOne} alt="slide_image" />
+          <img src={VanGogh} alt="slide_image" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={CryptoArtTwo} alt="slide_image" />
+          <img src={Venus} alt="slide_image" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={CryptoArtThree} alt="slide_image" />
+          <img src={Plesanta} alt="slide_image" />
+        </SwiperSlide>
+         <SwiperSlide>
+          <img src={Paleomat} alt="slide_image" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={CryptoArtFour} alt="slide_image" />
+          <img src={NetOne} alt="slide_image" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={DedewOne} alt="slide_image" />
+          <img src={NetTwo} alt="slide_image" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={DedewTwo} alt="slide_image" />
+          <img src={NetThree} alt="slide_image" />
         </SwiperSlide>
-        <SwiperSlide>
-          <img src={DedewThree} alt="slide_image" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={DedewFour} alt="slide_image" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={DedewFive} alt="slide_image" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={DedewSix} alt="slide_image" />
-        </SwiperSlide>
-        
 
         <div className="slider-controler">
           <div className="swiper-pagination"></div>
@@ -117,7 +101,7 @@ const CryptoArts = () => {
         <p className="img-user">by NOSCETEİPSUM</p>
         <p className="img-bottm">Lorem picsum solar sit ahmet. lorem picsum</p>
         <div className="image-illu">
-          <img src={imgCrypto} alt="" />
+          <img src={imgillu} alt="" />
         </div>
         <Link to="/#frame_art">
           <a href="#frame_art">
@@ -127,9 +111,8 @@ const CryptoArts = () => {
         </a>
         </Link>
       </Swiper>
-      </div>
- 
+    </div>
   );
 };
 
-export default CryptoArts;
+export default Printing;

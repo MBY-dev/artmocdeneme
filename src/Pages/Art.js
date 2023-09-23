@@ -9,6 +9,8 @@ import Artmoc2 from "./../Assets/Artmoc Logo.png";
 import "./Art.css";
 import { useNavigate } from "react-router-dom";
 import AnimationArt from "../Assets/art/Brain(cover)-1.png"
+import CryptoArt from "../Assets/art/OneBlackHole(cover).jpg"
+import OtherArt from "../Assets/art/goat1(withoutlogo).png"
 
 const Art = () => {
   const navigate = useNavigate();
@@ -69,7 +71,7 @@ const Art = () => {
             className="content-wrapper"
             onClick={() => navigate("/cryptoart")}
           >
-            <img src={animation1} alt="pageflow" />
+            <img src={CryptoArt} alt="pageflow" />
             <p>CyrptoArt</p>
           </div>
         </div>
@@ -78,7 +80,7 @@ const Art = () => {
             className="content-wrapper"
             onClick={() => navigate("/otherarts")}
           >
-            <img src={animation1} alt="pageflow" />
+            <img src={OtherArt} alt="pageflow" />
             <p>OtherArts</p>
           </div>
         </div>
