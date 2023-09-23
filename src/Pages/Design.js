@@ -13,6 +13,7 @@ import Consult from "../Assets/Design/Consult/Design Consulting-01 (1) ANA.png"
 import Game from "../Assets/Design/Game/boardgame.png"
 import İntro from "../Assets/Design/motion/İntro.mp4"
 import interion from "../Assets/Design/Interion/IMG_3762.jpg"
+import Ui from "../Assets/Design/Uı/UX-vs-UI-Design.jpeg"
 
 const Design = () => {
   
@@ -62,7 +63,7 @@ const Design = () => {
         </div>
         <div className="box"
         onClick={() => navigate("/uiux")}>
-            <img  className="design-headerİmg" src={Deneme} alt="" />
+            <img  className="design-headerİmg" src={Ui} alt="" />
           <h3>UI&UX</h3>
         </div>
         <div className="box"

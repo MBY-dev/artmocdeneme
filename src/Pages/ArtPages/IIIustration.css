@@ -316,7 +316,6 @@
    width: 30rem !important;
    height: 27rem !important;
    border-radius: 2rem !important;
-   object-fit: cover !important;
 }
 .slider-controler {
    bottom: -6rem !important;
@@ -384,6 +383,10 @@
    top: 10%;
    left: 3%;
 }
+.swiper-motion .swiper-wrapper {
+   width: 78%;
+}
+  
   .swiper-animation {
    top: 17%;
    position: absolute;

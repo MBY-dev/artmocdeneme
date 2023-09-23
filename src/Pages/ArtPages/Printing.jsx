@@ -13,13 +13,11 @@ import imgillu from "../../Assets/Illustration/Illustration.png";
 import Artmoc2 from "../../Assets/Artmoc Logo.png";
 import arrowreturn from "../../Assets/PAGE ARROWS/arrow return (in use).png";
 import { Link, useNavigate } from "react-router-dom";
-import Paleomat from "../../Assets/Illustration/Paleomat1.jpg"
-import Plesanta from "../../Assets/Illustration/Plasenta (1).jpg"
-import VanGogh from "../../Assets/Illustration/van gogh small (1).png"
-import Venus from "../../Assets/Illustration/venus (1).png"
-import NetOne from "../../Assets/Illustration/Networld I (1).jpg"
-import NetTwo from "../../Assets/Illustration/Networld IV (1).jpg"
-import NetThree from "../../Assets/Illustration/Networld V (1).jpg"
+import PrintingOne from "../../Assets/Design/Printing/1mockup4.jpg"
+import PrintingTwo from "../../Assets/Design/Printing/2mockup5.jpg"
+import PrintingThree from "../../Assets/Design/Printing/mockup.png"
+import PrintingFour from "../../Assets/Design/Printing/mockup 1.jpg"
+
 
 const Printing = () => {
   const navigate = useNavigate();
@@ -70,29 +68,20 @@ const Printing = () => {
         }}
         modules={[EffectCoverflow, Pagination, Navigation]}
         className="swiper_container"
-        initialSlide={3}
+        initialSlide={1}
       >
         {/* <p className='img-bottm'>Lorem picsum solar sit ahmet. lorem picsum</p>  */}
         <SwiperSlide>
-          <img src={VanGogh} alt="slide_image" />
+          <img src={PrintingOne} alt="slide_image" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={Venus} alt="slide_image" />
+          <img src={PrintingTwo} alt="slide_image" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={Plesanta} alt="slide_image" />
+          <img src={PrintingFour} alt="slide_image" />
         </SwiperSlide>
          <SwiperSlide>
-          <img src={Paleomat} alt="slide_image" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={NetOne} alt="slide_image" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={NetTwo} alt="slide_image" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={NetThree} alt="slide_image" />
+          <img src={PrintingOne} alt="slide_image" />
         </SwiperSlide>
 
         <div className="slider-controler">

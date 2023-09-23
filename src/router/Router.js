@@ -31,7 +31,7 @@ export default function Router() {
       <Route path="/brand" element={<Brand/>} />
       <Route path="/uiux" element={<UiUx/>} />
       <Route path="/motion" element={<Motion/>} />
-      <Route path="/interion" element={<Interion/>} />
+      <Route path="/intertion" element={<Interion/>} />
       <Route path="/game" element={<Game/>} />
       <Route path="/consult" element={<Consult/>} />
       <Route path="/priting" element={<Priting/>} />

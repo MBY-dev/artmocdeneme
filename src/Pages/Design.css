@@ -105,7 +105,6 @@
 .box video{
   width: 126% !important;
   position: absolute;
- 
   top: 0px;
   left: 0px;
 }
@@ -169,6 +168,10 @@
 }
 .design-img img{
   width: 15rem;
+}
+.box h3 {
+  left: 1px;
+  top: 0%;
 }
 }
 

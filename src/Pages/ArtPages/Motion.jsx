@@ -14,10 +14,9 @@ import Artmoc2 from "../../Assets/Artmoc Logo.png";
 import arrowreturn from "../../Assets/PAGE ARROWS/arrow return (in use).png";
 import { Link, useNavigate } from "react-router-dom";
 import ReactPlayer from 'react-player';
-import brain from "../../Assets/art/Animationvideo/Brain.mp4"
-import ArtmocMp4 from "../../Assets/art/Animationvideo/Artmoc.mp4"
-import Vitrivius from "../../Assets/art/Animationvideo/Vitrivius.mp4"
-import Corona from "../../Assets/art/Animationvideo/Corona.mp4"
+import MotionOne from "../../Assets/Design/motion/3Dkarakteranimasyon.mp4"
+import MotionTwo from "../../Assets/Design/motion/Dedew Animasyon 1.mp4"
+import MotionFour from "../../Assets/Design/motion/Egalabelintro.mp4"
 
 const Animation = () => {
   const navigate = useNavigate();
@@ -49,6 +48,7 @@ const Animation = () => {
       <div>
         <img className="artmoc-global2" src={Artmoc2} alt="" />
       </div>
+      <div className="swiper-motion">
       <div className="swiper-animation">
       <Swiper
         effect={"coverflow"}
@@ -74,7 +74,7 @@ const Animation = () => {
         {/* <p className='img-bottm'>Lorem picsum solar sit ahmet. lorem picsum</p>  */}
         <SwiperSlide>
       <ReactPlayer
-        url={brain} // Video URL'sini proje içindeki yol ile ayarlayın
+        url={MotionOne} // Video URL'sini proje içindeki yol ile ayarlayın
         playing={true} // Otomatik başlatma
         loop={true} // Video bitiminde tekrar başlatma
         muted={true} // Sesi kapatma (isteğe bağlı)
@@ -84,7 +84,7 @@ const Animation = () => {
     </SwiperSlide>
         <SwiperSlide>
         <ReactPlayer
-        url={ArtmocMp4} // Video URL'sini proje içindeki yol ile ayarlayın
+        url={MotionTwo} // Video URL'sini proje içindeki yol ile ayarlayın
         playing={true} // Otomatik başlatma
         loop={true} // Video bitiminde tekrar başlatma
         muted={true} // Sesi kapatma (isteğe bağlı)
@@ -97,17 +97,7 @@ const Animation = () => {
         </SwiperSlide>
         <SwiperSlide>
         <ReactPlayer
-        url={Vitrivius} // Video URL'sini proje içindeki yol ile ayarlayın
-        playing={true} // Otomatik başlatma
-        loop={true} // Video bitiminde tekrar başlatma
-        muted={true} // Sesi kapatma (isteğe bağlı)
-        width="100%" // Genişliği ayarlayın
-        height="74%" // Yüksekliği ayarlayın
-      />
-        </SwiperSlide>
-        <SwiperSlide>
-        <ReactPlayer
-        url={Corona} // Video URL'sini proje içindeki yol ile ayarlayın
+        url={MotionFour} // Video URL'sini proje içindeki yol ile ayarlayın
         playing={true} // Otomatik başlatma
         loop={true} // Video bitiminde tekrar başlatma
         muted={true} // Sesi kapatma (isteğe bağlı)
@@ -132,6 +122,7 @@ const Animation = () => {
         </a>
         </Link>
       </Swiper>
+      </div>
       </div>
     </div>
   );

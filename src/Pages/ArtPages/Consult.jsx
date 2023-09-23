@@ -13,13 +13,7 @@ import imgillu from "../../Assets/Illustration/Illustration.png";
 import Artmoc2 from "../../Assets/Artmoc Logo.png";
 import arrowreturn from "../../Assets/PAGE ARROWS/arrow return (in use).png";
 import { Link, useNavigate } from "react-router-dom";
-import Paleomat from "../../Assets/Illustration/Paleomat1.jpg"
-import Plesanta from "../../Assets/Illustration/Plasenta (1).jpg"
-import VanGogh from "../../Assets/Illustration/van gogh small (1).png"
-import Venus from "../../Assets/Illustration/venus (1).png"
-import NetOne from "../../Assets/Illustration/Networld I (1).jpg"
-import NetTwo from "../../Assets/Illustration/Networld IV (1).jpg"
-import NetThree from "../../Assets/Illustration/Networld V (1).jpg"
+import ConsultOne from "../../Assets/Design/Consult/Design Consulting-01.png"
 
 const Consult = () => {
   const navigate = useNavigate();
@@ -70,30 +64,13 @@ const Consult = () => {
         }}
         modules={[EffectCoverflow, Pagination, Navigation]}
         className="swiper_container"
-        initialSlide={3}
+        initialSlide={0}
       >
         {/* <p className='img-bottm'>Lorem picsum solar sit ahmet. lorem picsum</p>  */}
         <SwiperSlide>
-          <img src={VanGogh} alt="slide_image" />
+          <img className="Consult-img-re"src={ConsultOne} alt="slide_image" />
         </SwiperSlide>
-        <SwiperSlide>
-          <img src={Venus} alt="slide_image" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={Plesanta} alt="slide_image" />
-        </SwiperSlide>
-         <SwiperSlide>
-          <img src={Paleomat} alt="slide_image" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={NetOne} alt="slide_image" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={NetTwo} alt="slide_image" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={NetThree} alt="slide_image" />
-        </SwiperSlide>
+  
 
         <div className="slider-controler">
           <div className="swiper-pagination"></div>
