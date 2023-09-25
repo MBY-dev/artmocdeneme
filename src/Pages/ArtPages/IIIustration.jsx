@@ -51,6 +51,7 @@ const IIIustration = () => {
       <div>
         <img className="artmoc-global2" src={Artmoc2} alt="" />
       </div>
+      
       <Swiper
         effect={"coverflow"}
         grabCursor={true}
@@ -94,7 +95,6 @@ const IIIustration = () => {
         <SwiperSlide>
           <img src={NetThree} alt="slide_image" />
         </SwiperSlide>
-
         <div className="slider-controler">
           <div className="swiper-pagination"></div>
         </div>
@@ -111,6 +111,7 @@ const IIIustration = () => {
         </a>
         </Link>
       </Swiper>
+    
     </div>
   );
 };

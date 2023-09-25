@@ -109,7 +109,7 @@ const CryptoArts = () => {
         <SwiperSlide>
           <img src={DedewSix} alt="slide_image" />
         </SwiperSlide>
-        
+
 
         <div className="slider-controler">
           <div className="swiper-pagination"></div>

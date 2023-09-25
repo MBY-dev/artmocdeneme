@@ -132,6 +132,7 @@ const Animation = () => {
         </a>
         </Link>
       </Swiper>
+     
       </div>
     </div>
   );

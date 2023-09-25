@@ -8,7 +8,8 @@
   }
 
 .div-container-body-aboutartmoc{
-    background: linear-gradient(to bottom, #3f5150, #638669, #638669);
+    /* background: linear-gradient(to bottom, #3f5150, #638669, #638669); */
+    background: linear-gradient(to bottom, #776b6a, #3f5150, #3f5150);
     position: relative;
     width: 100vw;
     height: 100vh;

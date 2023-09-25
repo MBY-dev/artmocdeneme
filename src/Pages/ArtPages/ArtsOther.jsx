@@ -78,43 +78,43 @@ const ArtsOther = () => {
         initialSlide={5}
       >
         {/* <p className='img-bottm'>Lorem picsum solar sit ahmet. lorem picsum</p>  */}
-        <SwiperSlide>
-          <img src={OtherArtsOne} alt="slide_image" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={OtherArtsTwo} alt="slide_image" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={OtherArtsThree} alt="slide_image" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={OtherArtsFour} alt="slide_image" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={OtherArtsFive} alt="slide_image" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={OtherArtsSeven} alt="slide_image" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={OtherArtsEight} alt="slide_image" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={OtherArtsNine} alt="slide_image" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={OtherArtsTen} alt="slide_image" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={OtherArtsEleven} alt="slide_image" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={OtherArtsTwelve} alt="slide_image" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={OtherArtsThird} alt="slide_image" />
-        </SwiperSlide>
 
+        <SwiperSlide>
+          <img src={OtherArtsOne} alt="slide_image" style={{ objectFit: 'cover' }} />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={OtherArtsTwo} alt="slide_image" style={{ objectFit: 'cover' }} />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={OtherArtsThree} alt="slide_image" style={{ objectFit: 'cover' }} />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={OtherArtsFour} alt="slide_image" style={{ objectFit: 'cover' }} />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={OtherArtsFive} alt="slide_image" style={{ objectFit: 'cover' }} />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={OtherArtsSeven} alt="slide_image"  style={{ objectFit: 'cover' }}/>
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={OtherArtsEight} alt="slide_image" style={{ objectFit: 'cover' }} />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={OtherArtsNine} alt="slide_image"  style={{ objectFit: 'cover' }}/>
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={OtherArtsTen} alt="slide_image" style={{ objectFit: 'cover' }} />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={OtherArtsEleven} alt="slide_image"  style={{ objectFit: 'cover' }}/>
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={OtherArtsTwelve} alt="slide_image" style={{ objectFit: 'cover' }} />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={OtherArtsThird} alt="slide_image" style={{ objectFit: 'cover' }} />
+        </SwiperSlide>
         <div className="slider-controler">
           <div className="swiper-pagination"></div>
         </div>

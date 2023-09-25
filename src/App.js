@@ -23,7 +23,7 @@ function App() {
   return (
     <div className="App">
       <Artmoc />
-      <News />
+       {/* <News />  */}
       <AboutArtmoc />
       <AboutLine />
       <Art />
