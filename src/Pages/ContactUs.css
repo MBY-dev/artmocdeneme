@@ -4,6 +4,18 @@
   width: 100vw;
   height: 100vh;
 }
+.div-container-body h2{
+  position: absolute;
+  left: 16rem;
+  font-size: 54px;
+  font-family: 'Raleway';
+  font-stretch: normal;
+  font-style: revert;
+  color: white;
+  letter-spacing: 2px;
+  top: 8rem;
+}
+
 /* Art*/
 .fixedtopleft-cu {
   position: absolute;
@@ -61,7 +73,7 @@
   left: 3em;
   width: 100%;
   height: auto;
-  top: 9em;
+  top: 13em;
 }
 
 .container2 {
@@ -296,6 +308,18 @@ width: 30%;
 }
 
 @media (min-width:320px) and (max-width:1000px) {
+  .div-container-body h2 {
+    position: absolute;
+    left: 3rem;
+    font-size: 42px;
+    font-family: 'Raleway';
+    font-stretch: normal;
+    font-style: revert;
+    color: white;
+    letter-spacing: 2px;
+    top: 7rem;
+}
+  
   .fixedtopleft-cu {
     position: absolute;
     left: 39px;
@@ -484,8 +508,16 @@ button.submit-button {
   .artmoc-global {
     left: 39%;  
 }
+
+.content {
+  margin-top: 84px;
+}
 .content2 .input-group textarea {
   width: 120%;
+}
+.div-container-body h2 {
+  font-size: 47px;
+  left: 4rem;
 }
 button.submit-button {
   width: 105px;
@@ -512,6 +544,11 @@ button.submit-button {
 button.submit-button {
   left: 17.5%;
 }
+.div-container-body h2 {
+  font-size: 47px;
+  left: 5rem;
+  top: 10rem;
+}
 .container2-position {
   top: 34.5%;
 }
@@ -533,12 +570,36 @@ button.submit-button {
   right: -13.6rem;
 }
 }
+@media (min-width:412px) and (max-width:413px) {
+  .without-header img {
+    width: 150px;
+    position: absolute;
+    right: -9px;
+    top: 11rem;
+}
+.container-ww p {
+  font-size: 10.6px;
+  line-height: 18px;
+}
+}
 @media (min-width:500px) and (max-width:1000px) {
   .content2 .input-group textarea {
     width: 173%;
     height: 69px;
 
 }
+.content {
+  margin-top: -86px;
+}
+.container-ww p {
+  line-height: 16px;
+}
+.div-container-body h2 {
+  font-size: 47px;
+  left: 9rem;
+  top: 10rem;
+}
+
 button.submit-button {
   left: 21.5%;
 }
@@ -559,6 +620,35 @@ button.submit-button {
     font-family: 'Raleway';
     font-size: 35px;
 }
+.div-container-body h2 {
+  font-size: 67px;
+  left: 14rem;
+  top: 10rem;
+}
+.container-ww {
+  top: 35%;
+}
+.with-header img {
+  width: 252px;
+  position: absolute;
+  top: -12rem;
+  left: -1.5rem;
+}
+.without-header img {
+  width: 319px;
+  position: absolute;
+  right: -9px;
+  top: 13rem;
+}
+.container-ww p {
+  font-size: 18.6px;
+  line-height: 27px;
+}
+.without-header .content {
+  margin-top: 124px;
+}
+
+
   .section.left-section {
     width: 71%;
     line-height: 28px;
@@ -630,6 +720,15 @@ button.submit-button {
     width: 582px;
     height: 138px;
 }
+.container2-position {
+  left: 16%;
+  top: 34.5%;
+}
+.div-container-body h2 {
+  font-size: 78px;
+  left: 14rem;
+  top: 10rem;
+}
 }
 @media (min-width:900px) and (max-width:1000px) {
   .global-img {
@@ -668,3 +767,21 @@ button.submit-button {
   width: 16%;
 }
 }
+@media (min-width:1000px) and (max-width:1400px) {
+  .container2-position {
+    position: absolute;
+    left: 1em;
+    width: 100%;
+    height: auto;
+    top: 13em;
+}
+.div-container-body h2 {
+  left: 23rem;
+}
+  
+}
+ @media (min-width:1200px) and (max-width:1400px) {
+  .div-container-body h2 {
+    left: 31rem;
+}
+ }

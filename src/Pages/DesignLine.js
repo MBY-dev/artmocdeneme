@@ -5,7 +5,7 @@ const DesignLine = () => {
     return (
         <div className='container-Deline'>
             <div className='left-Deline'>
-                <p className="indented-paragraph-left"> ARTMOC CONDUCTS A METUCULOUS WORKİNG PROCESS THAT IS NECESSARY TO BRING YOUR DREAM PROJECT TO LUFE, MAKİNG İTS CREATIONS ACCESİBLE TO EVERYONE. ALL YOU HAVE TO DO IS ALLOW THE ARTIST TOCREATE!</p>
+                <p className="indented-paragraph-left"> ARTMOC AIMS TO BE A LEADING PRODUCTION FIELD OF ITS ERA WITH ITS WORKS THAT ARE REALIZED BY CONSIDERING UTOPIAN FUTURE SCENARIOS OPENING UP TO THE EXPERIENCE OF TODAY'S DYNAMIC DIGITAL WORLD WITH CREATIVE TOUCHES.</p>
             </div>
 
         </div>

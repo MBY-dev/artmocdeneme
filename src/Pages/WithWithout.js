@@ -4,6 +4,8 @@ import pageflow6 from "./../Assets/pageflow6.png";
 import instagramhidden from "./../Assets/Social/instagram (hidden).png";
 import twitterhidden from "./../Assets/Social/twitter (hidden).png";
 import Artmoc2 from "./../Assets/Artmoc Logo.png"
+import With from "./../Assets/withWithout/WITH.png"
+import Without from "./../Assets/withWithout/WITHOUT.png"
 
 const WithWithout = () => {
   // const imageStyle = {
@@ -40,21 +42,21 @@ const WithWithout = () => {
         </div> */}
         <div className="container-ww">
     <div className="with-header">
-      <header>With </header>
+      <img src={With} alt="With" />
       <div className="content">
-        <p>Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yaz</p>
-        <p>Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yaz</p>
-        <p>Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yaz</p>
-        <p>Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yaz</p>
+        <p>ARTMOC IS THERE FOR YOU WHEN YOU NEED IT, ALLOWING YOU TO GET RID OF FIXED EXPENSES</p>
+        <p>IT OFFERS TRANSPARENT SERVICES WITH A NET PRICING POLICY, KEEPING YOU AWAY FROM SURPRISE COSTS</p>
+        <p>WITH MANY TALENTED DESIGNERS AND BUSINESS PARTNERS SPECIALIZED IN THE DESIGN FIELD, ARTMOC PROVIDES YOU WITH THE HIGHEST QUALITY SERVICES</p>
+        <p>ARTMOC MANAGES THE PROCESS ON YOUR BEHALF</p>
       </div>
     </div>
     <div className="without-header">
-    <header>Without </header>
+    <img src={Without} alt="Without" />
       <div className="content">
-        <p>Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yaz</p>
-        <p>Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yaz</p>
-        <p>Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yaz</p>
-        <p>Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yaz</p>
+        <p>YOU WILL HAVE TO COVER FIXED EMPLOYEE EXPENSES (INSURANCE, TRANSPORTATION, MEALS, ETC.)</p>
+        <p>YOU WILL STRUGGLE WITH LANGUAGE BARRIERS, TECHNICAL TERMS, AND PROCESS TRACKING, RESULTING IN A WASTE OF TIME</p>
+        <p>YOU WILL HAVE TO PAY FOR 8 HOURS OF WORK FOR A DAILY 4-HOUR WORKER YOU WILL STRUGGLE WITH LANGUAGE BARRIERS, TECHNICAL TERMS, AND PROCESS TRACKING, RESULTING IN A WASTE OF TIME</p>
+        <p>YOUR PROJECTS WILL BE LIMITED TO THE PERSPECTIVE OF THE WORKING DESIGNER</p>
       </div>
     </div>
   </div>

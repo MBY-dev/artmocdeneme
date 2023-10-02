@@ -68,6 +68,7 @@
 
 .about-tittle-text img{
     width: 76%;
+    user-select: none;
 }
 .about-header{
  line-height: 14;

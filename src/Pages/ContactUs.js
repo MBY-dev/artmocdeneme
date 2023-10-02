@@ -40,6 +40,7 @@ const ContactUs = () => {
           <a href="#frame_contact">Contact</a>
         </div>
       </div> */}
+     <h2>Contact Us</h2>
       <div  className="container2-position">
         <div className="container2">
         <div className="deneme2-us">
