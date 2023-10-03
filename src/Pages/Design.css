@@ -95,9 +95,7 @@
   position: relative;
   overflow: hidden;
 }
-.box:hover{
-  background-color: black;
-}
+
 .box:hover h3{
   color: darkblue;
 }
