@@ -12,6 +12,8 @@
     position: relative;
     width: 100vw;
     height: 100vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 .fixedtopleft-team{
@@ -248,7 +250,7 @@
 }
 .sliderbar-teams {
   position: absolute;
-  left: 19%;
+  left: 9%;
   padding: 10px;
   top: 68%;
 }
@@ -266,7 +268,7 @@
   left: 40%;
 }
 .sliderbar-teams {
-  left: 26%;
+  left: 17%;
   top: 65%;
 }
 .team-turn {
@@ -341,7 +343,7 @@
 }
 .sliderbar-teams {
   top: 71%;
-  left: 32%;
+  left: 25%;
 }
 .team-turn{
   z-index: 1;
@@ -374,10 +376,12 @@
   border: 5px solid white;
   border-radius: 50%;
 }
-.sliderbar-teams {
-  top: 73%;
-  left: 39%;
+
+  .sliderbar-teams {
+    top: 73%;
+    left: 34%;
 }
+
 .teams-info h2 {
   margin: -35px -11px 19px 0px;
   font-size: 40px;
