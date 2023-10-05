@@ -46,16 +46,14 @@
     width: 45px;
   padding: 0px 10px 0px 0px ;
 }
-.sliderbar-teams{
-    position: absolute;
-    left: 54%;
-    top: 80%;
- 
-
+.sliderbar-teams {
+  position: absolute;
+  left: 48%;
+  top: 80%;
 }
 .Tabpanel-design {
   position: absolute;
-  left: 26%;
+  left: 22%;
   top: 14%;
   width: 71%;
 }
