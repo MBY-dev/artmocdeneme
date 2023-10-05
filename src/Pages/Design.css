@@ -154,13 +154,13 @@
     width: 71em;
     top: 13em;
     height: 25em;
-    left: 16em;
+    left: 9%;
     position: absolute;
     cursor: pointer;
 }
 .design-img {
   position: absolute;
-  left: 15.6%;
+  left: 8.6%;
   top: 15%;
 }
 .design-img img{

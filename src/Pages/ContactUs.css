@@ -3,10 +3,12 @@
   position: relative;
   width: 100vw;
   height: 100vh;
+  overflow-y: hidden;
+  overflow-x: hidden;
 }
 .div-container-body h2{
   position: absolute;
-  left: 16rem;
+  left: 14rem;
   font-size: 54px;
   font-family: 'Raleway';
   font-stretch: normal;
@@ -70,8 +72,8 @@
 
 .container2-position {
   position: absolute;
-  left: 3em;
-  width: 100%;
+  left: 0em;
+  width: 96%;
   height: auto;
   top: 13em;
 }
@@ -174,7 +176,7 @@ button.submit-button:hover {
   background-color: rgba(200, 200, 200, 0.3);
 }
 .content2 .input-group textarea{
-  width: 400px;
+  width: 100%;
   height: 180px;
 }
 .content2 .input-group{
@@ -360,7 +362,7 @@ width: 30%;
 }
   .container2-position {
     position: absolute;
-    left: 24%;
+    left: 22%;
     width: 100%;
     height: auto;
     top: 33%;
@@ -372,15 +374,17 @@ width: 30%;
   text-align: center;
   line-height: 4px;
   gap: 30px;
+  width: 60%;
 }
   .deneme2-us {
     display: flex;
     flex-direction: column;
     align-items: start;
     position: relative;
-}
+    width: 100%;
+  }
 .section.left-section {
-  width: 60%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -390,10 +394,14 @@ width: 30%;
   display: none;
   margin-top: -1px;
 }
+.content2.active{
+  width: 100%;
+}
 .content2 .input-group {
   line-height: 0px;
   padding: 13px 0px 20px 0px;
   border: none;
+  width: 100%;
 }
 .content2 .input-group input {
   position: absolute;
@@ -409,7 +417,7 @@ width: 30%;
   background-color: rgba(200, 200, 200, 0.3);
   border-radius: 24px;
   height: 63px;
-  width: 103%;
+  width: 100%;
   padding: 10px;
   color: white;
 }
@@ -424,7 +432,7 @@ button.submit-button {
   transition: background-color 0.3s;
   margin-top: 10px;
   width: 105px;
-  left: 14%;
+  left: 24%;
   top: 80%;
 }
 .content2 .input-group textarea::placeholder {
@@ -437,6 +445,7 @@ button.submit-button {
   font-size: 13px;
   cursor: pointer;
   line-height: 4px;
+  width: 100%;
 }
 .deneme3-us {
   display: flex;
@@ -445,7 +454,7 @@ button.submit-button {
   position: relative;
 }
 .section.right-section {
-  width: 61%;
+  width: 100%;
   line-height: 6px;
 }
 .global-img {
@@ -491,14 +500,14 @@ button.submit-button {
 
 @media (min-width:355px) and (max-width:1000px) {
   .content2 .input-group textarea {
-    width: 117%;
+    width: 100%;
 }
 .container2-position {
   left: 19%;
 }
 button.submit-button {
   width: 105px;
-  left: 16%;
+  left: 28%;
 }
 .up-arrow {
   right: -61%;
@@ -513,7 +522,7 @@ button.submit-button {
   margin-top: 84px;
 }
 .content2 .input-group textarea {
-  width: 120%;
+  width: 100%;
 }
 .div-container-body h2 {
   font-size: 47px;
@@ -521,6 +530,7 @@ button.submit-button {
 }
 button.submit-button {
   width: 105px;
+  left: 29%;
   
  }
  .global-img {
@@ -539,10 +549,10 @@ button.submit-button {
 
 @media (min-width:385px) and (max-width:1000px) {
   .content2 .input-group textarea {
-    width: 127%;
+    width: 100%;
 }
 button.submit-button {
-  left: 17.5%;
+  left: 29.5%;
 }
 .div-container-body h2 {
   font-size: 47px;
@@ -584,7 +594,7 @@ button.submit-button {
 }
 @media (min-width:500px) and (max-width:1000px) {
   .content2 .input-group textarea {
-    width: 173%;
+    width: 100%;
     height: 69px;
 
 }
@@ -601,7 +611,7 @@ button.submit-button {
 }
 
 button.submit-button {
-  left: 21.5%;
+  left: 36.5%;
 }
 .global-img {
   top: -81%;
@@ -620,9 +630,12 @@ button.submit-button {
     font-family: 'Raleway';
     font-size: 35px;
 }
+.container2-position {
+  top: 25.5%;
+}
 .div-container-body h2 {
   font-size: 67px;
-  left: 14rem;
+  left: 12rem;
   top: 10rem;
 }
 .container-ww {
@@ -649,33 +662,33 @@ button.submit-button {
 }
 
 
-  .section.left-section {
-    width: 71%;
-    line-height: 28px;
-    font-size: 23px;
+.section.left-section {
+  width: 100%;
+  line-height: 28px;
+  font-size: 23px;
 }
 .content2 .input-group {
   padding: 30px 0px 23px 0px;
 }
 .content2 .input-group input[type="text" ] {
-  width: 70%;
+  width: 100%;
   padding: 10px;
   font-size: 23px;
   line-height: 26px;
 }
 button.submit-button {
   height: 12%;
-  left: 25.5%;
+  left: 34.5%;
   font-size: 23px;
   top: 84%;
-  width: 21%;
+  width: 34%;
 }
 .section.right-section {
-  width: 71%;
+  width: 100%;
   line-height: 28px;
 }
 .content2 .input-group textarea {
-  width: 223%;
+  width: 100%;
   height: 135px;
   font-size: 22px;
 }
@@ -717,17 +730,17 @@ button.submit-button {
 }
 @media (min-width:800px)and (max-width:1000px) {
   .content2 .input-group textarea {
-    width: 582px;
+    width: 100%;
     height: 138px;
 }
 .container2-position {
-  left: 16%;
-  top: 34.5%;
+  left: 21%;
+  top: 28.5%;
 }
 .div-container-body h2 {
   font-size: 78px;
-  left: 14rem;
-  top: 10rem;
+  left: 13rem;
+  top: 14rem;
 }
 }
 @media (min-width:900px) and (max-width:1000px) {
@@ -735,6 +748,11 @@ button.submit-button {
     top: -136%;
     left: 29%;
     width: 443px;
+}
+.div-container-body h2 {
+  font-size: 78px;
+  left: 16rem;
+  top: 14rem;
 }
 .flex-social {
   left: 35%;
@@ -746,7 +764,7 @@ button.submit-button {
   font-size: 24px;
 }
 .content2 .input-group textarea {
-  width: 653px;
+  width: 100%;
   height: 149px;
 }
 .flex-icon {

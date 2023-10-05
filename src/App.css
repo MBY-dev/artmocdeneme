@@ -25,21 +25,21 @@
   }
   .cont-footer p{
     position: absolute;
-    left: 45.5%;
+    left: 40.5%;
     color: white;
   }
   .global-img {
     width: 350px;
     position: absolute;
     top: -184%;
-    left: 43%;
+    left: 38%;
 }
 
   .flex-social {
     display: flex;
     justify-content: center;
     position: absolute;
-    left: 45%;
+    left: 40%;
     top: -3rem;
 
 }
@@ -71,7 +71,7 @@
     width: 443px;
 }
 .flex-social {
-  left: 30%;
+  left: 44%;
   top: 2%;
 }
 .flex-icon {

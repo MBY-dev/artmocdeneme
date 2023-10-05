@@ -531,7 +531,7 @@ header {
     height: auto !important;
     top: 11em;
     width: 71em;
-    left: 15em;
+    left: 10em;
 }
 }
 @media (min-width:1000px) and (max-width:1200px) {

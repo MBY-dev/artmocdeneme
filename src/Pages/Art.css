@@ -152,7 +152,7 @@
   grid-template-columns: repeat(4, 1fr);
   position: absolute;
   gap: 3%;
-  left: 17%;
+  left: 11%;
   top: 26%;
 }
 
@@ -176,7 +176,7 @@
   writing-mode: unset;
   top: 100%;
   width: 100%;
-  transition: top 0.0001s ease-in-out, font-size 0.1s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 }
 
