@@ -17,6 +17,13 @@
   letter-spacing: 2px;
   top: 8rem;
 }
+.phone{
+  position: absolute;
+  width: 88px;
+  top: 37%;
+  left: 46%;
+  cursor: pointer;
+}
 
 /* Art*/
 .fixedtopleft-cu {
@@ -320,6 +327,9 @@ width: 30%;
     color: white;
     letter-spacing: 2px;
     top: 7rem;
+}
+.phone{
+  display: none;
 }
   
   .fixedtopleft-cu {

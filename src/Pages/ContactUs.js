@@ -41,6 +41,7 @@ const ContactUs = () => {
         </div>
       </div> */}
      <h2>Contact Us</h2>
+     <img src={contact} alt="" className="phone" />
       <div  className="container2-position">
         <div className="container2">
         <div className="deneme2-us">
@@ -79,6 +80,7 @@ const ContactUs = () => {
             onClick={() => toggleContent('join-us')}
           >
             <h3>Join Us</h3>
+          
           </div>
           <div className={`content2 ${activeSection === 'join-us' ? 'active' : ''}`}>
             {activeSection === 'join-us' && (
