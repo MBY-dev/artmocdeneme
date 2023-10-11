@@ -126,7 +126,7 @@
 .grid-item:hover .content-wrapper p {
   /* Diğer stil ayarları */
   left: -5px;
-  font-size: 425% !important;
+  font-size: 225% !important;
   transform: none;
   writing-mode: unset;
   top: 100%;
@@ -171,7 +171,7 @@
 }
 .grid-item:hover .content-wrapper p {
   left: 8px;
-  font-size: 342% !important;
+  font-size: 180% !important;
   transform: none;
   writing-mode: unset;
   top: 100%;
@@ -183,7 +183,7 @@
 
 @media (min-width:1700px) {
   .content-wrapper p {
-    font-size: calc(100% + 75px);
+    font-size: calc(100% + 64px);
 }
 .grid-container {
   display: grid;
@@ -316,7 +316,7 @@
     font-size: calc(100% + 30px);
 }
 .grid-item:hover .content-wrapper p {
-  left: 4%;
+  display: none;
 }
 }
 
@@ -326,7 +326,7 @@
 }
 .grid-item:hover .content-wrapper p {
 
-  font-size: 165% !important;
+  display: none;
 
 }
 
@@ -349,7 +349,7 @@
   font-size: calc(100% + 26px);
 }
 .grid-item:hover .content-wrapper p {
-  font-size: 191% !important;
+  display: none;
 }
 }
 @media (min-width:700px) and (max-width:1000px) {
@@ -377,7 +377,7 @@
   font-size: calc(100% + 45px);
 }
 .grid-item:hover .content-wrapper p {
-  font-size: 269% !important;
+ display: none;
 }
 
 

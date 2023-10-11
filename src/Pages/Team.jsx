@@ -35,7 +35,9 @@ const Team = () => {
   };
 
    
-  
+  function kapatPencere() {
+    window.close();
+}
 
   return (
           <div className="div-container-body-team"
@@ -65,9 +67,12 @@ const Team = () => {
       </div>
       <p className='team-header'>Team</p>
       <div className='team-turn'>
-        <a href="/">
-        <img src={arrowReturn} alt="" />
-        </a>
+      <a
+  href="#"
+  onClick={kapatPencere}
+>
+  <img src={arrowReturn} alt="" />
+</a>
       </div>
       
      <Box>

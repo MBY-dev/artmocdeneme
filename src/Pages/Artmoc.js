@@ -22,14 +22,6 @@ const Artmoc = () => {
         <a href="#frame_about">Info</a>
       </div>
       <div className="fixeddownright-artmoc">
-        <div className="social-right-down-artmoc">
-          <a href="/">
-            <img src={twitterhidden} alt="Twitter" />
-          </a>
-          <a href="/">
-            <img src={instagramhidden} alt="Instagram" />
-          </a>
-        </div>
         <div>
           <a href="#frame_contact">Contact</a>
         </div>

@@ -49,40 +49,48 @@ const Art = () => {
         {/* <img  className="art-header-img" src={ArtHeader} alt="" /> */}
         <p className="art-header">Art</p>
         <div className="grid-item">
-          <div
-            className="content-wrapper"
-            onClick={() => navigate("/illustration")}
+      <a
+         className="content-wrapper"
+         href="/illustration"
+       target="_blank"
+         rel="noopener"
           >
-            <img src={ArtAnimation} alt="pageflow" />
-            <p>Illustration</p>
-          </div>
+        <img src={ArtAnimation} alt="pageflow" />
+       <p>Illustration</p>
+      </a>
         </div>
         <div className="grid-item">
-          <div
-            className="content-wrapper"
-            onClick={() => navigate("/animation")}
+      <a
+         className="content-wrapper"
+         href="/animation"
+       target="_blank"
+         rel="noopener"
           >
-            <img src={AnimationArt} alt="pageflow" />
-            <p>Animation</p>
-          </div>
+        <img src={AnimationArt} alt="pageflow" />
+       <p>Animation</p>
+      </a>
         </div>
         <div className="grid-item">
-          <div
-            className="content-wrapper"
-            onClick={() => navigate("/cryptoart")}
+      <a
+         className="content-wrapper"
+         href="/cryptoArt"
+       target="_blank"
+         rel="noopener"
           >
-            <img src={CryptoArt} alt="pageflow" />
-            <p>CyrptoArt</p>
-          </div>
+        <img src={CryptoArt} alt="pageflow" />
+       <p>CryptoArt</p>
+      </a>
         </div>
         <div className="grid-item">
-          <div
-            className="content-wrapper"
-            onClick={() => navigate("/otherarts")}
+      <a
+         className="content-wrapper"
+         href="/otherarts"
+       target="_blank"
+         rel="noopener"
           >
-            <img src={OtherArt} alt="pageflow" />
-            <p>OtherArts</p>
-          </div>
+        <img src={OtherArt} alt="pageflow" />
+       <p>OtherArts</p>
+      </a>
         </div>
       </div>
       <div>

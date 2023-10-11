@@ -33,6 +33,7 @@
     background: gray;
     padding: 77px 71px;
     border-radius: 74px 0px 0px 74px;
+    z-index: 11;
 }
 .about-artmoc-header {
     position: absolute;

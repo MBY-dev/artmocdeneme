@@ -18,8 +18,10 @@ import discord from "./Assets/contactUs/Social Media/discord (hidden).png";
 import youtube from "./Assets/contactUs/Social Media/youtube (hidden).png";
 import uparrow from "./Assets/PAGE ARROWS/arrow up (hidden).png";
 import İllu from "./Pages/ArtPages/IIIustration"
+import { useEffect } from "react";
 
 function App() {
+
   return (
     <div className="App">
       <Artmoc />
@@ -33,6 +35,26 @@ function App() {
       <Partner />
       <ContactUs />
       <div className="cont-footer">
+      <div className="bacground-deneme" >
+      <div className="fixedtopleft-artmoc">
+        <a href="#frame_art">Art</a>
+      </div>
+      <div className="fixedtopright-artmoc">
+        <a href="#frame_design">Design</a>
+      </div>
+      <div className="fixeddownleft-artmoc">
+        <a href="#frame_about">Info</a>
+      </div>
+      <div className="fixeddownright-artmoc">
+        <div>
+          <a href="#frame_contact">Contact</a>
+        </div>
+      </div>
+      {/* <div className="leftscroll-moc">
+        <img src={pageflow1} alt="pageflow1" />
+      </div> */}
+      
+    </div>
         <img className="global-img" src={Artmoc2} alt="" />
         <div className="flex-social">
           <img className="flex-icon" src={youtube} alt="" />

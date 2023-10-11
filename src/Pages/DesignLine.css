@@ -10,6 +10,7 @@
     background: gray;
     padding: 61px 40px 62px 0px;
     border-radius: 0px 74px 74px 0px;
+    z-index: 11;
 }
 .indented-paragraph-left {
     display: flex;

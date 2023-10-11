@@ -17,11 +17,12 @@ import Consult from "../Pages/ArtPages/Consult"
 import Priting from "../Pages/ArtPages/Printing"
 
 
+
 export default function Router() {
   return (
     <Routes>
       <Route path="/" element={<App />} />
-      <Route path="/art" element={<Art/>} />
+      <Route path="/#frame_art" element={<Art/>} />
       <Route path="/teams" element={<Teams/>} />
       <Route path="/illustration" element={<IIIustration />} />
       <Route path="/animation" element={<Animation />} />

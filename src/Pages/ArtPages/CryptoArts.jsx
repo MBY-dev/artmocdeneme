@@ -27,6 +27,9 @@ import imgCrypto from "../../Assets/CryptoArts/Cyrpto Art1.png"
 
 const CryptoArts = () => {
   const navigate = useNavigate();
+  function kapatPencere() {
+    window.close();
+}
   return (
     <div className="div-container-body-iustration">
       <div className="fixedtopleft-ws">
@@ -119,13 +122,13 @@ const CryptoArts = () => {
         <div className="image-illu">
           <img src={imgCrypto} alt="" />
         </div>
-        <Link to="/#frame_art">
-          <a href="#frame_art">
+        <a
+      href="#"
+      onClick={kapatPencere}>
         <div className="arrow-turn">
             <img src={arrowreturn} alt="" />
         </div>
         </a>
-        </Link>
       </Swiper>
       </div>
  
