@@ -11,39 +11,13 @@ import aboutMonster from "./../Assets/aboutArtmoc/MONSTER.png"
 import nextPage from "./../Assets/newsPage/arrow forward (hidden).png"
 import Artmoc2 from "./../Assets/Artmoc Logo.png"
 import "../router/Router"
-import { useNavigate } from "react-router-dom";
 
 
 const AboutArtmoc = () => {
-  const navigate = useNavigate();
+
   return (
     
     <div id = "frame_about"className="div-container-body-aboutartmoc">
-     {/* <div className="fixedtopleft-about">
-            <a href="#frame_art">Art</a>
-          </div>
-          <div className="fixedtopright-about">
-            <a href="#frame_design">Design</a>
-          </div>
-          <div className="fixeddownleft-about">
-            <a href="#frame_about">Info</a>
-          </div>
-          <div className="fixeddownright-about">
-             <div className="social-right-down-about">
-            <a href="/">
-              <img src={twitterhidden} alt="Twitter" />
-            </a>
-            <a href="/">
-              <img src={instagramhidden} alt="Instagram" />
-            </a>
-          </div> 
-            <div>
-              <a href="#frame_contact">Contact</a>
-            </div> 
-          </div>   */}
-          {/* <div className="leftscroll-about">
-          <img src={pageflow3} alt="pageflow3" />
-        </div> */}
 
       <div  className="about-artmoc-container">
       <div className="about-artmoc-header">

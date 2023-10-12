@@ -9,6 +9,7 @@ import twitterhidden from "./../Assets/Social/twitter (hidden).png";
 import teamsphoto from "../Assets/Teams/PHOTO FRAME.png"
 import imagedegisti from "../Assets/art/animation1.png"
 import arrowReturn from "../Assets/PAGE ARROWS/arrow return (in use).png"
+import {GoChevronLeft} from "react-icons/go"
 
 const Team = () => {
 
@@ -39,6 +40,15 @@ const Team = () => {
     window.close();
 }
 
+const incrementValue = () => {
+  const nextTab = (parseInt(value) + 1).toString();
+  setValue(nextTab <= '6' ? nextTab : '1');
+};
+
+const decrementValue = () => {
+  const prevTab = (parseInt(value) - 1).toString();
+  setValue(prevTab >= '1' ? prevTab : '6');
+};
   return (
           <div className="div-container-body-team"
           onKeyDown={handleKeyDown}
@@ -74,10 +84,18 @@ const Team = () => {
   <img src={arrowReturn} alt="" />
 </a>
       </div>
-      
+     
      <Box>
       <TabContext value={value}>
         <div className='Tabpanel-design' >
+        <div className='gap-button'>
+      <button onClick={decrementValue} className="decrement-button">
+          &lt; 
+        </button>
+        <button onClick={incrementValue} className="increment-button">
+          &gt;
+        </button>
+        </div>
           <TabPanel value='1'>
             <div className='teams-container'>
               <div className='teams-img'>

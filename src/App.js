@@ -25,7 +25,6 @@ function App() {
   return (
     <div className="App">
       <Artmoc />
-       {/* <News />  */}
       <AboutArtmoc />
       <AboutLine />
       <Art />

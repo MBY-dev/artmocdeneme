@@ -30,6 +30,7 @@ const CryptoArts = () => {
   function kapatPencere() {
     window.close();
 }
+
   return (
     <div className="div-container-body-iustration">
       <div className="fixedtopleft-ws">

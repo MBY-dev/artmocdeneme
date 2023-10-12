@@ -65,7 +65,7 @@
 .slider-controler-animation{
    position: absolute;
    bottom: -3rem;
-   left: 65px;
+   left: -1.5%;
 }
 .img-bottm-animation{
    position: absolute;
@@ -84,8 +84,8 @@
 }
 .image-Animation {
    position: absolute;
-   top: 7vh;
-   left: 12.5vw;
+   top: 9vh;
+   left: 15.5vw;
 }
 .Animation-header {
    width: 21vw;
@@ -319,7 +319,7 @@
 }
 .slider-controler {
    bottom: -6rem !important;
-   left: -2.5rem;
+   left: -7.5rem;
 }
 .img-user {
    position: absolute;
@@ -347,8 +347,8 @@
 
 .image-illu {
    position: absolute;
-   top: -1%;
-   left: 13%;
+   top: 2%;
+   left: 11%;
 }
 .image-illu img {
    width: 20rem;
@@ -372,6 +372,18 @@
 }
 .arrow-turn-animation img {
    width: 3rem !important;
+}
+@media (min-width:1599px) and (max-width:1699px)
+{
+   .slider-controler-animation {
+      position: absolute;
+      bottom: -3rem;
+      left: 4.5%;
+  }
+  .slider-controler {
+   bottom: -6rem !important;
+   left: -4.5rem;
+}
 }
 }
 @media (min-width:1700px) {

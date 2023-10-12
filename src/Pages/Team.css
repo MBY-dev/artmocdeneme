@@ -100,12 +100,29 @@
     display: none;
 
   }
- .sliderbar-teams button {
-  max-width: 0px !important;
-  max-height: 0px !important;
-  min-width: 0px !important;
-  min-height: 0px !important;
- }
+  .sliderbar-teams button {
+    max-width: 0px !important;
+    max-height: 0px !important;
+    min-width: 0px !important;
+    min-height: 0px !important;
+    padding: 9px 9px 9px 10px;
+}
+.gap-button {
+  position: absolute;
+  top: 39%;
+  left: -10%;
+  display: flex;
+  gap: 100%;
+  z-index: 1;
+  width: 100%;
+}
+.gap-button button {
+  background: transparent;
+  border: none;
+  font-size: 7rem;
+  color: white;
+  cursor: pointer;
+}
 .team-header{
   position: absolute;
     top: 20%;
@@ -137,6 +154,7 @@
   .teams-info p {
     font-size: 16px;
 }
+
 
 
   }
@@ -233,7 +251,7 @@
 }
 .teams-info h2 {
   color: white;
-  margin: -25px 0px 7px 0px;
+  margin: -25px -15px 7px 0px;
   font-size: 20px;
   text-align: end;
   text-transform: capitalize;
@@ -248,11 +266,18 @@
 }
 .sliderbar-teams {
   position: absolute;
-  left: 9%;
+  left: 18%;
   padding: 10px;
   top: 68%;
 }
-
+.gap-button {
+  top: 36%;
+  left: -10%;
+  gap: 98%;
+}
+.gap-button button {
+  font-size: 4rem;
+}
 }
 
  @media (min-width:355px)  and (max-width:1000px) {
@@ -266,7 +291,7 @@
   left: 40%;
 }
 .sliderbar-teams {
-  left: 17%;
+  left: 23%;
   top: 65%;
 }
 .team-turn {
@@ -279,6 +304,7 @@
  @media (min-width:370px)  and (max-width:1000px) {
   .sliderbar-teams {
     top: 70%;
+    left: 24%;
 }
 .teams-info p {
   width: 160%;
@@ -317,6 +343,13 @@
   left: 37%;
   font-size: 44px;
 }
+.teams-info h2 {
+  margin: -26px -3px 7px 0px;
+}
+.sliderbar-teams {
+  top: 68%;
+  left: 27%;
+}
  }
 
  @media (min-width:500px) and (max-width:1000px) {
@@ -341,7 +374,7 @@
 }
 .sliderbar-teams {
   top: 71%;
-  left: 25%;
+  left: 31%;
 }
 .team-turn{
   z-index: 1;
@@ -356,6 +389,16 @@
     font-size: 60px;
     z-index: 1;
 }
+.gap-button {
+  top: 34%;
+  left: -16.5%;
+  gap: 85%;
+}
+.gap-button button {
+  font-size: 8rem;
+}
+
+
 .team-turn {
   z-index: 1;
   bottom: 12%;
@@ -375,10 +418,11 @@
   border-radius: 50%;
 }
 
-  .sliderbar-teams {
-    top: 73%;
-    left: 34%;
+.sliderbar-teams {
+  top: 70%;
+  left: 38%;
 }
+
 
 .teams-info h2 {
   margin: -35px -11px 19px 0px;
@@ -437,6 +481,18 @@
   top: 80%;
 }
 }
+@media (min-width:1200px) and (max-width:1400px) {
+  .gap-button {
+    left: -13%;
+}
+}
 @media (min-width:1921px) {
- 
+  .gap-button {
+    position: absolute;
+    top: 44%;
+    left: 13%;
+    display: flex;
+    gap: 72rem;
+
+  }
 }
