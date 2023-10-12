@@ -154,6 +154,8 @@
   gap: 3%;
   left: 11%;
   top: 26%;
+  width: 78%;
+  
 }
 
 .content-wrapper p {
@@ -178,6 +180,13 @@
   width: 100%;
   transition: 0.3s ease-in-out;
 }
+}
+@media (min-width:1599px) and (max-width:1699px) {
+  .grid-container{
+
+    width: 69%;
+  }
+  
 }
 
 

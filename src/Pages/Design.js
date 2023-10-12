@@ -51,28 +51,52 @@ const Design = () => {
       </div>
 
       <div className="container">
-        <div className="box"
-         onClick={() => navigate("/graphic")}>
+        <div className="box">
+        <a
+        href="/graphic"
+      target="_blank"
+        rel="noopener"
+         > 
          <img  className="design-headerİmg" src={Deneme} alt="" />
           <h3>GRAPHİC</h3>
+          </a>
         </div>
-        <div className="box"
-         onClick={() => navigate("/brand")}>
+        <div className="box">
+         <a
+         href="/brand"
+       target="_blank"
+         rel="noopener"
+          > 
           <img  className="design-headerİmg" src={Deneme} alt="" />
           <h3>BRAND-X</h3>
+          </a>
         </div>
-        <div className="box"
-        onClick={() => navigate("/uiux")}>
+        <div className="box">
+        <a
+         href="/uiux"
+       target="_blank"
+         rel="noopener"
+          >  
             <img  className="design-headerİmg" src={Ui} alt="" />
           <h3>UI&UX</h3>
+          </a>
         </div>
-        <div className="box"
-        onClick={() => navigate("/intertion")}>
+        <div className="box">
+        <a
+         href="/intertion"
+       target="_blank"
+         rel="noopener"
+          >  
             <img  className="design-headerİmg" src={interion} alt="" />
           <h3>INTERION</h3>
+          </a>
         </div>
-        <div className="box"
-         onClick={() => navigate("/motion")}>
+        <div className="box">
+        <a
+         href="/motion"
+       target="_blank"
+         rel="noopener"
+          >  
               <ReactPlayer
         url={İntro} // Video URL'sini proje içindeki yol ile ayarlayın
         playing={true} // Otomatik başlatma
@@ -80,21 +104,37 @@ const Design = () => {
         muted={true} // Sesi kapatma (isteğe bağlı)
       />
           <h3>MOTION</h3>
+          </a>
         </div>
-        <div className="box"
-         onClick={() => navigate("/game")}>
+        <div className="box">
+        <a
+         href="/game"
+       target="_blank"
+         rel="noopener"
+          >  
             <img  className="design-headerİmg" src={Game} alt="" />
           <h3>GAME</h3>
+          </a>
         </div>
-        <div className="box"
-         onClick={() => navigate("/consult")}>
+        <div className="box">
+           <a
+         href="/consult"
+       target="_blank"
+         rel="noopener"
+          >  
             <img  className="design-headerİmg" src={Consult} alt="" />
           <h3>CONSULT-</h3>
+          </a>
         </div>
-        <div className="box"
-         onClick={() => navigate("/priting")}>
+        <div className="box">
+        <a
+         href="/priting"
+       target="_blank"
+         rel="noopener"
+          >  
             <img  className="design-headerİmg" src={priting} alt="" />
           <h3>PRINTING</h3>
+          </a>
         </div>
       </div>
       <div className="artmoc-global-d1">

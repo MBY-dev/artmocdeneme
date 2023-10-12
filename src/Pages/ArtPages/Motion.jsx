@@ -20,6 +20,9 @@ import MotionFour from "../../Assets/Design/motion/Egalabelintro.mp4"
 
 const Animation = () => {
   const navigate = useNavigate();
+  function kapatPencere() {
+    window.close();
+}
   return (
     <div className="div-container-body-iustration">
       <div className="fixedtopleft-ws">
@@ -114,13 +117,13 @@ const Animation = () => {
         <div className="image-Animation">
           <img className="Animation-header" src={imganimation} alt="" />
         </div>
-        <Link to="/#frame_art">
-          <a href="#frame_art">
-        <div className="arrow-turn-animation">
+        <a
+      href="#"
+      onClick={kapatPencere}>
+        <div className="arrow-turn">
             <img src={arrowreturn} alt="" />
         </div>
         </a>
-        </Link>
       </Swiper>
       </div>
       </div>

@@ -23,6 +23,9 @@ import NetThree from "../../Assets/Illustration/Networld V (1).jpg"
 
 const Interion = () => {
   const navigate = useNavigate();
+  function kapatPencere() {
+    window.close();
+}
   return (
     <div className="div-container-body-iustration">
       <div className="fixedtopleft-ws">
@@ -103,13 +106,13 @@ const Interion = () => {
         <div className="image-illu">
           <img src={imgillu} alt="" />
         </div>
-        <Link to="/#frame_art">
-          <a href="#frame_art">
+        <a
+      href="#"
+      onClick={kapatPencere}>
         <div className="arrow-turn">
             <img src={arrowreturn} alt="" />
         </div>
         </a>
-        </Link>
       </Swiper>
     </div>
   );

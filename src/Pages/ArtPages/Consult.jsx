@@ -17,6 +17,9 @@ import ConsultOne from "../../Assets/Design/Consult/Design Consulting-01.png"
 
 const Consult = () => {
   const navigate = useNavigate();
+  function kapatPencere() {
+    window.close();
+}
   return (
     <div className="div-container-body-iustration">
       <div className="fixedtopleft-ws">
@@ -80,13 +83,13 @@ const Consult = () => {
         <div className="image-illu">
           <img src={imgillu} alt="" />
         </div>
-        <Link to="/#frame_art">
-          <a href="#frame_art">
+        <a
+      href="#"
+      onClick={kapatPencere}>
         <div className="arrow-turn">
             <img src={arrowreturn} alt="" />
         </div>
         </a>
-        </Link>
       </Swiper>
     </div>
   );
