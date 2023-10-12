@@ -131,11 +131,10 @@
     font-size: 4rem;
     font-family: 'Raleway';
 }
-.team-turn{
+.team-turn {
   position: absolute;
-  left: 14%;
-  
-  bottom: 21%;
+  left: 4%;
+  top: 23%;
 }
 .team-turn img{
   width: 3rem !important;
@@ -486,13 +485,18 @@
     left: -13%;
 }
 }
+@media (min-width:1800px) and (max-width:1920px) {
+  .team-turn {
+    top: 22%;
+}
+  
+}
 @media (min-width:1921px) {
   .gap-button {
     position: absolute;
     top: 44%;
-    left: 13%;
+    left: -10%;
     display: flex;
-    gap: 72rem;
-
-  }
+    gap: 100%;
+}
 }
