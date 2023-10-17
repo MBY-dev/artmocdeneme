@@ -186,6 +186,9 @@
         width: 100%;
         height: 100vh;
     }
+    .responsive-classname{
+        display: none;
+    }
     .fixedtopleft-about {
         position: absolute;
         left: 39px;

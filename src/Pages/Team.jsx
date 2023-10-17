@@ -4,12 +4,8 @@ import {useState} from 'react'
 import {TabList, TabPanel} from '@mui/lab'
 import { TabContext } from '@mui/lab';
 import "./Team.css";
-import instagramhidden from "./../Assets/Social/instagram (hidden).png";
-import twitterhidden from "./../Assets/Social/twitter (hidden).png";    
-import teamsphoto from "../Assets/Teams/PHOTO FRAME.png"
 import imagedegisti from "../Assets/art/animation1.png"
 import arrowReturn from "../Assets/PAGE ARROWS/arrow return (in use).png"
-import {GoChevronLeft} from "react-icons/go"
 
 const Team = () => {
 
@@ -53,36 +49,11 @@ const decrementValue = () => {
           <div className="div-container-body-team"
           onKeyDown={handleKeyDown}
           tabIndex={0}>
-      <div className="fixedtopleft-team">
-        <a href="#frame_art">Art</a>
-      </div>
-      <div className="fixedtopright-team">
-        <a href="#frame_design">Design</a>
-      </div>
-      <div className="fixeddownleft-team">
-        <a href="#frame_about">Info</a>
-      </div>
-      <div className="fixeddownright-team">
-        <div className="social-right-down-team">
-          <a href="/">
-            <img src={twitterhidden} alt="Twitter" />
-          </a>
-          <a href="/">
-            <img src={instagramhidden} alt="Instagram" />
-          </a>
-        </div>
-        <div>
-          <a href="#frame_contact">Contact</a>
-        </div>
-      </div>
       <p className='team-header'>Team</p>
       <div className='team-turn'>
-      <a
-  href="#"
-  onClick={kapatPencere}
->
+      <a href={() => false} onClick={kapatPencere}>
   <img src={arrowReturn} alt="" />
-</a>
+      </a>
       </div>
      
      <Box>

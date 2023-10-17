@@ -11,6 +11,7 @@ import { useNavigate } from "react-router-dom";
 import AnimationArt from "../Assets/art/Brain(cover)-1.png"
 import CryptoArt from "../Assets/art/OneBlackHole(cover).jpg"
 import OtherArt from "../Assets/art/goat1(withoutlogo).png"
+import Global2 from "./../Assets/aboutArtmoc/Artmoc Website_Diğer Sayfalar iç.png"
 
 const Art = () => {
   const navigate = useNavigate();
@@ -19,6 +20,11 @@ const Art = () => {
   // }
   return (
     <div id="frame_art"  className="div-container-body-art">
+       <div className="responsive-classname" style={{position: "absolute", width: "100%"} }>
+        <img  className="art-global-svg" src={Global2} alt="" style={{ width: "100%" }}  />
+          </div> 
+
+<img  className="art-global-svg" src={Global2} alt="" style={{ width: "100%" }}  />
       {/* <div className="leftscroll-art">
         <img src={pageflow4} alt="pageflow" />
       </div> */}

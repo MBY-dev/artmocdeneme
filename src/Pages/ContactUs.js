@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./ContactUs.css";
 import contact from "./../Assets/contactUs/Social Media/call (hidden).png";
 import Artmoc2 from "./../Assets/Artmoc Logo.png";
-
+import Global2 from "./../Assets/aboutArtmoc/Artmoc Website_Diğer Sayfalar iç.png"
 const ContactUs = () => {
   const [activeSection, setActiveSection] = useState('');
   const [name, setName] = useState("");
@@ -53,7 +53,10 @@ const ContactUs = () => {
   };
 
   return (
-    <div id="frame_contact" className="div-container-body">
+    <div  id="frame_contact" className="div-container-body">
+       <div className="responsive-classname" style={{position: "absolute", width: "100%"} }>
+        <img  className="art-global-svg" src={Global2} alt="" style={{ width: "100%" }}  />
+          </div> 
       <h2>Contact Us</h2>
       <img src={contact} alt="" className="phone" />
       <div className="container2-position">

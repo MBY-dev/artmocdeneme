@@ -14,12 +14,16 @@ import Game from "../Assets/Design/Game/boardgame.png"
 import İntro from "../Assets/Design/motion/İntro.mp4"
 import interion from "../Assets/Design/Interion/IMG_3762.jpg"
 import Ui from "../Assets/Design/Uı/UX-vs-UI-Design.jpeg"
+import Global2 from "./../Assets/aboutArtmoc/Artmoc Website_Diğer Sayfalar iç.png"
 
 const Design = () => {
   
   const navigate = useNavigate();
   return (
     <div  id= "frame_design" className="div-container-body-design">
+      <div className="responsive-classname" style={{position: "absolute", width: "100%"} }>
+        <img  className="art-global-svg" src={Global2} alt="" style={{ width: "100%" }}  />
+          </div> 
       {/* <div className="leftscroll-d">
         <img src={pageflow5} alt="pageflow" />
       </div> */}

@@ -128,7 +128,7 @@ const Animation = () => {
           <img className="Animation-header" src={imganimation} alt="" />
         </div>
         <a
-      href="#"
+     href={() => false}
       onClick={kapatPencere}>
         <div className="arrow-turn">
             <img src={arrowreturn} alt="" />
