@@ -8,19 +8,15 @@ import "swiper/css/navigation";
 import { EffectCoverflow, Pagination, Navigation } from "swiper/modules";
 import instagramhidden from "../../Assets/Social/instagram (hidden).png";
 import twitterhidden from "../../Assets/Social/twitter (hidden).png";
-import animation from "../../Assets/art/animation1.png";
 import imgillu from "../../Assets/Design/DesingHeader/Printing.png";
 import Artmoc2 from "../../Assets/Artmoc Logo.png";
 import arrowreturn from "../../Assets/PAGE ARROWS/arrow return (in use).png";
-import { Link, useNavigate } from "react-router-dom";
 import PrintingOne from "../../Assets/Design/Printing/1mockup4.jpg"
 import PrintingTwo from "../../Assets/Design/Printing/2mockup5.jpg"
-import PrintingThree from "../../Assets/Design/Printing/mockup.png"
 import PrintingFour from "../../Assets/Design/Printing/mockup 1.jpg"
 
 
 const Printing = () => {
-  const navigate = useNavigate();
   function kapatPencere() {
     window.close();
 }

@@ -1,9 +1,4 @@
 import React from "react";
-import pageflow4 from "./../Assets/pageflow4.png";
-import instagramhidden from "./../Assets/Social/instagram (hidden).png";
-import twitterhidden from "./../Assets/Social/twitter (hidden).png";
-import ArtHeader from "./../Assets/art/Art.png"
-import animation1 from "../Assets/art/animation1.png";
 import ArtAnimation from "../Assets/Illustration/All Seeing The Eye (Cover).png"
 import Artmoc2 from "./../Assets/Artmoc Logo.png";
 import "./Art.css";

@@ -1,11 +1,5 @@
 import React from "react";
 import "./AboutArtmoc.css";
-import pageflow3 from "./../Assets/pageflow3.png";
-import instagramhidden from "./../Assets/Social/instagram (hidden).png";
-// import instagramuse from "./../Assets/Social/instagram (in use).png";
-import twitterhidden from "./../Assets/Social/twitter (hidden).png";
-// import twitteruse from "./../Assets/Social/twitter (in use).png";
-// import aboutText from "./../Assets/aboutArtmoc/About ARTMOC Text.png"
 import aboutTittle from "./../Assets/aboutArtmoc/About ARTMOC Title.png"
 import aboutMonster from "./../Assets/aboutArtmoc/MONSTER.png"
 import nextPage from "./../Assets/newsPage/arrow forward (hidden).png"

@@ -1,10 +1,4 @@
 import React from "react";
-import pageflow2 from "./../Assets/pageflow2.png";
-import instagramhidden from "./../Assets/Social/instagram (hidden).png";
-// import instagramuse from "./../Assets/Social/instagram (in use).png";
-import twitterhidden from "./../Assets/Social/twitter (hidden).png";
-// import twitteruse from "./../Assets/Social/twitter (in use).png";
-// import newsframe from "./../Assets/newsPage/NEWS FRAME.png";
 import newstittle from "./../Assets/newsPage/NEWS TITLE.png";
 import newsArrow from "./../Assets/newsPage/arrow forward (hidden).png";
 import Artmoc2 from "./../Assets/Artmoc Logo.png";

@@ -1,8 +1,5 @@
 import React from "react";
 import "./WithWithout.css";
-import pageflow6 from "./../Assets/pageflow6.png";
-import instagramhidden from "./../Assets/Social/instagram (hidden).png";
-import twitterhidden from "./../Assets/Social/twitter (hidden).png";
 import Artmoc2 from "./../Assets/Artmoc Logo.png"
 import With from "./../Assets/withWithout/WITH.png"
 import Without from "./../Assets/withWithout/WITHOUT.png"

@@ -8,15 +8,12 @@ import "swiper/css/navigation";
 import { EffectCoverflow, Pagination, Navigation } from "swiper/modules";
 import instagramhidden from "../../Assets/Social/instagram (hidden).png";
 import twitterhidden from "../../Assets/Social/twitter (hidden).png";
-import animation from "../../Assets/art/animation1.png";
 import imgillu from "../../Assets/Design/DesingHeader/Consulting.png";
 import Artmoc2 from "../../Assets/Artmoc Logo.png";
 import arrowreturn from "../../Assets/PAGE ARROWS/arrow return (in use).png";
-import { Link, useNavigate } from "react-router-dom";
 import ConsultOne from "../../Assets/Design/Consult/Design Consulting-01.png"
 
 const Consult = () => {
-  const navigate = useNavigate();
   function kapatPencere() {
     window.close();
 }

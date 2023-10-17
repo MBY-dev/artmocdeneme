@@ -1,8 +1,5 @@
 import React from "react";
 import "./Design.css";
-import pageflow5 from "./../Assets/pageflow5.png";
-import instagramhidden from "./../Assets/Social/instagram (hidden).png";
-import twitterhidden from "./../Assets/Social/twitter (hidden).png";
 import Artmoc2 from "./../Assets/Artmoc Logo.png";
 import Deneme from "./../Assets/CryptoArts/3.jpg"
 import headerDesign from "../Assets/Design/DESIGN TITLE.png";

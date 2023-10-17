@@ -8,11 +8,8 @@ import "swiper/css/navigation";
 import { EffectCoverflow, Pagination, Navigation } from "swiper/modules";
 import instagramhidden from "../../Assets/Social/instagram (hidden).png";
 import twitterhidden from "../../Assets/Social/twitter (hidden).png";
-import animation from "../../Assets/art/animation1.png";
-import imgillu from "../../Assets/Illustration/Illustration.png";
 import Artmoc2 from "../../Assets/Artmoc Logo.png";
 import arrowreturn from "../../Assets/PAGE ARROWS/arrow return (in use).png";
-import { Link, useNavigate } from "react-router-dom";
 import CryptoArtOne from "../../Assets/CryptoArts/IMG_7107_Original (1).png"
 import CryptoArtTwo from "../../Assets/CryptoArts/IMG_7106_Original.PNG"
 import CryptoArtThree from "../../Assets/CryptoArts/IMG_7108_Original (1).png"
@@ -26,7 +23,6 @@ import DedewSix from "../../Assets/CryptoArts/6.jpg"
 import imgCrypto from "../../Assets/CryptoArts/Cyrpto Art1.png"
 
 const CryptoArts = () => {
-  const navigate = useNavigate();
   function kapatPencere() {
     window.close();
 }

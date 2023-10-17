@@ -8,18 +8,15 @@ import "swiper/css/navigation";
 import { EffectCoverflow, Pagination, Navigation } from "swiper/modules";
 import instagramhidden from "../../Assets/Social/instagram (hidden).png";
 import twitterhidden from "../../Assets/Social/twitter (hidden).png";
-import animation from "../../Assets/art/animation1.png";
 import imganimation from "../../Assets/Design/DesingHeader/Motion.png";
 import Artmoc2 from "../../Assets/Artmoc Logo.png";
 import arrowreturn from "../../Assets/PAGE ARROWS/arrow return (in use).png";
-import { Link, useNavigate } from "react-router-dom";
 import ReactPlayer from 'react-player';
 import MotionOne from "../../Assets/Design/motion/3Dkarakteranimasyon.mp4"
 import MotionTwo from "../../Assets/Design/motion/Dedew Animasyon 1.mp4"
 import MotionFour from "../../Assets/Design/motion/Egalabelintro.mp4"
 
 const Animation = () => {
-  const navigate = useNavigate();
   function kapatPencere() {
     window.close();
 }

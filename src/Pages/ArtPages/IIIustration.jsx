@@ -8,11 +8,9 @@ import "swiper/css/navigation";
 import { EffectCoverflow, Pagination, Navigation } from "swiper/modules";
 import instagramhidden from "../../Assets/Social/instagram (hidden).png";
 import twitterhidden from "../../Assets/Social/twitter (hidden).png";
-import animation from "../../Assets/art/animation1.png";
 import imgillu from "../../Assets/Illustration/Illustration.png";
 import Artmoc2 from "../../Assets/Artmoc Logo.png";
 import arrowreturn from "../../Assets/PAGE ARROWS/arrow return (in use).png";
-import { Link, useNavigate } from "react-router-dom";
 import Paleomat from "../../Assets/Illustration/Paleomat1.jpg"
 import Plesanta from "../../Assets/Illustration/Plasenta (1).jpg"
 import VanGogh from "../../Assets/Illustration/van gogh small (1).png"
@@ -22,7 +20,6 @@ import NetTwo from "../../Assets/Illustration/Networld IV (1).jpg"
 import NetThree from "../../Assets/Illustration/Networld V (1).jpg"
 
 const IIIustration = () => {
-  const navigate = useNavigate();
   function kapatPencere() {
     window.close();
 }
@@ -107,9 +104,8 @@ const IIIustration = () => {
           <img src={imgillu} alt="" />
         </div>
         <a
-  href="#"
-  onClick={kapatPencere}
->
+      href="#"
+      onClick={kapatPencere}>
         <div className="arrow-turn">
             <img src={arrowreturn} alt="" />
         </div>

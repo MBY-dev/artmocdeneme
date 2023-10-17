@@ -8,18 +8,15 @@ import "swiper/css/navigation";
 import { EffectCoverflow, Pagination, Navigation } from "swiper/modules";
 import instagramhidden from "../../Assets/Social/instagram (hidden).png";
 import twitterhidden from "../../Assets/Social/twitter (hidden).png";
-import animation from "../../Assets/art/animation1.png";
 import imgillu from "../../Assets/Design/DesingHeader/Game.png";
 import Artmoc2 from "../../Assets/Artmoc Logo.png";
 import arrowreturn from "../../Assets/PAGE ARROWS/arrow return (in use).png";
-import { Link, useNavigate } from "react-router-dom";
 import GazeTwo from "../../Assets/Design/Game/gaze 2.jpg"
 import GazeOne from "../../Assets/Design/Game/gaze 1.jpg"
 import TurkishMap from "../../Assets/Design/Game/Turkey Map_Icons-01.png"
 import TurkishPuzzle from "../../Assets/Design/Game/tamamlanmamış puzzle.jpg"
 
 const Game = () => {
-  const navigate = useNavigate();
   function kapatPencere() {
     window.close();
 }

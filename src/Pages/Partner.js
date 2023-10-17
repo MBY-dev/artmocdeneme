@@ -3,7 +3,6 @@ import './Partner.css'
 import Marglo from '../Assets/PartnerBar/MARGLO.png'
 import CAG from '../Assets/PartnerBar/CAG.png'
 import DEDEW from '../Assets/PartnerBar/DEDEW.png'
-import partner from "../Assets/PartnerBar/Partnersback.png"
 
 const Partner = () => {
   return (
