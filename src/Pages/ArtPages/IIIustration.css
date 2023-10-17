@@ -395,10 +395,18 @@
    top: 10%;
    left: 3%;
 }
+.swiper-pagination-bullets.swiper-pagination-horizontal {
+   top: -10rem !important;
+   left: 656px !important;
+
+}
 .swiper-motion .swiper-wrapper {
    width: 78%;
 }
-  
+.arrow-turn {
+   left: 11.5%;
+
+}
   .swiper-animation {
    top: 17%;
    position: absolute;

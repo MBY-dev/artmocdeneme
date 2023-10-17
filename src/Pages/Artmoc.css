@@ -78,6 +78,11 @@ a:hover {
     top: 7%;
 
 }
+.responsive-classnam img{
+    user-select: none;
+    pointer-events: none;
+    z-index: -10;
+}
 @media (min-width : 320px) and (max-width : 568px) {
     .fixedtopleft-artmoc {
         position: fixed;
