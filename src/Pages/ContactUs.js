@@ -54,9 +54,9 @@ const ContactUs = () => {
 
   return (
     <div  id="frame_contact" className="div-container-body">
-       <div className="responsive-classname" style={{position: "absolute", width: "100%"} }>
+       {/* <div className="responsive-classname" style={{position: "absolute", width: "100%"} }>
         <img  className="art-global-svg" src={Global2} alt="" style={{ width: "100%" }}  />
-          </div> 
+          </div>  */}
       <h2>Contact Us</h2>
       <img src={contact} alt="" className="phone" />
       <div className="container2-position">

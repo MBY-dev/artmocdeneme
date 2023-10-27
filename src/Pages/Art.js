@@ -7,6 +7,7 @@ import AnimationArt from "../Assets/art/Brain(cover)-1.png"
 import CryptoArt from "../Assets/art/OneBlackHole(cover).jpg"
 import OtherArt from "../Assets/art/goat1(withoutlogo).png"
 import Global2 from "./../Assets/aboutArtmoc/Artmoc Website_Diğer Sayfalar iç.png"
+import { Link } from "react-router-dom";
 
 const Art = () => {
   const navigate = useNavigate();
@@ -15,11 +16,10 @@ const Art = () => {
   // }
   return (
     <div id="frame_art"  className="div-container-body-art">
-       <div className="responsive-classname" style={{position: "absolute", width: "100%"} }>
+       {/* <div className="responsive-classname" style={{position: "absolute", width: "100%"} }>
         <img  className="art-global-svg" src={Global2} alt="" style={{ width: "100%" }}  />
-          </div> 
+          </div>  */}
 
-<img  className="art-global-svg" src={Global2} alt="" style={{ width: "100%" }}  />
       {/* <div className="leftscroll-art">
         <img src={pageflow4} alt="pageflow" />
       </div> */}
@@ -50,48 +50,48 @@ const Art = () => {
         {/* <img  className="art-header-img" src={ArtHeader} alt="" /> */}
         <p className="art-header">Art</p>
         <div className="grid-item">
-      <a
+      <Link
          className="content-wrapper"
-         href="/illustration"
+         to="/illustration"
        target="_blank"
          rel="noopener"
           >
         <img src={ArtAnimation} alt="pageflow" />
        <p>Illustration</p>
-      </a>
+      </Link>
         </div>
         <div className="grid-item">
-      <a
+      <Link
          className="content-wrapper"
-         href="/animation"
+         to="/animation"
        target="_blank"
          rel="noopener"
           >
         <img src={AnimationArt} alt="pageflow" />
        <p>Animation</p>
-      </a>
+      </Link>
         </div>
         <div className="grid-item">
-      <a
+      <Link
          className="content-wrapper"
-         href="/cryptoArt"
+         to="/cryptoArt"
        target="_blank"
          rel="noopener"
           >
         <img src={CryptoArt} alt="pageflow" />
        <p>CryptoArt</p>
-      </a>
+      </Link>
         </div>
         <div className="grid-item">
-      <a
+      <Link
          className="content-wrapper"
-         href="/otherarts"
+         to="/otherarts"
        target="_blank"
          rel="noopener"
           >
         <img src={OtherArt} alt="pageflow" />
        <p>OtherArts</p>
-      </a>
+      </Link>
         </div>
       </div>
       <div>

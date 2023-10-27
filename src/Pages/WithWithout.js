@@ -11,9 +11,9 @@ const WithWithout = () => {
   // };
   return (
     <div className="div-container-body-without">
-        <div className="responsive-classname" style={{position: "absolute", width: "100%"} }>
+        {/* <div className="responsive-classname" style={{position: "absolute", width: "100%"} }>
         <img  className="art-global-svg" src={Global2} alt="" style={{ width: "100%" }}  />
-          </div> 
+          </div>  */}
         {/* <div className="leftscroll-ww">
           <img src={pageflow6} alt="pageflow" />
         </div> */}

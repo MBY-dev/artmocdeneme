@@ -8,7 +8,7 @@ const Artmoc = () => {
    
     <div id="frame_artmoc" className="div-container-body-artmoc">
        <div className="responsive-classname" style={{position: "absolute", width: "100%"} }>
-        <img  className="art-global-intro" src={Global} alt="" style={{ width: "100%" }}  />
+        <img  className="art-global-intro" src={Global} alt="" style={{ width: "100%" , height:"105vh"}}  />
           </div> 
     <div>
     <img className="artmoc-global" src={Artmoc2} alt=""  />
