@@ -189,6 +189,12 @@
   
 }
 
+@media (min-width:1500px) and (max-width:1599px) {
+    .grid-item{
+      overflow: visible !important;
+    }
+}
+
 
 @media (min-width:1700px) {
   .content-wrapper p {

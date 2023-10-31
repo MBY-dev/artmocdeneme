@@ -58,7 +58,7 @@ const ContactUs = () => {
         <img  className="art-global-svg" src={Global2} alt="" style={{ width: "100%" }}  />
           </div>  */}
       <h2>Contact Us</h2>
-      <img src={contact} alt="" className="phone" />
+      {/* <img src={contact} alt="" className="phone" /> */}
       <div className="container2-position">
         <div className="container2">
           <div className="deneme2-us">

@@ -13,9 +13,10 @@ import Partner from "./Pages/Partner";
 import Artmoc2 from "./Assets/Artmoc Logo.png";
 import instagram from "./Assets/Social/instagram (hidden).png";
 import twitter from "./Assets/Social/twitter (hidden).png";
+import contact from "./Assets/contactUs/Social Media/call (hidden).png";
+
 import lin from "./Assets/contactUs/Social Media/linkedin (hidden).png";
-import discord from "./Assets/contactUs/Social Media/discord (hidden).png";
-import youtube from "./Assets/contactUs/Social Media/youtube (hidden).png";
+import gmail from "./Assets/contactUs/Social Media/gmail4.png";
 import uparrow from "./Assets/PAGE ARROWS/arrow up (hidden).png";
 import İllu from "./Pages/ArtPages/IIIustration"
 import { useEffect } from "react";
@@ -56,11 +57,11 @@ function App() {
     </div>
         <img className="global-img" src={Artmoc2} alt="" />
         <div className="flex-social">
-          <img className="flex-icon" src={youtube} alt="" />
-          <img className="flex-icon" src={lin} alt="" />
-          <img className="flex-icon1" src={discord} alt="" />
-          <img className="flex-icon" src={instagram} alt="" />
-          <img className="flex-icon" src={twitter} alt="" />
+         <a href=""> <img className="flex-icon" src={contact} alt="" style={{transform: "rotate(313deg)"}} /> </a>
+         <a href="https://www.linkedin.com/company/artmoc/" target="_blank"> <img className="flex-icon" src={lin} alt="" /></a>
+         <a href="mailto:info@artmoc.io"> <img className="flex-icon1" src={gmail}  alt="" /></a>
+          <a href="https://instagram.com/artmoc.io?igshid=MzRlODBiNWFlZA==" target="_blank"><img className="flex-icon" src={instagram} alt="" /></a>
+         <a href="https://x.com/artmoc_io?s=21" target="_blank"> <img className="flex-icon" src={twitter} alt="" /></a>
         </div>
         <p>COPYRIGHT &copy; ARTMOC LTD. ŞTİ.</p>
         <a href="#frame_artmoc">

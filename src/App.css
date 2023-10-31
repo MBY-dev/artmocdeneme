@@ -47,6 +47,9 @@ html {
     top: -3rem;
 
 }
+.flex-social a {
+  font-size: inherit;
+}
 
 .flex-icon {
   width: 2em;
@@ -54,15 +57,16 @@ html {
   cursor: pointer;
 }
 .flex-icon1 {
-  width: 42px;
-  margin: 0px 10px;
+  width: 29px;
+  opacity: 0.4;
+  margin: 3px 10px;
   cursor: pointer;
 }
 
 .up-arrow {
   position: absolute;
   right: 4.3rem;
-  top: 3rem;
+  top: -3rem;
   cursor: pointer;
 }
 .up-arrow img{
