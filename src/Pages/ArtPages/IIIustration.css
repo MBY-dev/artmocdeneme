@@ -120,7 +120,7 @@
    position: absolute;
    bottom: 0rem;
    left: 5.5%;
-   z-index: 1;
+   z-index: 10 !important;
    cursor: pointer;
 }
 .arrow-turn-animation{
@@ -132,6 +132,7 @@
 }
  .arrow-turn img{
    width: 3.5rem;
+   z-index: 10;
  }
  .arrow-turn-animation img{
    width: 3.5rem;
@@ -360,14 +361,14 @@
    position: absolute;
    bottom: 5rem;
    left: 14.5%;
-   z-index: 1;
+   z-index: 10;
    cursor: pointer;
 }
 .arrow-turn-animation{
    position: absolute;
    bottom: 5rem;
    left: 14.5%;
-   z-index: 1;
+   z-index: 11 !important;
    cursor: pointer;
 }
 .arrow-turn-animation img {

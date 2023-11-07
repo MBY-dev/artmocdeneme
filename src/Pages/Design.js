@@ -95,16 +95,11 @@ const Design = () => {
         </div>
         <div className="box">
         <Link
-         to="/motion"
+          to="/motion"
        target="_blank"
          rel="noopener"
           >  
-              <ReactPlayer
-        url={İntro} // Video URL'sini proje içindeki yol ile ayarlayın
-        playing={true} // Otomatik başlatma
-        loop={true} // Video bitiminde tekrar başlatma
-        muted={true} // Sesi kapatma (isteğe bağlı)
-      />
+            <img  className="design-headerİmg" src={Ui} alt="" />
           <h3>MOTION</h3>
           </Link>
         </div>

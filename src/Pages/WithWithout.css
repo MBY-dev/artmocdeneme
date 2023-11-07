@@ -88,8 +88,8 @@ header {
   position: relative;
   z-index: 1;
   line-height: 24px;
-
-  
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
 }
 .container-ww img {
   float: right;

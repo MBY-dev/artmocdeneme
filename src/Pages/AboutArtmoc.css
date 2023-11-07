@@ -79,8 +79,9 @@
     top: 100px;
     left: 10px;
     width: 37%;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 550;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-style: italic;
     font-size: 0px;
     text-transform: uppercase;
     letter-spacing: 0.1em;
@@ -170,6 +171,25 @@
 
 
   }
+  @media(min-width:1700px) and (max-width:1760px) {
+    .about-write p {
+        font-size: 19px;
+        line-height: 28px;
+    }
+  
+  .artmoc-monster {
+    position: absolute;
+    left: 54%;
+    top: 69px;
+    width: 434px;
+}
+.about-artmoc-container {
+    top: 124px;
+}
+
+}
+
+
   
   @media (min-width:1700px) {
     .about-write p {

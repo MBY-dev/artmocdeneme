@@ -76,7 +76,6 @@
   position: relative;
   display: grid;
   place-items: center;
-  overflow: hidden;
 
 }
 
@@ -94,7 +93,7 @@
 .content-wrapper p {
   position: absolute;
   writing-mode: vertical-rl; /* Dikey yazı yönlendirmesi */
-  left: -9px;
+  left: 0px;
   border-radius: 24px; 
   color: white;
   transition: 0.3s ease-in-out;
@@ -103,7 +102,10 @@
     line-height: 0.8;
     text-align: start;
     font-family: system-ui;
-    height: 100%;
+    height: 99%;
+    width: 32%;
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -125,20 +127,31 @@
 }
 .grid-item:hover .content-wrapper p {
   /* Diğer stil ayarları */
-  left: -5px;
+  left: 22%;
   font-size: 225% !important;
   transform: none;
   writing-mode: unset;
   top: 100%;
-  width: 100%;
+  width: 50%;
  
 }
-.grid-item:nth-child(1):hover .content-wrapper p,
+
 .grid-item:nth-child(2):hover .content-wrapper p 
 {
   position: absolute;
   top: 100%;
-  left:0px;
+  left: 24% !important;
+}
+
+.grid-item:nth-child(1):hover .content-wrapper p {
+left: 0px;
+  position: absolute;
+  top: 100%;
+}
+
+
+.content-wrapper:hover {
+  overflow: visible;
 }
 @media (min-width:1400px) and (max-width:1699px){
   .leftscroll-art {
@@ -151,7 +164,7 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   position: absolute;
-  gap: 3%;
+  gap: 6%;
   left: 11%;
   top: 26%;
   width: 78%;
@@ -161,31 +174,28 @@
 .content-wrapper p {
   position: absolute;
   writing-mode: vertical-rl;
-  left: -7px;
+  left: 0px;
   border-radius: 24px;
   color: white;
   transform: rotate(-180deg);
-  font-size: calc(20% + 71px);
+  font-size: calc(100% + 41px);
   line-height: 0.8;
   text-align: start;
   font-family: system-ui;
   height: 100%;
 }
 .grid-item:hover .content-wrapper p {
-  left: 8px;
+  left: 24%;
   font-size: 180% !important;
   transform: none;
   writing-mode: unset;
   top: 100%;
-  width: 100%;
+  width: 50%;
   transition: 0.3s ease-in-out;
+  height: 29%;
 }
 }
 @media (min-width:1599px) and (max-width:1699px) {
-  .grid-container{
-
-    width: 69%;
-  }
   
 }
 
@@ -194,11 +204,16 @@
       overflow: visible !important;
     }
 }
-
-
-@media (min-width:1700px) {
+@media (min-width:1700px) and (max-width:1769px) {
   .content-wrapper p {
-    font-size: calc(100% + 64px);
+    font-size: calc(100% + 48px);
+}
+}
+
+
+@media (min-width:1770px) {
+  .content-wrapper p {
+    font-size: calc(100% + 60px);
 }
 .grid-container {
   display: grid;
@@ -206,8 +221,6 @@
   position: absolute;
   gap: 3%;
   height: 45%;
-  width: 72%;
-  left: 13.5%;
   top: 33%;
 }
 }
@@ -285,14 +298,15 @@
 .content-wrapper p {
   position: absolute;
   writing-mode: vertical-rl;
-  left: -2px;
+  left: 0px;
   border-radius: 24px;
   color: white;
   transform: rotate(-180deg);
   font-size: calc(100% + 20px);
   line-height: 0.8;
   text-align: start;
-  font-family: system-ui;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
   height: 100%;
 }
 .artmoc-global {
@@ -358,7 +372,7 @@
   top: 2%;
 }
 .content-wrapper p {
-  left: -1px;
+  left: 0px;
   line-height: 0.8;
   height: 93%;
   font-size: calc(100% + 26px);
@@ -463,7 +477,7 @@ left: -2%;
     top: -21%;
 }
   .content-wrapper p {
-    left: -9px;
+    left: 0px;
     font-size: calc(100% + 60px);
 }
 

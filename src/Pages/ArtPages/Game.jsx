@@ -22,7 +22,7 @@ const Game = () => {
 }
   return (
     <div className="div-container-body-iustration">
-      <div className="fixedtopleft-ws">
+      {/* <div className="fixedtopleft-ws">
         <a href="#frame_art">Art</a>
       </div>
       <div className="fixedtopright-ws">
@@ -43,7 +43,7 @@ const Game = () => {
         <div className="c">
           <a href="#frame_contact">Contact</a>
         </div>
-      </div>
+      </div> */}
 
       <div>
         <img className="artmoc-global2" src={Artmoc2} alt="" />
