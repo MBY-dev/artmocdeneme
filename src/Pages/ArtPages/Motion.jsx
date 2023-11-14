@@ -110,7 +110,7 @@ const Animation = () => {
         <div className="slider-controler-animation">
           <div className="swiper-pagination"></div>
         </div>
-        <p className="img-bottm-animation">Lorem picsum solar sit ahmet. lorem picsum</p>
+        {/* <p className="img-bottm-animation">Lorem picsum solar sit ahmet. lorem picsum</p> */}
         <div className="image-Animation">
           <img className="Animation-header" src={imganimation} alt="" />
         </div>

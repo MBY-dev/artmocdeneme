@@ -11,13 +11,9 @@ import twitterhidden from "../../Assets/Social/twitter (hidden).png";
 import imgillu from "../../Assets/Design/DesingHeader/UI & UX (1).png";
 import Artmoc2 from "../../Assets/Artmoc Logo.png";
 import arrowreturn from "../../Assets/PAGE ARROWS/arrow return (in use).png";
-import Paleomat from "../../Assets/Illustration/Paleomat1.jpg"
-import Plesanta from "../../Assets/Illustration/Plasenta (1).jpg"
-import VanGogh from "../../Assets/Illustration/van gogh small (1).png"
-import Venus from "../../Assets/Illustration/venus (1).png"
-import NetOne from "../../Assets/Illustration/Networld I (1).jpg"
-import NetTwo from "../../Assets/Illustration/Networld IV (1).jpg"
-import NetThree from "../../Assets/Illustration/Networld V (1).jpg"
+import CAG from "../../Assets/Design/Uı/CAĞ.jpg"
+import DEDEW from "../../Assets/Design/Uı/DEDEW.jpg"
+import MARGLO from "../../Assets/Design/Uı/MARGLO.jpg"
 
 const UiUx = () => {
   function kapatPencere() {
@@ -70,36 +66,26 @@ const UiUx = () => {
         }}
         modules={[EffectCoverflow, Pagination, Navigation]}
         className="swiper_container"
-        initialSlide={3}
+        initialSlide={1}
       >
         {/* <p className='img-bottm'>Lorem picsum solar sit ahmet. lorem picsum</p>  */}
         <SwiperSlide>
-          <img src={VanGogh} alt="slide_image" />
+          <img src={MARGLO} alt="slide_image" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={Venus} alt="slide_image" />
+          <img src={DEDEW} alt="slide_image" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={Plesanta} alt="slide_image" />
+          <img src={CAG} alt="slide_image" />
         </SwiperSlide>
-         <SwiperSlide>
-          <img src={Paleomat} alt="slide_image" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={NetOne} alt="slide_image" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={NetTwo} alt="slide_image" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={NetThree} alt="slide_image" />
-        </SwiperSlide>
+      
+     
 
         <div className="slider-controler">
           <div className="swiper-pagination"></div>
         </div>
         <p className="img-user">by NOSCETEİPSUM</p>
-        <p className="img-bottm">Lorem picsum solar sit ahmet. lorem picsum</p>
+        {/* <p className="img-bottm">Lorem picsum solar sit ahmet. lorem picsum</p> */}
         <div className="image-illu">
           <img src={imgillu} alt="" />
         </div>

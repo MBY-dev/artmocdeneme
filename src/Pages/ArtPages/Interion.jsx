@@ -11,13 +11,12 @@ import twitterhidden from "../../Assets/Social/twitter (hidden).png";
 import imgillu from "../../Assets/Design/DesingHeader/Interior.png";
 import Artmoc2 from "../../Assets/Artmoc Logo.png";
 import arrowreturn from "../../Assets/PAGE ARROWS/arrow return (in use).png";
-import Paleomat from "../../Assets/Illustration/Paleomat1.jpg"
-import Plesanta from "../../Assets/Illustration/Plasenta (1).jpg"
-import VanGogh from "../../Assets/Illustration/van gogh small (1).png"
-import Venus from "../../Assets/Illustration/venus (1).png"
-import NetOne from "../../Assets/Illustration/Networld I (1).jpg"
-import NetTwo from "../../Assets/Illustration/Networld IV (1).jpg"
-import NetThree from "../../Assets/Illustration/Networld V (1).jpg"
+import INTERIOR from "../../Assets/Design/Interion/interiorone.jpg"
+import INTERIOR2 from "../../Assets/Design/Interion/interiortwo.jpg"
+import INTERIOR3 from "../../Assets/Design/Interion/interiorthree.jpg"
+import INTERIOR4 from "../../Assets/Design/Interion/interiorfour.jpg"
+import INTERIOR5 from "../../Assets/Design/Interion/interiorfive.jpg"
+import INTERIOR6 from "../../Assets/Design/Interion/inteirorsix.jpg"
 
 const Interion = () => {
   function kapatPencere() {
@@ -74,32 +73,30 @@ const Interion = () => {
       >
         {/* <p className='img-bottm'>Lorem picsum solar sit ahmet. lorem picsum</p>  */}
         <SwiperSlide>
-          <img src={VanGogh} alt="slide_image" />
+          <img src={INTERIOR} alt="slide_image" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={Venus} alt="slide_image" />
+          <img src={INTERIOR2} alt="slide_image" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={Plesanta} alt="slide_image" />
+          <img src={INTERIOR3} alt="slide_image" />
         </SwiperSlide>
          <SwiperSlide>
-          <img src={Paleomat} alt="slide_image" />
+          <img src={INTERIOR4} alt="slide_image" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={NetOne} alt="slide_image" />
+          <img src={INTERIOR5} alt="slide_image" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={NetTwo} alt="slide_image" />
+          <img src={INTERIOR6} alt="slide_image" />
         </SwiperSlide>
-        <SwiperSlide>
-          <img src={NetThree} alt="slide_image" />
-        </SwiperSlide>
+      
 
         <div className="slider-controler">
           <div className="swiper-pagination"></div>
         </div>
         <p className="img-user">by NOSCETEİPSUM</p>
-        <p className="img-bottm">Lorem picsum solar sit ahmet. lorem picsum</p>
+        {/* <p className="img-bottm">Lorem picsum solar sit ahmet. lorem picsum</p> */}
         <div className="image-illu">
           <img src={imgillu} alt="" />
         </div>

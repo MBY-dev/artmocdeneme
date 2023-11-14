@@ -117,7 +117,7 @@
   border-radius: 24px;
   top: 0%;
   border-radius: 24px;
-  font-size: calc(100% + 5px);
+  font-size: calc(100% + -3px);
   color: white;
   transform: rotate(-180deg);
   pointer-events: none;
@@ -154,7 +154,7 @@
   }
 
   .box h3{
-    font-size: calc(100% + 19px);
+    font-size: calc(100% + 5px);
     left: 1px;
   }
 
