@@ -116,7 +116,7 @@ const Design = () => {
           <h3>GAME</h3>
           </Link>
         </div>
-        <div className="box">
+        {/* <div className="box">
            <Link
          to="/consult"
        target="_blank"
@@ -125,7 +125,7 @@ const Design = () => {
             <img  className="design-headerİmg" src={Consult} alt="" />
           <h3>CONSULTING</h3>
           </Link>
-        </div>
+        </div> */}
         {/* <div className="box">
         <Link
          to="/priting"

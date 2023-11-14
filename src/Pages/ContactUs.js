@@ -27,7 +27,7 @@ const ContactUs = () => {
 
   const handlePhoneNumberChange = (e) => {
     const value = e.target.value;
-    if (/^\d*$/.test(value)) {
+    if (/^[0-9+/-]*$/.test(value)) {
       setPhoneNumber(value);
     }
   };
