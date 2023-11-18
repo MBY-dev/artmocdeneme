@@ -70,6 +70,7 @@ const Game = () => {
         initialSlide={1}
       >
         {/* <p className='img-bottm'>Lorem picsum solar sit ahmet. lorem picsum</p>  */}
+        {/*deneme*/}
         <SwiperSlide>
           <img src={GazeOne} alt="slide_image" />
         </SwiperSlide>
@@ -87,7 +88,7 @@ const Game = () => {
         <div className="slider-controler">
           <div className="swiper-pagination"></div>
         </div>
-        {/* <p className="img-user">by NOSCETEİPSUM</p> */}
+        {/* <p className="img-user">by NOSCETEİPSUM</p>   */}
         {/* <p className="img-bottm">Lorem picsum solar sit ahmet. lorem picsum</p> */}
         <div className="image-illu">
           <img src={imgillu} alt="" />
