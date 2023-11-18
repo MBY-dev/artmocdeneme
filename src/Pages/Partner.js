@@ -10,14 +10,9 @@ const Partner = () => {
       
     <div className='container-partner'>
         <div className='partner-icon'>
-          <a href="">
+          <a href="httpps://marglo.co/">
             <img src={Marglo} /> 
             </a>
-        </div>
-        <div className='partner-icon'>
-          <a href="">
-        <img src={CAG} /> 
-        </a>
         </div>
         <div className='partner-icon'>
           <a href="https://dedew.io/" target='_blank'>

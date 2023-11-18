@@ -86,7 +86,7 @@ const Printing = () => {
         <div className="slider-controler">
           <div className="swiper-pagination"></div>
         </div>
-        <p className="img-user">by NOSCETEİPSUM</p>
+        {/* <p className="img-user">by NOSCETEİPSUM</p> */}
         {/* <p className="img-bottm">Lorem picsum solar sit ahmet. lorem picsum</p> */}
         <div className="image-illu">
           <img src={imgillu} alt="" />

@@ -12,11 +12,6 @@ import twitterhidden from "../../Assets/Social/twitter (hidden).png";
 import imgillu from "../../Assets/OtherArts/Other Arts (1).png";
 import Artmoc2 from "../../Assets/Artmoc Logo.png";
 import arrowreturn from "../../Assets/PAGE ARROWS/arrow return (in use).png";
-import OtherArtsOne from "../../Assets/OtherArts/1.1.png"
-import OtherArtsTwo from "../../Assets/OtherArts/3.png"
-import OtherArtsThree from "../../Assets/OtherArts/1692736542295.jpg"
-import OtherArtsFour from "../../Assets/OtherArts/1692736502423.jpg"
-import OtherArtsFive from "../../Assets/OtherArts/1692736685292.JPG"
 import OtherArtsSeven from "../../Assets/OtherArts/IMG_0114.JPG"
 import OtherArtsEight from "../../Assets/OtherArts/sketches.jpg"
 import OtherArtsNine from "../../Assets/OtherArts/sketches2.jpg"
@@ -77,25 +72,10 @@ const ArtsOther = () => {
         }}
         modules={[EffectCoverflow, Pagination, Navigation]}
         className="swiper_container"
-        initialSlide={5}
+        initialSlide={3}
       >
         {/* <p className='img-bottm'>Lorem picsum solar sit ahmet. lorem picsum</p>  */}
 
-        <SwiperSlide>
-          <img src={OtherArtsOne} alt="slide_image" style={{ objectFit: 'cover' }} />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={OtherArtsTwo} alt="slide_image" style={{ objectFit: 'cover' }} />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={OtherArtsThree} alt="slide_image" style={{ objectFit: 'cover' }} />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={OtherArtsFour} alt="slide_image" style={{ objectFit: 'cover' }} />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={OtherArtsFive} alt="slide_image" style={{ objectFit: 'cover' }} />
-        </SwiperSlide>
         <SwiperSlide>
           <img src={OtherArtsSeven} alt="slide_image"  style={{ objectFit: 'cover' }}/>
         </SwiperSlide>
@@ -120,7 +100,7 @@ const ArtsOther = () => {
         <div className="slider-controler">
           <div className="swiper-pagination"></div>
         </div>
-        <p className="img-user">by NOSCETEİPSUM</p>
+        {/* <p className="img-user">by NOSCETEİPSUM</p> */}
         {/* <p className="img-bottm">Lorem picsum solar sit ahmet. lorem picsum</p> */}
         <div className="image-illu">
           <img src={imgillu} alt="" />

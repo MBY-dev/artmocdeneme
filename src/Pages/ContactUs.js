@@ -1,14 +1,21 @@
 import React, { useState } from "react";
 import "./ContactUs.css";
-import contact from "./../Assets/contactUs/Social Media/call (hidden).png";
 import Artmoc2 from "./../Assets/Artmoc Logo.png";
-import Global2 from "./../Assets/aboutArtmoc/Artmoc Website_Diğer Sayfalar iç.png"
+
 const ContactUs = () => {
   const [activeSection, setActiveSection] = useState('');
-  const [name, setName] = useState("");
-  const [phoneNumber, setPhoneNumber] = useState("");
-  const [mailAddress, setMailAddress] = useState("");
-  const [message, setMessage] = useState("");
+
+  // Hizmet Al bölümü için state değişkenleri
+  const [getServiceName, setGetServiceName] = useState("");
+  const [getServicePhoneNumber, setGetServicePhoneNumber] = useState("");
+  const [getServiceMailAddress, setGetServiceMailAddress] = useState("");
+  const [getServiceMessage, setGetServiceMessage] = useState("");
+
+  // Bize Katıl bölümü için state değişkenleri
+  const [joinUsName, setJoinUsName] = useState("");
+  const [joinUsPhoneNumber, setJoinUsPhoneNumber] = useState("");
+  const [joinUsMailAddress, setJoinUsMailAddress] = useState("");
+  const [joinUsMessage, setJoinUsMessage] = useState("");
 
   const toggleContent = (section) => {
     if (activeSection === section) {
@@ -18,22 +25,40 @@ const ContactUs = () => {
     }
   };
 
-  const handleNameChange = (e) => {
+  const handleGetServiceNameChange = (e) => {
     const value = e.target.value;
     if (/^[A-Za-z ]*$/.test(value)) {
-      setName(value);
+      setGetServiceName(value);
     }
   };
 
-  const handlePhoneNumberChange = (e) => {
+  const handleGetServicePhoneNumberChange = (e) => {
     const value = e.target.value;
     if (/^[0-9+/-]*$/.test(value)) {
-      setPhoneNumber(value);
+      setGetServicePhoneNumber(value);
     }
   };
 
-  const handleMailAddressChange = (e) => {
-    setMailAddress(e.target.value);
+  const handleGetServiceMailAddressChange = (e) => {
+    setGetServiceMailAddress(e.target.value);
+  };
+
+  const handleJoinUsNameChange = (e) => {
+    const value = e.target.value;
+    if (/^[A-Za-z ]*$/.test(value)) {
+      setJoinUsName(value);
+    }
+  };
+
+  const handleJoinUsPhoneNumberChange = (e) => {
+    const value = e.target.value;
+    if (/^[0-9+/-]*$/.test(value)) {
+      setJoinUsPhoneNumber(value);
+    }
+  };
+
+  const handleJoinUsMailAddressChange = (e) => {
+    setJoinUsMailAddress(e.target.value);
   };
 
   const isValidEmail = (email) => {
@@ -42,23 +67,16 @@ const ContactUs = () => {
   };
 
   const handleSubmit = () => {
-    // E-posta doğrulaması ekleyin
-    if (!isValidEmail(mailAddress)) {
+    if (!isValidEmail(getServiceMailAddress) || !isValidEmail(joinUsMailAddress)) {
       alert("Lütfen geçerli bir e-posta adresi girin.");
       return;
     }
-
-    // Form gönderme kodu buraya gelebilir
     alert("Form gönderildi!");
   };
 
   return (
-    <div  id="frame_contact" className="div-container-body">
-       {/* <div className="responsive-classname" style={{position: "absolute", width: "100%"} }>
-        <img  className="art-global-svg" src={Global2} alt="" style={{ width: "100%" }}  />
-          </div>  */}
+    <div id="frame_contact" className="div-container-body">
       <h2>Contact Us</h2>
-      {/* <img src={contact} alt="" className="phone" /> */}
       <div className="container2-position">
         <div className="container2">
           <div className="deneme2-us">
@@ -76,31 +94,31 @@ const ContactUs = () => {
                     <input
                       type="text"
                       placeholder="Name"
-                      value={name}
-                      onChange={handleNameChange}
+                      value={getServiceName}
+                      onChange={handleGetServiceNameChange}
                     />
                   </div>
                   <div className="input-group">
                     <input
                       type="text"
                       placeholder="Phone Number"
-                      value={phoneNumber}
-                      onChange={handlePhoneNumberChange}
+                      value={getServicePhoneNumber}
+                      onChange={handleGetServicePhoneNumberChange}
                     />
                   </div>
                   <div className="input-group">
                     <input
                       type="text"
-                      placeholder="Mail Address"
-                      value={mailAddress}
-                      onChange={handleMailAddressChange}
+                      placeholder="Mail"
+                      value={getServiceMailAddress}
+                      onChange={handleGetServiceMailAddressChange}
                     />
                   </div>
                   <div className="input-group">
                     <textarea
-                      placeholder="Your Message"
-                      value={message}
-                      onChange={(e) => setMessage(e.target.value)}
+                      placeholder="Message"
+                      value={getServiceMessage}
+                      onChange={(e) => setGetServiceMessage(e.target.value)}
                     ></textarea>
                   </div>
                   <div className="input-group">
@@ -124,31 +142,31 @@ const ContactUs = () => {
                     <input
                       type="text"
                       placeholder="Name"
-                      value={name}
-                      onChange={handleNameChange}
+                      value={joinUsName}
+                      onChange={handleJoinUsNameChange}
                     />
                   </div>
                   <div className="input-group">
                     <input
                       type="text"
-                      placeholder="Phone Number"
-                      value={phoneNumber}
-                      onChange={handlePhoneNumberChange}
+                      placeholder="Phone number"
+                      value={joinUsPhoneNumber}
+                      onChange={handleJoinUsPhoneNumberChange}
                     />
                   </div>
                   <div className="input-group">
                     <input
                       type="text"
-                      placeholder="Mail Address"
-                      value={mailAddress}
-                      onChange={handleMailAddressChange}
+                      placeholder="Mail"
+                      value={joinUsMailAddress}
+                      onChange={handleJoinUsMailAddressChange}
                     />
                   </div>
                   <div className="input-group">
                     <textarea
-                      placeholder="Your Message"
-                      value={message}
-                      onChange={(e) => setMessage(e.target.value)}
+                      placeholder="Message"
+                      value={joinUsMessage}
+                      onChange={(e) => setJoinUsMessage(e.target.value)}
                     ></textarea>
                   </div>
                   <div className="input-group">
@@ -161,7 +179,7 @@ const ContactUs = () => {
         </div>
       </div>
       <div>
-        <img className="artmoc-global" src={Artmoc2} alt=""  />
+        <img className="artmoc-global" src={Artmoc2} alt="" />
       </div>
     </div>
   );
